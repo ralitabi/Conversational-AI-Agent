@@ -1,0 +1,1223 @@
+[
+  {
+    "text": "find my council tax band",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "check council tax band",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "what band is my property",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "what is my council tax band",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "property band",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "band lookup",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "find property band",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "check my property band",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "which band is this house",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "council tax band for my address",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "find the band for my house",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "band for address",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "band by postcode",
+    "intent": "find_council_tax_band",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "how much is my council tax",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax amount",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how much is band a",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how much is band b",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how much is band c",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how much is band d",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how much is band e",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how much is band f",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how much is band g",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how much is band h",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "band amounts",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax charges",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how much do i pay for council tax",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "yearly council tax amount",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bradford council tax bands and amounts",
+    "intent": "check_council_tax_amount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "pay council tax",
+    "intent": "council_tax_payment",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "pay my council tax",
+    "intent": "council_tax_payment",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how do i pay council tax",
+    "intent": "council_tax_payment",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "pay my bill",
+    "intent": "council_tax_payment",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax payment",
+    "intent": "council_tax_payment",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "pay bill online",
+    "intent": "council_tax_payment",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "set up direct debit",
+    "intent": "set_up_direct_debit",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "direct debit council tax",
+    "intent": "set_up_direct_debit",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "pay by direct debit",
+    "intent": "set_up_direct_debit",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "start direct debit",
+    "intent": "set_up_direct_debit",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "sign up for direct debit",
+    "intent": "set_up_direct_debit",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "change direct debit details",
+    "intent": "set_up_direct_debit",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "direct debit payment dates",
+    "intent": "set_up_direct_debit",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "change payment date",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "change instalments",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "12 instalments",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "10 instalments",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "change my direct debit date",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "move my payment date",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "pay on the 5th",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "pay on the 15th",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "pay on the 28th",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "change number of instalments",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "report a change",
+    "intent": "council_tax_change_details",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "change of address council tax",
+    "intent": "council_tax_change_details",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "change my name on council tax",
+    "intent": "council_tax_change_details",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "death of resident council tax",
+    "intent": "council_tax_change_details",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "death of owner council tax",
+    "intent": "council_tax_change_details",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "ask a question about my council tax",
+    "intent": "council_tax_change_details",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "single person discount",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i live alone",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "apply for single person discount",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "25 percent discount",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "cancel single person discount",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "remove single person discount",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "cancel my single person council tax discount",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "someone moved in and my single person discount needs to be cancelled",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "student discount",
+    "intent": "apply_student_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "student exemption council tax",
+    "intent": "apply_student_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "apply for student discount",
+    "intent": "apply_student_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax for students",
+    "intent": "apply_student_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "do students pay council tax",
+    "intent": "apply_student_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "student council tax exemption",
+    "intent": "apply_student_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i am a student do i pay council tax",
+    "intent": "apply_student_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "reduce my council tax bill",
+    "intent": "council_tax_general_discounts",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "ways to reduce council tax",
+    "intent": "council_tax_general_discounts",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "discounts and exemptions",
+    "intent": "council_tax_general_discounts",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i get a discount",
+    "intent": "council_tax_general_discounts",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i get a council tax discount",
+    "intent": "council_tax_general_discounts",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "am i eligible for a council tax discount",
+    "intent": "council_tax_general_discounts",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "property discount council tax",
+    "intent": "council_tax_general_discounts",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "people based discount council tax",
+    "intent": "council_tax_general_discounts",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "types of council tax discount",
+    "intent": "council_tax_general_discounts",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what types of council tax discount exist",
+    "intent": "council_tax_general_discounts",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what council tax discounts are available",
+    "intent": "council_tax_general_discounts",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax reduction",
+    "intent": "council_tax_reduction_support",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "apply for council tax reduction",
+    "intent": "council_tax_reduction_support",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax reduction scheme",
+    "intent": "council_tax_reduction_support",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "help with council tax bill",
+    "intent": "council_tax_reduction_support",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "low income council tax",
+    "intent": "council_tax_reduction_support",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "not working council tax",
+    "intent": "council_tax_reduction_support",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "benefits and council tax",
+    "intent": "council_tax_reduction_support",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "support to pay council tax",
+    "intent": "council_tax_reduction_support",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "help paying my council tax",
+    "intent": "council_tax_reduction_support",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "behind on my council tax",
+    "intent": "council_tax_payment_problem",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "cannot afford council tax",
+    "intent": "council_tax_payment_problem",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "struggling to pay council tax",
+    "intent": "council_tax_payment_problem",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "missed council tax payment",
+    "intent": "council_tax_payment_problem",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "problems paying council tax",
+    "intent": "council_tax_payment_problem",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what happens if i dont pay council tax",
+    "intent": "council_tax_payment_problem",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "appeal council tax",
+    "intent": "council_tax_appeal",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "challenge council tax band",
+    "intent": "council_tax_appeal",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "band appeal",
+    "intent": "council_tax_appeal",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "appeal my council tax bill",
+    "intent": "council_tax_appeal",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "appeal council tax decision",
+    "intent": "council_tax_appeal",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "valuation office agency council tax",
+    "intent": "council_tax_appeal",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "valuation tribunal council tax",
+    "intent": "council_tax_appeal",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "empty property council tax",
+    "intent": "empty_property_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "empty home council tax",
+    "intent": "empty_property_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "second home council tax",
+    "intent": "empty_property_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "holiday home council tax",
+    "intent": "empty_property_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "do i pay council tax on an empty property",
+    "intent": "empty_property_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "empty property premium",
+    "intent": "empty_property_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "unfurnished property council tax",
+    "intent": "empty_property_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "contact council tax team",
+    "intent": "contact_council_tax_team",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "speak to council tax",
+    "intent": "contact_council_tax_team",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "phone council tax",
+    "intent": "contact_council_tax_team",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "contact bradford council tax",
+    "intent": "contact_council_tax_team",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what is council tax",
+    "intent": "council_tax_general_info",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "general council tax information",
+    "intent": "council_tax_general_info",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "who pays council tax",
+    "intent": "council_tax_general_info",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what does council tax pay for",
+    "intent": "council_tax_general_info",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "help with council tax",
+    "intent": "council_tax_general_info",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax faq",
+    "intent": "council_tax_general_info",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax question",
+    "intent": "council_tax_general_info",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "hello",
+    "intent": "unknown",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "hi",
+    "intent": "unknown",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "help",
+    "intent": "unknown",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i need help with council tax",
+    "intent": "unknown",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax help",
+    "intent": "unknown",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "check my council tax balance",
+    "intent": "check_council_tax_balance",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "my council tax balance",
+    "intent": "check_council_tax_balance",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "how much do i owe in council tax",
+    "intent": "check_council_tax_balance",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "outstanding council tax balance",
+    "intent": "check_council_tax_balance",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "what is my council tax balance",
+    "intent": "check_council_tax_balance",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "check my council tax bill amount",
+    "intent": "check_council_tax_balance",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "how much council tax do i owe",
+    "intent": "check_council_tax_balance",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "view my council tax account balance",
+    "intent": "check_council_tax_balance",
+    "service": "council_tax",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "payment methods for council tax",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how can i pay council tax",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "ways to pay council tax",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i pay by card",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i pay in person",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i pay by bank transfer",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "pay council tax online",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax payment options",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how do i pay my council tax bill",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "payment options for council tax",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "moving house council tax",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "moving in council tax",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "moving out council tax",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "sold a property council tax",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bought a property council tax",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i am moving house",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i have moved house",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "just moved in",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "recently moved to a new address",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "new tenant moving in",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i moved in last month",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "moved to bradford",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "left my old property",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "report a house move council tax",
+    "intent": "report_move_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax arrears",
+    "intent": "council_tax_arrears_help",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "debt advice council tax",
+    "intent": "council_tax_arrears_help",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i have council tax debt",
+    "intent": "council_tax_arrears_help",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "help with council tax debt",
+    "intent": "council_tax_arrears_help",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax i owe from last year",
+    "intent": "council_tax_arrears_help",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "unpaid council tax from previous year",
+    "intent": "council_tax_arrears_help",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "behind on council tax payments",
+    "intent": "council_tax_arrears_help",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "outstanding council tax debt",
+    "intent": "council_tax_arrears_help",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i owe council tax from last year",
+    "intent": "council_tax_arrears_help",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "years of unpaid council tax",
+    "intent": "council_tax_arrears_help",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "only person living here",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "just me in the property",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "nobody else lives here",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i am the sole occupant",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "house has been empty for months",
+    "intent": "empty_property_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "property standing empty",
+    "intent": "empty_property_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "vacant property council tax",
+    "intent": "empty_property_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "unoccupied property council tax",
+    "intent": "empty_property_council_tax",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "wrong valuation on my house",
+    "intent": "council_tax_appeal",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax band is wrong",
+    "intent": "council_tax_appeal",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my house is in the wrong band",
+    "intent": "council_tax_appeal",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "spread my council tax payments",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "pay council tax in instalments",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax payment plan",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i pay council tax in monthly instalments",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "change my council tax payment date",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "change when i pay council tax",
+    "intent": "change_payment_date_or_instalments",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my partner moved in with me",
+    "intent": "council_tax_change_details",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "add joint name to council tax",
+    "intent": "council_tax_change_details",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "cannot afford my council tax",
+    "intent": "council_tax_payment_problem",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "cant pay my council tax bill this month",
+    "intent": "council_tax_payment_problem",
+    "service": "council_tax",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my partner moved in with me",
+    "intent": "council_tax_change_details",
+    "service": "council_tax"
+  },
+  {
+    "text": "partner has moved in",
+    "intent": "council_tax_change_details",
+    "service": "council_tax"
+  },
+  {
+    "text": "update my council tax account details",
+    "intent": "council_tax_change_details",
+    "service": "council_tax"
+  },
+  {
+    "text": "update account details council tax",
+    "intent": "council_tax_change_details",
+    "service": "council_tax"
+  },
+  {
+    "text": "change details on my council tax account",
+    "intent": "council_tax_change_details",
+    "service": "council_tax"
+  },
+  {
+    "text": "amend my council tax account",
+    "intent": "council_tax_change_details",
+    "service": "council_tax"
+  },
+  {
+    "text": "someone has moved into my property",
+    "intent": "council_tax_change_details",
+    "service": "council_tax"
+  },
+  {
+    "text": "just me in the property",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax"
+  },
+  {
+    "text": "only me living in the house",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax"
+  },
+  {
+    "text": "sole occupant council tax",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax"
+  },
+  {
+    "text": "i am the only person in the property",
+    "intent": "apply_council_tax_discount",
+    "service": "council_tax"
+  },
+  {
+    "text": "pay council tax by card online",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax"
+  },
+  {
+    "text": "pay by card council tax",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax"
+  },
+  {
+    "text": "pay council tax online by card",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax"
+  },
+  {
+    "text": "online card payment council tax",
+    "intent": "council_tax_payment_methods",
+    "service": "council_tax"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "faq_ben_001",
+    "intent": "housing_benefit_eligibility",
+    "topic": "eligibility_overview",
+    "question": "Who can get Housing Benefit?",
+    "answer": "Housing Benefit in Bradford is only available to pensioners or people living in supported or temporary accommodation. If you are of working age and not in supported or temporary accommodation, you will need to claim the housing element of Universal Credit instead. Council Tax Reduction is separate and available to working-age residents on a low income — Bradford covers up to 72.5% for working-age claimants (you pay a minimum of 27.5%) and up to 100% for pensioners.",
+    "keywords": ["housing benefit eligibility", "who can get housing benefit", "qualify", "entitled", "eligible for housing benefit"],
+    "source_url": "https://www.bradford.gov.uk/benefits/applying-for-benefits/housing-benefit-and-council-tax-reduction/"
+  },
+  {
+    "id": "faq_ben_002",
+    "intent": "housing_benefit_eligibility",
+    "topic": "eligibility_working_age",
+    "question": "Can I claim Housing Benefit if I am of working age?",
+    "answer": "If you are of working age and not living in supported or temporary accommodation, you cannot apply for Housing Benefit in Bradford. You must claim the housing element of Universal Credit through the DWP instead. Bradford Council administers Housing Benefit only for pensioners and those in supported or temporary accommodation.",
+    "keywords": ["working age housing benefit", "universal credit", "can i claim housing benefit", "working age benefits"],
+    "source_url": "https://www.bradford.gov.uk/benefits/applying-for-benefits/housing-benefit-and-council-tax-reduction/"
+  },
+  {
+    "id": "faq_ben_003",
+    "intent": "housing_benefit_eligibility",
+    "topic": "council_tax_reduction_eligibility",
+    "question": "Who can get Council Tax Reduction?",
+    "answer": "Council Tax Reduction (CTR) is a discount on your Council Tax bill for people on a low income. Bradford assesses your household income, capital (savings and investments), and personal circumstances including age and disability status. From April 2026, working-age claimants can receive a maximum of 72.5% reduction — meaning you will always pay at least 27.5% of your bill. Pensioners can receive up to 100% reduction.",
+    "keywords": ["council tax reduction eligibility", "ctr", "council tax help", "low income council tax", "council tax reduction"],
+    "source_url": "https://www.bradford.gov.uk/benefits/applying-for-benefits/housing-benefit-and-council-tax-reduction/"
+  },
+  {
+    "id": "faq_ben_004",
+    "intent": "housing_benefit_eligibility",
+    "topic": "absence_rules",
+    "question": "What happens to my Housing Benefit if I go away?",
+    "answer": "If you are absent from your home within the UK for more than 13 weeks, you must contact Bradford Council as this may affect your Housing Benefit. If you are absent outside the UK for more than 4 weeks, you must also contact Bradford. Failing to notify the council of a long absence may result in an overpayment, cancellation of your claim, or being unable to reapply.",
+    "keywords": ["absent housing benefit", "away from home", "travelling", "absence housing benefit"],
+    "source_url": "https://www.bradford.gov.uk/benefits/applying-for-benefits/housing-benefit-and-council-tax-reduction/"
+  },
+  {
+    "id": "faq_ben_005",
+    "intent": "apply_housing_benefit_ctr",
+    "topic": "how_to_apply",
+    "question": "How do I apply for Housing Benefit or Council Tax Reduction?",
+    "answer": "You can apply for Housing Benefit and Council Tax Reduction through Bradford Council's online application forms. Applications are submitted through the Bradford Council website. You can also register for a MyInfo account to manage your claim online. Visit https://www.bradford.gov.uk/benefits/applying-for-benefits/housing-benefit-and-council-tax-reduction/ to access the application forms and start your claim.",
+    "keywords": ["apply housing benefit", "apply council tax reduction", "apply online", "housing benefit application", "how to apply"],
+    "source_url": "https://www.bradford.gov.uk/benefits/applying-for-benefits/housing-benefit-and-council-tax-reduction/"
+  },
+  {
+    "id": "faq_ben_006",
+    "intent": "apply_housing_benefit_ctr",
+    "topic": "application_documents",
+    "question": "What documents do I need to apply for Housing Benefit?",
+    "answer": "Bradford Council typically requires: proof of identity (passport, driving licence, birth certificate, or UK residence permit), your National Insurance number (from a P45, P60, payslip, or DWP letter), rent documentation (tenancy agreement or landlord letter showing your name, address, rent amount, and landlord details), proof of earned income (5 weekly payslips, 3 fortnightly, or 2 monthly payslips showing gross income and deductions), and bank statements for the last two months for all accounts. Self-employed applicants need recent audited accounts.",
+    "keywords": ["documents for housing benefit", "what do i need to apply", "proof of income", "evidence", "payslips", "bank statements"],
+    "source_url": "https://www.bradford.gov.uk/benefits/general-benefits-information/proof-you-need-to-provide/"
+  },
+  {
+    "id": "faq_ben_007",
+    "intent": "apply_housing_benefit_ctr",
+    "topic": "application_identity_proof",
+    "question": "What proof of identity does Bradford accept for a benefits claim?",
+    "answer": "Bradford accepts the following as proof of identity for a Housing Benefit or Council Tax Reduction claim: passport, UK residence permit, driving licence, birth certificate, or utility bills and bank statements. Non-UK citizens should provide a passport, national identity card, or Home Office immigration documents.",
+    "keywords": ["proof of identity benefits", "identity documents", "passport", "driving licence"],
+    "source_url": "https://www.bradford.gov.uk/benefits/general-benefits-information/proof-you-need-to-provide/"
+  },
+  {
+    "id": "faq_ben_008",
+    "intent": "discretionary_housing_payment",
+    "topic": "dhp_overview",
+    "question": "What is a Discretionary Housing Payment?",
+    "answer": "A Discretionary Housing Payment (DHP), also called a Housing Payment in Bradford, is an additional payment to help people whose Housing Benefit or Universal Credit housing element does not fully cover their rent. DHPs are awarded at Bradford Council's discretion and are not guaranteed. They can help with rent shortfalls caused by the benefit cap, spare room subsidy (bedroom tax), or Local Housing Allowance gaps. They can also help with rent deposits or rent in advance in exceptional circumstances.",
+    "keywords": ["discretionary housing payment", "dhp", "what is dhp", "extra help with rent", "housing payment bradford"],
+    "source_url": "https://www.bradford.gov.uk/benefits/applying-for-benefits/housing-payment/"
+  },
+  {
+    "id": "faq_ben_009",
+    "intent": "discretionary_housing_payment",
+    "topic": "dhp_eligibility",
+    "question": "Who can apply for a Discretionary Housing Payment?",
+    "answer": "To apply for a Discretionary Housing Payment in Bradford, you must be currently receiving either Housing Benefit or the housing element of Universal Credit. You must also be experiencing severe financial hardship or have your tenancy at risk. You will not qualify if you are in rent arrears because you chose not to pay your landlord, if you are refusing to consider a more suitable property, if Bradford considers your expenditure excessive, or if your rent is too high to justify support. You also cannot apply if you are moving into the Bradford area.",
+    "keywords": ["dhp eligibility", "spare room reduction", "bedroom tax", "local housing allowance", "rent shortfall", "who can apply dhp"],
+    "source_url": "https://www.bradford.gov.uk/benefits/applying-for-benefits/housing-payment/"
+  },
+  {
+    "id": "faq_ben_010",
+    "intent": "discretionary_housing_payment",
+    "topic": "dhp_how_to_apply",
+    "question": "How do I apply for a Discretionary Housing Payment?",
+    "answer": "Bradford has two separate online application forms for Discretionary Housing Payments — one for Universal Credit claimants and one for Housing Benefit claimants. You will need to provide your last two months bank statements, proof of rent paid, and your tenancy agreement. If you are applying for rent in advance, you must also provide evidence of exceptional circumstances such as a Section 21 notice, police report, or medical report, plus a new tenancy agreement or a letter from your new landlord. Contact Bradford on 01274 432772 or email benefits@bradford.gov.uk for guidance.",
+    "keywords": ["apply for dhp", "dhp application", "discretionary housing payment form", "rent in advance", "rent deposit"],
+    "source_url": "https://www.bradford.gov.uk/benefits/applying-for-benefits/housing-payment/"
+  },
+  {
+    "id": "faq_ben_011",
+    "intent": "benefits_myinfo_access",
+    "topic": "myinfo_overview",
+    "question": "What is Bradford MyInfo and how do I use it?",
+    "answer": "MyInfo is Bradford Council's online portal for managing your Council Tax and benefits information in one place. Through MyInfo you can view your Housing Benefit or Council Tax Reduction claim, apply for Housing Benefit or Council Tax Reduction, report changes of circumstances, access your Housing Benefit review, and upload supporting evidence. You need to register an account to access benefits information. Visit https://www.bradford.gov.uk/benefits/myinfo/myinfo/ to access the portal.",
+    "keywords": ["myinfo", "bradford myinfo", "benefits online account", "housing benefit online", "my benefits account"],
+    "source_url": "https://www.bradford.gov.uk/benefits/myinfo/myinfo/"
+  },
+  {
+    "id": "faq_ben_012",
+    "intent": "benefits_myinfo_access",
+    "topic": "myinfo_what_you_can_see",
+    "question": "What can I see in my Bradford MyInfo account?",
+    "answer": "Once registered, your Bradford MyInfo account lets you view your benefit claim status and details, see correspondence and decision notices, access your Housing Benefit review information, report a change of circumstances, and upload evidence documents. Visit https://www.bradford.gov.uk/benefits/myinfo/myinfo-what-will-i-find-on-my-account/ for a full explanation of what you will find in your account.",
+    "keywords": ["myinfo account contents", "what is in myinfo", "benefits account details", "view my claim"],
+    "source_url": "https://www.bradford.gov.uk/benefits/myinfo/myinfo-what-will-i-find-on-my-account/"
+  },
+  {
+    "id": "faq_ben_013",
+    "intent": "benefits_myinfo_access",
+    "topic": "myinfo_login_help",
+    "question": "I cannot log in to MyInfo — what should I do?",
+    "answer": "If you are having trouble accessing your Bradford MyInfo account, use the forgotten password option on the login page. If you have not yet registered, you will need to create a new account — for benefits, this requires registration before you can view your claim details. If you continue to have problems, you can report the issue through the online form on the MyInfo page, or contact Bradford's Benefits team on 01274 432772 or by emailing benefits@bradford.gov.uk.",
+    "keywords": ["cannot log in myinfo", "myinfo password", "myinfo login problem", "forgotten password", "myinfo register"],
+    "source_url": "https://www.bradford.gov.uk/benefits/myinfo/myinfo/"
+  },
+  {
+    "id": "faq_ben_014",
+    "intent": "submit_benefit_evidence",
+    "topic": "how_to_submit_evidence",
+    "question": "How do I submit evidence for my Housing Benefit claim?",
+    "answer": "Bradford Council has a dedicated online portal for uploading supporting evidence for your Housing Benefit or Council Tax Reduction claim. You can also submit evidence through your MyInfo account. Evidence can be submitted separately from your application. For guidance on what to upload and how, visit https://www.bradford.gov.uk/benefits/general-benefits-information/proof-you-need-to-provide/. If you cannot submit online, contact Bradford on 01274 432772 or email benefits@bradford.gov.uk.",
+    "keywords": ["upload evidence", "submit documents", "supporting documents", "housing benefit evidence", "send documents"],
+    "source_url": "https://www.bradford.gov.uk/benefits/general-benefits-information/proof-you-need-to-provide/"
+  },
+  {
+    "id": "faq_ben_015",
+    "intent": "submit_benefit_evidence",
+    "topic": "required_documents_income",
+    "question": "What payslips does Bradford need for a benefits claim?",
+    "answer": "Bradford requires the following number of payslips depending on how often you are paid: 5 payslips if you are paid weekly, 3 payslips if you are paid fortnightly, or 2 payslips if you are paid monthly or four-weekly. Payslips must show your name, your employer's details, hours worked, gross income, tax and National Insurance deductions, and any pension contributions. Self-employed applicants should provide recent audited accounts.",
+    "keywords": ["payslips housing benefit", "how many payslips", "income proof", "self employed benefits"],
+    "source_url": "https://www.bradford.gov.uk/benefits/general-benefits-information/proof-you-need-to-provide/"
+  },
+  {
+    "id": "faq_ben_016",
+    "intent": "submit_benefit_evidence",
+    "topic": "required_documents_savings",
+    "question": "What proof of savings does Bradford need for a benefits claim?",
+    "answer": "Bradford requires bank and building society statements covering the last two months for all accounts you hold. You should also provide documentation for any investments, National Savings certificates, and proof of share ownership including the number of shares and company names. All income whether earned or unearned must be declared and evidenced.",
+    "keywords": ["savings proof", "bank statements benefits", "capital benefits", "investments benefits"],
+    "source_url": "https://www.bradford.gov.uk/benefits/general-benefits-information/proof-you-need-to-provide/"
+  },
+  {
+    "id": "faq_ben_017",
+    "intent": "report_change_of_circumstances",
+    "topic": "what_changes_to_report",
+    "question": "What changes must I report to Bradford Council if I am claiming Housing Benefit?",
+    "answer": "You must report any changes that affect your Housing Benefit or Council Tax Reduction immediately. Changes that must be reported include: changes to your income or your partner's income, changes to your savings or capital, changes to your rent amount, people moving into or out of your home, if you move to a different address, and any other changes to your household circumstances. Failing to report a change can result in an overpayment that you will have to repay.",
+    "keywords": ["what changes to report", "change of circumstances", "report changes housing benefit", "income change", "moving house"],
+    "source_url": "https://www.bradford.gov.uk/benefits/report-a-change-in-your-circumstances/tell-us-about-a-change-in-your-circumstances/"
+  },
+  {
+    "id": "faq_ben_018",
+    "intent": "report_change_of_circumstances",
+    "topic": "reporting_timescale",
+    "question": "How quickly must I report a change of circumstances to Bradford?",
+    "answer": "You must report changes to Bradford Council as soon as they happen. If a change means you are entitled to more benefit, you must report it within one month — otherwise Bradford cannot pay the increase from the date the change happened. If the change means your benefit should be reduced, it will be reduced from the actual date of the change. Report changes online through your MyInfo account or by using Bradford's change of circumstances form at https://www.bradford.gov.uk/benefits/report-a-change-in-your-circumstances/tell-us-about-a-change-in-your-circumstances/",
+    "keywords": ["how quickly report change", "one month deadline", "change timescale", "when to report change"],
+    "source_url": "https://www.bradford.gov.uk/benefits/report-a-change-in-your-circumstances/tell-us-about-a-change-in-your-circumstances/"
+  },
+  {
+    "id": "faq_ben_019",
+    "intent": "benefit_appeal_or_reconsideration",
+    "topic": "appeal_process",
+    "question": "How do I appeal a Housing Benefit decision?",
+    "answer": "If you disagree with a Bradford Housing Benefit or Council Tax Reduction decision, follow these steps: first, request a written explanation of how your benefit was calculated. If you are still unhappy, submit a request for reconsideration — Bradford will initially review the decision. If the reconsideration does not resolve your concern, you can escalate: Housing Benefit appeals go to the Courts and Tribunals Service, while Council Tax Reduction appeals go to the Valuation Tribunal. To start the process, contact Bradford on 01274 432772 or email benefits@bradford.gov.uk, or write to Housing Benefits and Reductions, PO Box 1251, Bradford, BD1 9YY.",
+    "keywords": ["appeal housing benefit", "challenge benefits decision", "reconsideration", "benefits tribunal", "disagree with decision"],
+    "source_url": "https://www.bradford.gov.uk/benefits/general-benefits-information/benefits-appeals-and-reviews/"
+  },
+  {
+    "id": "faq_ben_020",
+    "intent": "benefit_appeal_or_reconsideration",
+    "topic": "appeal_housing_benefit_timescale",
+    "question": "How long do I have to appeal a Housing Benefit decision?",
+    "answer": "For Housing Benefit decisions, you must submit a written appeal within one month of the date of your decision notice. If you miss this deadline, contact Bradford as soon as possible as late appeals may be considered in certain circumstances. For Council Tax Reduction decisions, you should appeal in writing as soon as possible. Your decision notice will state the deadline and explain the appeals process.",
+    "keywords": ["housing benefit appeal deadline", "one month appeal", "appeal timescale", "how long to appeal"],
+    "source_url": "https://www.bradford.gov.uk/benefits/general-benefits-information/benefits-appeals-and-reviews/"
+  },
+  {
+    "id": "faq_ben_021",
+    "intent": "benefit_appeal_or_reconsideration",
+    "topic": "bank_benefit_protection",
+    "question": "Can my bank take my Housing Benefit to pay off my overdraft?",
+    "answer": "No. Banks are not allowed to use Housing Benefit or any other benefit payment to repay an overdraft. If your bank has done this, contact Bradford Council's Benefits team for advice on 01274 432772 or by emailing benefits@bradford.gov.uk.",
+    "keywords": ["bank overdraft housing benefit", "bank take benefit", "benefit protection", "overdraft"],
+    "source_url": "https://www.bradford.gov.uk/benefits/general-benefits-information/benefits-faqs/"
+  },
+  {
+    "id": "faq_ben_022",
+    "intent": "benefits_support_contact",
+    "topic": "contact_details",
+    "question": "How do I contact Bradford Council's Benefits team?",
+    "answer": "You can contact Bradford's Housing Benefits and Reductions team in the following ways: Phone: 01274 432772, Email: benefits@bradford.gov.uk, Post: Housing Benefits and Reductions, PO Box 1251, Bradford, BD1 9YY. You can also use the online contact form at https://www.bradford.gov.uk/contact-us/contact-us-now/contact-us-now/ or manage your claim through your MyInfo account at https://www.bradford.gov.uk/benefits/myinfo/myinfo/",
+    "keywords": ["contact benefits team", "benefits phone number", "benefits helpline", "bradford benefits contact", "benefits email"],
+    "source_url": "https://www.bradford.gov.uk/benefits/benefits/"
+  },
+  {
+    "id": "faq_ben_023",
+    "intent": "benefits_support_contact",
+    "topic": "welfare_advice",
+    "question": "Where can I get welfare advice in Bradford?",
+    "answer": "Bradford Council provides information about benefits and welfare advice services at https://www.bradford.gov.uk/benefits/general-benefits-information/benefits-and-welfare-advice-and-help/ You can also find help with cost of living at https://www.bradford.gov.uk/benefits/general-benefits-information/help-with-cost-of-living/ For benefits questions specifically about your claim, contact the Bradford Benefits team on 01274 432772 or email benefits@bradford.gov.uk.",
+    "keywords": ["welfare advice", "benefits advice", "help with benefits", "cost of living help bradford"],
+    "source_url": "https://www.bradford.gov.uk/benefits/general-benefits-information/benefits-and-welfare-advice-and-help/"
+  },
+  {
+    "id": "faq_ben_024",
+    "intent": "housing_benefit_eligibility",
+    "topic": "universal_credit_redirect",
+    "question": "What is Universal Credit and when do I claim it instead of Housing Benefit?",
+    "answer": "Universal Credit is a DWP benefit that has replaced Housing Benefit for most working-age people. If you are of working age and not in supported or temporary accommodation, you cannot apply for Housing Benefit through Bradford Council — you must apply for Universal Credit through the DWP. Universal Credit includes a housing element to help with rent. Bradford Council still administers Housing Benefit for pensioners and those in supported or temporary accommodation. For Universal Credit information, visit https://www.bradford.gov.uk/benefits/universal-credit/universal-credit/",
+    "keywords": ["universal credit", "universal credit housing", "difference housing benefit universal credit", "working age rent help"],
+    "source_url": "https://www.bradford.gov.uk/benefits/universal-credit/universal-credit/"
+  }
+]

@@ -1,0 +1,284 @@
+================================================================================
+  Bradford Council AI Chatbot — Project Overview
+================================================================================
+
+PURPOSE
+-------
+An AI-powered conversational assistant that helps Bradford Council residents
+access and navigate local government services. Citizens ask questions in plain
+English and receive accurate, structured guidance — including live data lookups,
+multi-step dialogue flows, RAG-enhanced answers, and rich HTML response cards.
+
+
+TECH STACK
+----------
+  Backend         : Python 3.11 · FastAPI · Uvicorn
+  Frontend        : React 18 · Tailwind CSS
+  Intent Model    : Token-overlap bigram classifier (~800 labelled examples, 61 intents)
+  RAG Pipeline    : Keyword match → embedding re-rank → gpt-4o-mini enhancement
+  Embeddings      : OpenAI text-embedding-3-small · FAISS · auto-cached at startup
+  Live Data       : Bradford Council website scraping (bin dates, council tax bands)
+  External Links  : GOV.UK Blue Badge portal · Turn2Us benefits calculator
+
+
+SERVICES SUPPORTED
+------------------
+  1. Bin Collection
+     - Next collection dates (live multi-step form scrape of Bradford Council site)
+     - Which bin to use for each material (recycling guidance by item)
+     - Report missed bins, service disruptions, assisted collections
+     - Outside Bradford area guidance
+
+  2. Council Tax
+     - Band lookup (live scrape from VOA / GOV.UK)
+     - Annual charge by band (2026-27 Bradford figures)
+     - Payment methods, direct debit, change payment date / instalments
+     - Discounts: single person, student, empty property
+     - Council Tax Reduction support, arrears help, appeals, change of address
+
+  3. Benefits Support
+     - Housing Benefit eligibility (multi-step clarification flow)
+     - Housing Benefit + CTR application guidance
+     - Discretionary Housing Payment (DHP)
+     - Benefits calculator (links to Turn2Us)
+     - Report change of circumstances, evidence submission
+     - MyInfo online account access, benefit appeals
+
+  4. Blue Badge
+     - Eligibility wizard (4-step yes/no flow: PIP/DLA → walking → hidden disability → child)
+     - Renewal reminder flow (parse expiry date, advise urgency, link to GOV.UK)
+     - Application guidance, parking rules, cost, replacement, misuse reporting
+     - Organisation applications, contact team
+
+  5. Library Services
+     - Library finder (by name, area, postcode — sorted by distance)
+     - Full library cards: opening hours, facilities, events, contact
+     - Membership, catalogue search, eBooks (BorrowBox), book renewals
+     - Home Library Service, library events, computers/wifi, meeting rooms
+
+  6. School Admissions
+     - School finder (by name or postcode)
+     - Primary and secondary admissions guidance
+     - Key dates and deadlines, appeals process, in-year transfers
+     - Admissions criteria, special educational needs (SEN/EHC), late applications
+
+
+PROJECT STRUCTURE
+-----------------
+  AI Agent/
+  ├── main.py                          Entry point — starts FastAPI via Uvicorn
+  ├── requirements.txt                 Python dependencies
+  ├── .env                             Secret keys (DO NOT commit — use .env.example)
+  ├── .env.example                     Safe template for environment variables
+  ├── .gitignore                       Git ignore rules
+  │
+  ├── backend/                         Python package — all server-side logic
+  │   ├── api.py                       FastAPI app + /chat endpoint + startup cache builder
+  │   ├── chat_config.py               SERVICE_OPTIONS, INTENT_GROUPS, INTENT_ALIASES,
+  │   │                                INTENT_LABELS, LOW/MID_CONFIDENCE_THRESHOLD, FLOW_INTENTS
+  │   ├── chat_helpers.py              normalize_text, menu text helpers
+  │   ├── dialogue_manager.py          Loads and runs structured JSON dialogue flows
+  │   ├── intent_classifier.py         Token-overlap bigram intent classifier
+  │   ├── openai_client.py             OpenAI client initialisation (reads OPENAI_API_KEY)
+  │   ├── rag_service.py               FAQ retrieval: keyword match → embedding re-rank
+  │   │
+  │   ├── core/
+  │   │   └── session_manager.py       Per-session state dict + JSONL chat log writer
+  │   │
+  │   ├── council_connectors/          Live data connectors (web scraping + JSON lookups)
+  │   │   ├── bin_connector.py         Bradford Council bin date scraper
+  │   │   ├── bin_http.py              HTTP session helpers for bin connector
+  │   │   ├── bin_local.py             Local bin schedule fallback data + postcode normaliser
+  │   │   ├── bin_lookup.py            Orchestrates the full bin date lookup flow
+  │   │   ├── bin_parsers.py           HTML parsers for Bradford bin schedule pages
+  │   │   ├── council_tax_connector.py VOA band lookup + Bradford charge table scraper
+  │   │   ├── library_connector.py     Bradford library data (JSON-backed, distance sorted)
+  │   │   ├── school_connector.py      Bradford school finder (JSON-backed)
+  │   │   └── benefits_connector.py    Turn2Us URL builder + benefits eligibility text
+  │   │
+  │   ├── embeddings/                  Vector embedding pipeline
+  │   │   ├── embedder.py              Calls OpenAI text-embedding-3-small API
+  │   │   ├── embedding_store.py       Loads FAISS index per service, auto-caches
+  │   │   └── cache_builder.py         Pre-builds all embedding caches at server startup
+  │   │
+  │   ├── handlers/                    Conversational logic — one module per domain
+  │   │   ├── intent_handler.py        Intent detection, confidence routing, flow guards
+  │   │   ├── intent_keyword_matcher.py  Keyword phrase overrides (6 services, ~400 phrases)
+  │   │   ├── dialogue_handler.py      Routes intent → dialogue flow / live lookup / RAG
+  │   │   ├── bin_handler.py           Multi-step bin date lookup flow
+  │   │   ├── council_tax_band_handler.py  Council tax band + payment flow
+  │   │   ├── benefits_handler.py      Benefits eligibility calculator (age → housing → result)
+  │   │   ├── blue_badge_handler.py    Renewal reminder flow + 4-step eligibility wizard
+  │   │   ├── library_handler.py       Library finder flow (name / postcode / select)
+  │   │   └── school_handler.py        School finder flow
+  │   │
+  │   ├── llm/                         LLM integration (OpenAI gpt-4o-mini)
+  │   │   ├── prompts.py               Service-specific system prompt templates
+  │   │   └── response_enhancer.py     Enhances RAG answers with LLM, routes by service
+  │   │
+  │   ├── services/
+  │   │   ├── chat_engine.py           Main message router — ties all handlers together
+  │   │   ├── bin_guidance_service.py  Recycling item → bin type lookup
+  │   │   └── paraphrase_service.py    OpenAI-based answer paraphrasing
+  │   │
+  │   └── utils/
+  │       ├── benefits_formatter.py    Formats benefits answers as HTML cards
+  │       ├── bin_formatter.py         Formats bin schedule answers as HTML cards
+  │       ├── council_tax_formatter.py Formats council tax answers as HTML cards
+  │       ├── library_formatter.py     Formats library info as HTML cards
+  │       ├── school_formatter.py      Formats school info as HTML cards
+  │       ├── postcode_distance.py     Converts postcode → lat/lng, sorts by distance
+  │       └── response_builder.py      Builds reply dicts returned to the frontend
+  │
+  ├── frontend/                        React single-page application
+  │   ├── public/                      Static assets (favicon, index.html, robots.txt)
+  │   └── src/
+  │       ├── App.js                   Root component + routing
+  │       └── components/
+  │           └── ChatModal.jsx        Chat UI: message bubbles, options, HTML card renderer
+  │
+  ├── datasets/                        Training data + FAQ content (one folder per service)
+  │   ├── bin_collection/
+  │   │   ├── bin_intents.json         ~160 labelled training examples
+  │   │   ├── bin_faq.json             Structured FAQ answers
+  │   │   ├── bin_dialogue.json        Multi-step dialogue flow definitions
+  │   │   ├── bin_recycling_guidance.json  Item-by-item recycling answers
+  │   │   ├── bin_lookup.json          Bradford area → bin schedule day mapping
+  │   │   └── eval_set.jsonl           55 held-out evaluation examples
+  │   ├── council_tax/
+  │   │   ├── council_tax_intents.json ~191 labelled training examples
+  │   │   ├── council_tax_faq.json     Structured FAQ answers
+  │   │   ├── council_tax_dialogue.json  Multi-step dialogue flow definitions
+  │   │   ├── council_tax_lookup.json  Band/charge reference table
+  │   │   └── eval_set.jsonl           56 held-out evaluation examples
+  │   ├── benefits_support/
+  │   │   ├── benefits_intents.json    ~134 labelled training examples
+  │   │   ├── benefits_faq.json        Structured FAQ answers
+  │   │   ├── benefits_dialogue.json   Multi-step dialogue flow definitions
+  │   │   └── eval_set.jsonl           55 held-out evaluation examples
+  │   ├── blue_Badge/
+  │   │   ├── blue_badge_intents.json  Training examples for 9 Blue Badge intents
+  │   │   ├── blue_badge_faq.json      15 detailed FAQ entries (all fully rewritten)
+  │   │   └── eval_set.jsonl           Held-out evaluation examples
+  │   ├── libraries/
+  │   │   ├── library_intents.json     Training examples for 8 library intents
+  │   │   ├── library_faq.json         12 FAQ entries (membership, catalogue, hours, contact, etc.)
+  │   │   ├── libraries_list.json      Bradford library data (address, hours, facilities, events)
+  │   │   └── eval_set.jsonl           Held-out evaluation examples
+  │   └── school_admissions/
+  │       ├── school_admissions_intents.json  Training examples for 9 school admission intents
+  │       ├── school_admissions_faq.json      FAQ answers
+  │       ├── schools_list.json               Bradford school data
+  │       └── eval_set.jsonl                  Held-out evaluation examples
+  │
+  ├── scripts/
+  │   ├── train_model.py               Refreshes classifier from all *_intents.json files
+  │   └── evaluate_intent_model.py     Full eval suite: HTML report + CSV + PNG charts
+  │
+  ├── models/
+  │   └── intent_classifier.joblib     Saved classifier (auto-generated by train_model.py)
+  │
+  ├── evaluation/                      Auto-generated by scripts/evaluate_intent_model.py
+  │   ├── evaluation_report.html       Full HTML report with interactive charts
+  │   ├── classification_report.txt    sklearn classification report (95.1% top-1 accuracy)
+  │   ├── per_intent_summary.csv       Accuracy, precision, recall per intent
+  │   ├── per_service_summary.csv      Accuracy per service area
+  │   ├── confusion_matrix.csv / .png
+  │   ├── confidence_histogram.png
+  │   ├── per_intent_accuracy.png
+  │   ├── misclassification_pairs.csv
+  │   ├── hardest_cases.csv
+  │   └── intent_eval_results.csv
+  │
+  ├── .embedding_cache/                Auto-generated FAISS vector caches (one per service)
+  │                                    Built at startup; rebuild with force=True if FAQs change
+  │
+  ├── chat_logs/                       Per-session JSONL logs (auto-generated by session_manager)
+  │   └── <session-id>.jsonl
+  │
+  ├── generate_eval_charts.py          Generates poster-ready PNG charts from eval data
+  ├── evaluation_results.md            Full manual evaluation write-up (22 test scenarios)
+  ├── evaluation_poster.md             Compact evaluation tables for poster use
+  ├── COMMANDS.txt                     All development commands in one place
+  └── docs/
+      └── PROJECT_OVERVIEW.txt         This file
+
+
+HOW INTENT CLASSIFICATION WORKS
+---------------------------------
+  1. User sends a message to POST /chat
+  2. ChatEngine normalises text and checks session state:
+       - If a pending_action exists (e.g. awaiting postcode), dispatch to that handler
+       - If a blue_badge_flow_stage is set, route to BlueBadgeHandler
+  3. Otherwise IntentHandler classifies via two mechanisms in order:
+       a. Keyword override (intent_keyword_matcher.py) — hard-coded phrase lists
+          per service; fast, deterministic, takes priority when matched
+       b. Token-overlap bigram classifier — scores user input against ~800 labelled
+          training examples; returns top-3 candidates with confidence scores
+  4. Confidence routing:
+       - < 0.20  → ask user to clarify (too ambiguous)
+       - 0.20–0.35  → confirm intent with user before proceeding
+       - >= 0.35  → proceed directly
+  5. DialogueHandler routes the confirmed intent to:
+       - A structured JSON dialogue flow (via dialogue_manager)
+       - A live data handler (bin, council tax)
+       - A specialist handler (benefits, blue badge, library, school)
+       - RAG: keyword FAQ search → embedding re-rank → LLM enhancement
+
+
+RAG PIPELINE
+-------------
+  1. User query matched against all FAQ entries for the active service
+  2. Keyword scoring filters to top candidates
+  3. OpenAI embedding re-ranks to pick the closest semantic match
+  4. ResponseEnhancer calls gpt-4o-mini with a service-specific prompt template
+     (from llm/prompts.py) to rephrase the raw FAQ answer into a natural reply
+  5. Embedding caches are built at startup (api.py background thread) so first
+     queries do not pay the embedding generation cost
+
+
+CONFIDENCE THRESHOLDS
+---------------------
+  LOW_CONFIDENCE_THRESHOLD  = 0.20   below this → ask user to clarify
+  MID_CONFIDENCE_THRESHOLD  = 0.35   above this → proceed without confirmation
+  (between 0.20 and 0.35)            → confirm intent with user before proceeding
+
+
+EVALUATION RESULTS
+------------------
+  Intent classifier (held-out eval sets, 328 examples, 61 intents):
+    Top-1 Accuracy : 95.1%
+    Macro F1       : 0.94
+    Weighted F1    : 0.95
+
+  End-to-end chatbot evaluation (22 manual test scenarios):
+    Overall pass rate      : 77% (17/22)
+    Intent classification  : 86% (19/22)
+    Service routing        : 91% (20/22)
+    RAG answer accuracy    : 89% (8/9)
+    Multi-turn completion  : 71% (5/7)
+
+  See evaluation/classification_report.txt for full per-intent breakdown.
+  Run `python generate_eval_charts.py` for poster-ready PNG charts.
+
+
+ADDING A NEW SERVICE
+---------------------
+  1. Create datasets/<service_name>/<service_name>_intents.json
+  2. Create datasets/<service_name>/<service_name>_faq.json
+  3. Optionally create datasets/<service_name>/<service_name>_dialogue.json
+  4. Add service to SERVICE_OPTIONS in backend/chat_config.py
+  5. Add intent list to INTENT_GROUPS in backend/chat_config.py
+  6. Add intent labels to INTENT_LABELS in backend/chat_config.py
+  7. Add keyword phrases to backend/handlers/intent_keyword_matcher.py
+  8. Add LLM prompt template to backend/llm/prompts.py
+  9. Run: python scripts/train_model.py
+
+
+ENVIRONMENT VARIABLES
+----------------------
+  OPENAI_API_KEY    Required for RAG enhancement, embeddings, and paraphrasing.
+                    Get yours at: https://platform.openai.com/api-keys
+                    Copy .env.example → .env and paste your key.
+
+================================================================================

@@ -1,0 +1,45 @@
+# ── Python ────────────────────────────────────────────────────
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ── Environment / Secrets ─────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Node / Frontend ───────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+frontend/build/
+
+# ── Generated outputs (do NOT commit) ────────────────────────
+chat_logs/
+data/
+evaluation/
+models/
+
+# ── Caches ────────────────────────────────────────────────────
+.ruff_cache/
+.cache/
+.mypy_cache/
+.pytest_cache/
+.embedding_cache/
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+
+# ── IDE / OS ──────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Claude Code internal ──────────────────────────────────────
+.claude/

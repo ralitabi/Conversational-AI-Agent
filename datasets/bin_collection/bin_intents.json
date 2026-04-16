@@ -1,0 +1,962 @@
+[
+  {
+    "text": "next bin",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "next bin collection",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "next collection",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "next collection date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "collection date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "collection dates",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "bin collection",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "bins collection",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "when is my next bin",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "when is my next bin collection",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "when is my bin being collected",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "when is the next collection",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "when is the next bin collection",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "what is my next collection date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "check my bin collection",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "check bin date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "check collection date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "find my bin date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "find my next collection",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "what day is my next bin",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "what day is the next collection",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "tell me my next bin collection",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "show my bin collection date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "recycling collection date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "waste collection date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "next pickup",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "pickup date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "garbage collection date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "refuse collection date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "household waste collection date",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": true
+  },
+  {
+    "text": "what day is my bin collected",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what day is my bin",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what day are bins collected",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bin day",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "collection day",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "usual collection day",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what is my collection day",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what day does the bin come",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what day does the bin lorry come",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what day is rubbish collected",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what day is recycling collected",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what is my usual bin day",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "which day is bin collection",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "which day do bins get collected",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "when are bins usually collected",
+    "intent": "check_bin_day_general",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "missed bin",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my bin was missed",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "missed collection",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bin not collected",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my bin was not collected",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bins not collected",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my bins were not emptied",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bin was not emptied",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "not collected",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "not emptied",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "did not collect my bin",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "they didnt collect my bin",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "they didn't empty my bin",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "report missed bin",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "report a missed collection",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my green bin was missed",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my blue bin was missed",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my brown bin was missed",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "waste not collected",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "recycling not collected",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "is there a bin disruption",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bin disruption",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "collection disruption",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bin collection delay",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "collection delay",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "delayed bin collection",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "why is my bin collection delayed",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "weather delay bin collection",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "strike affecting bins",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "service issue with bins",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "operational issue bins",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "are bin collections delayed today",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "is there a delay in recycling collection",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "waste collection delayed",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bin collection problems",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "assisted collection",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "assisted bin collection",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "help moving bin",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i cannot move my bin",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i can't move my bin",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can someone collect my bin from my property",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "need help with bin",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "medical condition bin help",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "disability bin collection help",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i get assisted collection",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "apply for assisted bin collection",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "who can get assisted collection",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "support with putting bin out",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i am unable to move the bin",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "need assisted waste collection",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "outside bradford",
+    "intent": "bin_collection_outside_area",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "not in bradford",
+    "intent": "bin_collection_outside_area",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "outside district",
+    "intent": "bin_collection_outside_area",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "property outside bradford district",
+    "intent": "bin_collection_outside_area",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my address is outside bradford",
+    "intent": "bin_collection_outside_area",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i live outside the council area",
+    "intent": "bin_collection_outside_area",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "who collects bins outside bradford",
+    "intent": "bin_collection_outside_area",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "do you cover outside bradford",
+    "intent": "bin_collection_outside_area",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bin collection outside your area",
+    "intent": "bin_collection_outside_area",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "not in the district for bin collection",
+    "intent": "bin_collection_outside_area",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what can i put in green bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what can i put in the green bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what goes in green bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what goes in the green bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "green bin items",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what can go in my green bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what belongs in green bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what can i put in blue bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what goes in blue bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what can go in recycling bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what can i recycle",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what goes in brown bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what can i put in brown bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "which bin for cardboard",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "which bin for food waste",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "which bin for glass bottles",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i recycle foil",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can plastic trays go in recycling",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i put nappies in green bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i put food in green bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "where do i put paper",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "where do i put cardboard",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "where do i put cans",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "where do i put black bags",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "recycling rules",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bin guidance",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what bin should i use",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can this go in recycling",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what bin does plastic go in",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what bin does glass go in",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "hello",
+    "intent": "unknown",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "hi",
+    "intent": "unknown",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "help",
+    "intent": "unknown",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i need help with bins",
+    "intent": "unknown",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bin help",
+    "intent": "unknown",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can you help",
+    "intent": "unknown",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "rubbish lorry never came",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "lorry missed my street",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "rubbish truck did not come",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bin man hasnt been",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "binman skipped us",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "they skipped my road",
+    "intent": "report_bin_not_collected_info",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "when does the rubbish truck come",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "when does the lorry come",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "whats the collection schedule",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bin lorry schedule",
+    "intent": "check_bin_collection_dates",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "tetra pak cartons which bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "tetra pak recycling",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "foil trays which bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "nappies which bin",
+    "intent": "bin_recycling_guidance",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "operational issue with bin collections",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "strike affecting bin collections",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "collection not happening this bank holiday",
+    "intent": "service_disruption_bin",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "mobility problem need bin help",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i have a bad back can someone move my bin",
+    "intent": "assisted_collection_request",
+    "service": "bin_collection",
+    "needs_live_lookup": false
+  }
+]

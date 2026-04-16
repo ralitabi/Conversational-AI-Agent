@@ -1,0 +1,437 @@
+[
+  {
+    "id": "faq_ct_001",
+    "intent": "council_tax_payment",
+    "topic": "payment_methods",
+    "question": "How can I pay my Council Tax bill?",
+    "answer": "Bradford says you can pay by Direct Debit, online card payment, automated telephone payment, in person at PayPoint, or by bank transfer or standing order.",
+    "keywords": [
+      "pay council tax",
+      "payment methods",
+      "pay my bill"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/pay-your-council-tax/pay-your-council-tax/"
+  },
+  {
+    "id": "faq_ct_002",
+    "intent": "set_up_direct_debit",
+    "topic": "direct_debit_setup",
+    "question": "What do I need to set up a Direct Debit?",
+    "answer": "To set up a Council Tax Direct Debit, you usually need your Council Tax reference number and your bank or building society details. Bradford also says the Council Tax account name and bank account name should match.",
+    "keywords": [
+      "direct debit",
+      "set up direct debit",
+      "bank details"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/pay-your-council-tax/pay-your-council-tax/"
+  },
+  {
+    "id": "faq_ct_003",
+    "intent": "change_payment_date_or_instalments",
+    "topic": "payment_dates",
+    "question": "Can I change the date I pay Council Tax?",
+    "answer": "Bradford says Direct Debit payers can choose monthly payment dates including the 5th, 10th, 15th, and 28th on the FAQ page, and the pay page also lists 25th as a Direct Debit payment date. Non-Direct-Debit payers can choose the 5th or 15th according to the FAQ page.",
+    "keywords": [
+      "change payment date",
+      "instalments",
+      "when can i pay"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/council-tax-faqs/"
+  },
+  {
+    "id": "faq_ct_004",
+    "intent": "change_payment_date_or_instalments",
+    "topic": "instalments",
+    "question": "Can I spread my bill over 12 months?",
+    "answer": "Bradford says you can choose to pay your annual Council Tax bill over 10 or 12 monthly instalments.",
+    "keywords": [
+      "12 instalments",
+      "10 instalments",
+      "monthly payments"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/council-tax-faqs/"
+  },
+  {
+    "id": "faq_ct_005",
+    "intent": "council_tax_payment_problem",
+    "topic": "financial_difficulty",
+    "question": "What should I do if I cannot afford to pay my Council Tax?",
+    "answer": "Bradford advises residents experiencing financial difficulties to visit the behind-on-payments guidance or contact the Council Tax Collection Team as soon as possible to discuss an acceptable arrangement to pay.",
+    "keywords": [
+      "cannot afford",
+      "struggling to pay",
+      "behind on payments"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/council-tax-faqs/"
+  },
+  {
+    "id": "faq_ct_006",
+    "intent": "find_council_tax_band",
+    "topic": "band_lookup",
+    "question": "How do I find a property's Council Tax band?",
+    "answer": "Bradford says you should first use the Valuation Office website to check which Council Tax band a property is in, then use Bradford's bands and amounts page to work out the charge.",
+    "keywords": [
+      "find band",
+      "check property band",
+      "valuation office"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+  },
+  {
+    "id": "faq_ct_007",
+    "intent": "check_council_tax_amount",
+    "topic": "band_amounts",
+    "question": "How much is Council Tax for each band in Bradford in 2026-27?",
+    "answer": "Bradford lists standard 2026-27 Council Tax amounts from Band A through Band H, with extra parish or town precepts added in some areas.",
+    "keywords": [
+      "band amounts",
+      "2026-27",
+      "how much council tax"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+  },
+  {
+    "id": "faq_ct_008",
+    "intent": "check_council_tax_amount",
+    "topic": "parish_precepts",
+    "question": "Why might two Band D properties have different charges?",
+    "answer": "Bradford explains that some parish or town council areas have an additional precept, so the total charge can be higher than the standard district amount.",
+    "keywords": [
+      "parish precept",
+      "different charges",
+      "band d"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+  },
+  {
+    "id": "faq_ct_009",
+    "intent": "council_tax_change_details",
+    "topic": "change_examples",
+    "question": "What Council Tax changes do I need to report?",
+    "answer": "Bradford says changes you should report include moving house, buying or selling a property, a name change, a death of a resident or owner, and applying for or cancelling a Single Person Discount.",
+    "keywords": [
+      "report a change",
+      "moving house",
+      "name change",
+      "death"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/report-a-change-of-address-or-circumstances/report-a-change-or-ask-a-question-about-your-council-tax/"
+  },
+  {
+    "id": "faq_ct_010",
+    "intent": "council_tax_change_details",
+    "topic": "advance_reporting",
+    "question": "How early can I report a Council Tax change?",
+    "answer": "Bradford says you should not report a Council Tax change more than 14 days in advance because dates might alter.",
+    "keywords": [
+      "14 days",
+      "report early",
+      "change in advance"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/report-a-change-of-address-or-circumstances/report-a-change-or-ask-a-question-about-your-council-tax/"
+  },
+  {
+    "id": "faq_ct_011",
+    "intent": "apply_council_tax_discount",
+    "topic": "single_person_discount",
+    "question": "Who can get a Single Person Discount?",
+    "answer": "Bradford says if you live by yourself and are over 18 years old, you can get a 25% reduction through Single Person Discount.",
+    "keywords": [
+      "single person discount",
+      "live alone",
+      "25 percent"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/reduce-your-bill/single-person-discount-for-the-bradford-district/"
+  },
+  {
+    "id": "faq_ct_012",
+    "intent": "apply_council_tax_discount",
+    "topic": "single_person_changes",
+    "question": "Do I need to tell the council if someone moves in?",
+    "answer": "Yes. Bradford says if someone moves in with you, you must tell the council right away so your bill can be updated.",
+    "keywords": [
+      "someone moved in",
+      "tell council",
+      "discount change"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/reduce-your-bill/single-person-discount-for-the-bradford-district/"
+  },
+  {
+    "id": "faq_ct_013",
+    "intent": "apply_council_tax_discount",
+    "topic": "single_person_deadline",
+    "question": "How quickly do I need to report a Single Person Discount change?",
+    "answer": "Bradford says you need to tell the council about changes within 21 days or you could receive a fine or be prosecuted.",
+    "keywords": [
+      "21 days",
+      "report change",
+      "single person"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/reduce-your-bill/single-person-discount-for-the-bradford-district/"
+  },
+  {
+    "id": "faq_ct_014",
+    "intent": "council_tax_general_discounts",
+    "topic": "reduction_types",
+    "question": "What kinds of reductions can lower my Council Tax bill?",
+    "answer": "Bradford says reductions can depend on the people living in the property or the status of the property, and may be described as discounts, exemptions, disregards, or Council Tax Reduction.",
+    "keywords": [
+      "reduce bill",
+      "discounts",
+      "exemptions",
+      "council tax reduction"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/reduce-your-bill/reduce-your-bill/"
+  },
+  {
+    "id": "faq_ct_015",
+    "intent": "council_tax_reduction_support",
+    "topic": "low_income_support",
+    "question": "I am not working. Do I still have to pay Council Tax?",
+    "answer": "Bradford says working-age people usually still have to pay some Council Tax, but the council has a scheme to help people on low income pay part of the bill.",
+    "keywords": [
+      "not working",
+      "low income",
+      "help paying"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/council-tax-faqs/"
+  },
+  {
+    "id": "faq_ct_016",
+    "intent": "empty_property_council_tax",
+    "topic": "empty_property_charge",
+    "question": "Do I still have to pay Council Tax on an empty property?",
+    "answer": "Bradford says it normally charges Council Tax for empty properties, even if they are empty only for a short time.",
+    "keywords": [
+      "empty property",
+      "empty house",
+      "pay on empty property"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/council-tax-faqs/"
+  },
+  {
+    "id": "faq_ct_017",
+    "intent": "empty_property_council_tax",
+    "topic": "empty_property_premium",
+    "question": "What happens if a property has been empty for a long time?",
+    "answer": "Bradford says an empty and unfurnished property can face higher charges over time, including double, triple, or four times the normal amount depending on how long it has been empty.",
+    "keywords": [
+      "empty premium",
+      "double council tax",
+      "long term empty"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/council-tax-faqs/"
+  },
+  {
+    "id": "faq_ct_018",
+    "intent": "empty_property_council_tax",
+    "topic": "second_homes",
+    "question": "Do second homes pay full Council Tax?",
+    "answer": "Bradford says furnished properties that are only periodically occupied, such as second or holiday homes, pay full Council Tax and from 1 April 2025 may also face an additional premium.",
+    "keywords": [
+      "second home",
+      "holiday home",
+      "premium"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/council-tax-faqs/"
+  },
+  {
+    "id": "faq_ct_019",
+    "intent": "council_tax_appeal",
+    "topic": "banding_appeal",
+    "question": "Who deals with Council Tax band appeals?",
+    "answer": "Bradford says Council Tax bands can only be changed by the Valuation Office Agency, not by Bradford Council.",
+    "keywords": [
+      "band appeal",
+      "voa",
+      "challenge band"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/making-a-council-tax-appeal/"
+  },
+  {
+    "id": "faq_ct_020",
+    "intent": "council_tax_appeal",
+    "topic": "appeal_while_paying",
+    "question": "Do I still have to pay while my appeal is being considered?",
+    "answer": "Yes. Bradford says you must continue paying your Council Tax bill while an appeal is being considered, and any overpayment can be refunded later if the bill changes.",
+    "keywords": [
+      "appeal and pay",
+      "refund later",
+      "continue paying"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/making-a-council-tax-appeal/"
+  },
+  {
+    "id": "faq_ct_021",
+    "intent": "council_tax_appeal",
+    "topic": "decision_appeals",
+    "question": "What other Council Tax decisions can I appeal?",
+    "answer": "Bradford says you can appeal decisions about who should be charged, the period charged, discounts, exemptions, premiums, and how Council Tax Reduction has been calculated.",
+    "keywords": [
+      "appeal council decision",
+      "discount appeal",
+      "liability appeal"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/making-a-council-tax-appeal/"
+  },
+  {
+    "id": "faq_ct_022",
+    "intent": "council_tax_general_info",
+    "topic": "what_it_pays_for",
+    "question": "What does Council Tax pay for?",
+    "answer": "Bradford says Council Tax helps pay for services used by everyone, such as bins and recycling, roads, street lighting, child protection, social care, and street cleaning.",
+    "keywords": [
+      "what does council tax pay for",
+      "services funded"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/council-tax-faqs/"
+  },
+  {
+    "id": "faq_ct_023",
+    "intent": "council_tax_payment",
+    "topic": "paypoint",
+    "question": "Can I pay Council Tax in person?",
+    "answer": "Yes. Bradford says you can pay in person at a PayPoint location, with a maximum of £300 per transaction.",
+    "keywords": [
+      "pay in person",
+      "paypoint",
+      "cash payment"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/pay-your-council-tax/pay-your-council-tax/"
+  },
+  {
+    "id": "faq_ct_024",
+    "intent": "council_tax_payment",
+    "topic": "bank_transfer",
+    "question": "Can I pay by bank transfer?",
+    "answer": "Yes. Bradford provides a bank account, sort code, account number, and asks you to use only your Council Tax reference number as the payment reference so the payment reaches your account correctly.",
+    "keywords": [
+      "bank transfer",
+      "standing order",
+      "reference number"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/pay-your-council-tax/pay-your-council-tax/"
+  },
+  {
+    "id": "faq_ct_025",
+    "intent": "council_tax_change_details",
+    "topic": "benefits_separate_change",
+    "question": "Do I need to report changes separately if I get Council Tax Reduction?",
+    "answer": "Yes. Bradford says that if you receive Council Tax Reduction, you also need to report your change separately to the benefits team.",
+    "keywords": [
+      "benefits team",
+      "council tax reduction change",
+      "report separately"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/report-a-change-of-address-or-circumstances/report-a-change-or-ask-a-question-about-your-council-tax/"
+  },
+  {
+    "id": "faq_ct_026",
+    "intent": "contact_council_tax_team",
+    "topic": "contact_route",
+    "question": "How do I contact the Council Tax team?",
+    "answer": "Bradford directs residents to the Council Tax team contact route and also encourages using the relevant online forms because they are quicker and help direct the query correctly.",
+    "keywords": [
+      "contact council tax team",
+      "speak to council tax"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/council-tax/"
+  },
+  {
+    "id": "faq_ct_027",
+    "intent": "council_tax_payment",
+    "topic": "check_balance_online",
+    "question": "Can I check my Council Tax balance online?",
+    "answer": "Yes. Bradford provides an online route to check your Council Tax balance and account online through MyInfo or the linked account service.",
+    "keywords": [
+      "check balance",
+      "myinfo",
+      "account online"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/pay-your-council-tax/pay-your-council-tax/"
+  },
+  {
+    "id": "faq_ct_028",
+    "intent": "apply_student_discount",
+    "topic": "student_discount_route",
+    "question": "How do I apply for a student discount?",
+    "answer": "Bradford lists an Apply for Student Discount route under the Council Tax section for residents who may qualify.",
+    "keywords": [
+      "student discount",
+      "apply student discount"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/council-tax/"
+  },
+  {
+    "id": "faq_ct_029",
+    "intent": "council_tax_general_info",
+    "topic": "bogus_callers",
+    "question": "Do Bradford Council Tax refunds require payment or bank-detail requests out of the blue?",
+    "answer": "No. Bradford warns about bogus callers and says the council does not charge for Council Tax refunds, and it will not send unexpected emails asking for bank details for refunds.",
+    "keywords": [
+      "bogus callers",
+      "refund scam",
+      "unexpected bank details"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/council-tax-faqs/"
+  },
+  {
+    "id": "faq_ct_030",
+    "intent": "council_tax_payment",
+    "topic": "copy_bill",
+    "question": "Can I request a copy of my Council Tax bill?",
+    "answer": "Yes. Bradford provides an online route to request a copy of your Council Tax bill and a separate route to request the bill in a different format.",
+    "keywords": [
+      "copy of bill",
+      "different format",
+      "large print"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/pay-your-council-tax/pay-your-council-tax/"
+  },
+  {
+    "id": "faq_ct_031",
+    "intent": "council_tax_payment_methods",
+    "topic": "payment_methods_overview",
+    "question": "What are the different ways to pay Council Tax in Bradford?",
+    "answer": "Bradford accepts Council Tax payments by Direct Debit, online card payment, automated telephone payment, in person at a PayPoint location, and by bank transfer or standing order. Direct Debit is the most convenient method and lets you choose your preferred payment date.",
+    "keywords": [
+      "ways to pay",
+      "payment methods",
+      "direct debit",
+      "pay online",
+      "paypoint",
+      "bank transfer"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/pay-your-council-tax/pay-your-council-tax/"
+  },
+  {
+    "id": "faq_ct_032",
+    "intent": "report_move_council_tax",
+    "topic": "change_of_address",
+    "question": "How do I tell Bradford Council I am moving house?",
+    "answer": "Bradford asks you to report a change of address for Council Tax using their online form. You should not report the move more than 14 days in advance. If you receive Council Tax Reduction, you may also need to report the change separately to the benefits team.",
+    "keywords": [
+      "moving house",
+      "change of address",
+      "moved in",
+      "moved out",
+      "report a move"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/report-a-change-of-address-or-circumstances/report-a-change-or-ask-a-question-about-your-council-tax/"
+  },
+  {
+    "id": "faq_ct_033",
+    "intent": "council_tax_arrears_help",
+    "topic": "arrears_support",
+    "question": "What should I do if I fall behind on Council Tax payments?",
+    "answer": "Bradford advises residents to contact the Council Tax Collection Team as soon as possible if they fall behind on payments. Options may include a payment arrangement, referral to debt advice, or a review of any discount or reduction entitlement. If you receive a reminder or a summons, you should act on it immediately.",
+    "keywords": [
+      "arrears",
+      "behind on payments",
+      "debt",
+      "council tax debt",
+      "payment arrangement"
+    ],
+    "source_url": "https://www.bradford.gov.uk/council-tax/general-council-tax-information/council-tax-faqs/"
+  }
+]

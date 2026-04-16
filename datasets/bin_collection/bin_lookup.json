@@ -1,0 +1,302 @@
+[
+  {
+    "postcode": "BD1 1HY",
+    "addresses": [
+      {
+        "id": "bd11hy_001",
+        "label": "1 Example Street, Bradford, BD1 1HY",
+        "collections": [
+          { "bin_type": "General waste", "date": "Tuesday" },
+          { "bin_type": "Recycling", "date": "Friday" }
+        ]
+      },
+      {
+        "id": "bd11hy_002",
+        "label": "2 Example Street, Bradford, BD1 1HY",
+        "collections": [
+          { "bin_type": "General waste", "date": "Wednesday" },
+          { "bin_type": "Recycling", "date": "Monday" }
+        ]
+      },
+      {
+        "id": "bd11hy_003",
+        "label": "3 Example Street, Bradford, BD1 1HY",
+        "collections": [
+          { "bin_type": "General waste", "date": "Thursday" },
+          { "bin_type": "Recycling", "date": "Tuesday" }
+        ]
+      }
+    ]
+  },
+  {
+    "postcode": "BD1 2AA",
+    "addresses": [
+      {
+        "id": "bd12aa_001",
+        "label": "10 North Parade, Bradford, BD1 2AA",
+        "collections": [
+          { "bin_type": "General waste", "date": "Monday" },
+          { "bin_type": "Recycling", "date": "Thursday" }
+        ]
+      },
+      {
+        "id": "bd12aa_002",
+        "label": "12 North Parade, Bradford, BD1 2AA",
+        "collections": [
+          { "bin_type": "General waste", "date": "Friday" },
+          { "bin_type": "Recycling", "date": "Wednesday" }
+        ]
+      }
+    ]
+  },
+  {
+    "postcode": "BD2 1AB",
+    "addresses": [
+      {
+        "id": "bd21ab_001",
+        "label": "5 Oak Road, Bradford, BD2 1AB",
+        "collections": [
+          { "bin_type": "General waste", "date": "Tuesday" },
+          { "bin_type": "Recycling", "date": "Thursday" }
+        ]
+      },
+      {
+        "id": "bd21ab_002",
+        "label": "7 Oak Road, Bradford, BD2 1AB",
+        "collections": [
+          { "bin_type": "General waste", "date": "Wednesday" },
+          { "bin_type": "Recycling", "date": "Friday" }
+        ]
+      },
+      {
+        "id": "bd21ab_003",
+        "label": "9 Oak Road, Bradford, BD2 1AB",
+        "collections": [
+          { "bin_type": "General waste", "date": "Monday" },
+          { "bin_type": "Recycling", "date": "Thursday" }
+        ]
+      }
+    ]
+  },
+  {
+    "postcode": "BD2 3CD",
+    "addresses": [
+      {
+        "id": "bd23cd_001",
+        "label": "1 Valley View, Bradford, BD2 3CD",
+        "collections": [
+          { "bin_type": "General waste", "date": "Friday" },
+          { "bin_type": "Recycling", "date": "Tuesday" }
+        ]
+      },
+      {
+        "id": "bd23cd_002",
+        "label": "2 Valley View, Bradford, BD2 3CD",
+        "collections": [
+          { "bin_type": "General waste", "date": "Thursday" },
+          { "bin_type": "Recycling", "date": "Monday" }
+        ]
+      }
+    ]
+  },
+  {
+    "postcode": "BD3 0EF",
+    "addresses": [
+      {
+        "id": "bd30ef_001",
+        "label": "14 Park Lane, Bradford, BD3 0EF",
+        "collections": [
+          { "bin_type": "General waste", "date": "Wednesday" },
+          { "bin_type": "Recycling", "date": "Friday" }
+        ]
+      },
+      {
+        "id": "bd30ef_002",
+        "label": "16 Park Lane, Bradford, BD3 0EF",
+        "collections": [
+          { "bin_type": "General waste", "date": "Monday" },
+          { "bin_type": "Recycling", "date": "Wednesday" }
+        ]
+      },
+      {
+        "id": "bd30ef_003",
+        "label": "18 Park Lane, Bradford, BD3 0EF",
+        "collections": [
+          { "bin_type": "General waste", "date": "Tuesday" },
+          { "bin_type": "Recycling", "date": "Thursday" }
+        ]
+      }
+    ]
+  },
+  {
+    "postcode": "BD4 6GH",
+    "addresses": [
+      {
+        "id": "bd46gh_001",
+        "label": "21 Canal Street, Bradford, BD4 6GH",
+        "collections": [
+          { "bin_type": "General waste", "date": "Thursday" },
+          { "bin_type": "Recycling", "date": "Tuesday" }
+        ]
+      },
+      {
+        "id": "bd46gh_002",
+        "label": "23 Canal Street, Bradford, BD4 6GH",
+        "collections": [
+          { "bin_type": "General waste", "date": "Friday" },
+          { "bin_type": "Recycling", "date": "Wednesday" }
+        ]
+      }
+    ]
+  },
+  {
+    "postcode": "BD5 7JK",
+    "addresses": [
+      {
+        "id": "bd57jk_001",
+        "label": "8 South Avenue, Bradford, BD5 7JK",
+        "collections": [
+          { "bin_type": "General waste", "date": "Monday" },
+          { "bin_type": "Recycling", "date": "Thursday" }
+        ]
+      },
+      {
+        "id": "bd57jk_002",
+        "label": "10 South Avenue, Bradford, BD5 7JK",
+        "collections": [
+          { "bin_type": "General waste", "date": "Tuesday" },
+          { "bin_type": "Recycling", "date": "Friday" }
+        ]
+      },
+      {
+        "id": "bd57jk_003",
+        "label": "12 South Avenue, Bradford, BD5 7JK",
+        "collections": [
+          { "bin_type": "General waste", "date": "Wednesday" },
+          { "bin_type": "Recycling", "date": "Monday" }
+        ]
+      }
+    ]
+  },
+  {
+    "postcode": "BD6 8LM",
+    "addresses": [
+      {
+        "id": "bd68lm_001",
+        "label": "3 Hill Top, Bradford, BD6 8LM",
+        "collections": [
+          { "bin_type": "General waste", "date": "Friday" },
+          { "bin_type": "Recycling", "date": "Tuesday" }
+        ]
+      },
+      {
+        "id": "bd68lm_002",
+        "label": "5 Hill Top, Bradford, BD6 8LM",
+        "collections": [
+          { "bin_type": "General waste", "date": "Thursday" },
+          { "bin_type": "Recycling", "date": "Monday" }
+        ]
+      }
+    ]
+  },
+  {
+    "postcode": "BD7 1NP",
+    "addresses": [
+      {
+        "id": "bd71np_001",
+        "label": "50 University Road, Bradford, BD7 1NP",
+        "collections": [
+          { "bin_type": "General waste", "date": "Tuesday" },
+          { "bin_type": "Recycling", "date": "Thursday" }
+        ]
+      },
+      {
+        "id": "bd71np_002",
+        "label": "52 University Road, Bradford, BD7 1NP",
+        "collections": [
+          { "bin_type": "General waste", "date": "Wednesday" },
+          { "bin_type": "Recycling", "date": "Friday" }
+        ]
+      },
+      {
+        "id": "bd71np_003",
+        "label": "54 University Road, Bradford, BD7 1NP",
+        "collections": [
+          { "bin_type": "General waste", "date": "Monday" },
+          { "bin_type": "Recycling", "date": "Thursday" }
+        ]
+      }
+    ]
+  },
+  {
+    "postcode": "BD8 9QR",
+    "addresses": [
+      {
+        "id": "bd89qr_001",
+        "label": "11 West Gate, Bradford, BD8 9QR",
+        "collections": [
+          { "bin_type": "General waste", "date": "Thursday" },
+          { "bin_type": "Recycling", "date": "Tuesday" }
+        ]
+      },
+      {
+        "id": "bd89qr_002",
+        "label": "13 West Gate, Bradford, BD8 9QR",
+        "collections": [
+          { "bin_type": "General waste", "date": "Friday" },
+          { "bin_type": "Recycling", "date": "Wednesday" }
+        ]
+      }
+    ]
+  },
+  {
+    "postcode": "BD9 4ST",
+    "addresses": [
+      {
+        "id": "bd94st_001",
+        "label": "2 Cedar Close, Bradford, BD9 4ST",
+        "collections": [
+          { "bin_type": "General waste", "date": "Monday" },
+          { "bin_type": "Recycling", "date": "Wednesday" }
+        ]
+      },
+      {
+        "id": "bd94st_002",
+        "label": "4 Cedar Close, Bradford, BD9 4ST",
+        "collections": [
+          { "bin_type": "General waste", "date": "Tuesday" },
+          { "bin_type": "Recycling", "date": "Thursday" }
+        ]
+      },
+      {
+        "id": "bd94st_003",
+        "label": "6 Cedar Close, Bradford, BD9 4ST",
+        "collections": [
+          { "bin_type": "General waste", "date": "Wednesday" },
+          { "bin_type": "Recycling", "date": "Friday" }
+        ]
+      }
+    ]
+  },
+  {
+    "postcode": "BD10 0UV",
+    "addresses": [
+      {
+        "id": "bd100uv_001",
+        "label": "1 Meadow Court, Bradford, BD10 0UV",
+        "collections": [
+          { "bin_type": "General waste", "date": "Friday" },
+          { "bin_type": "Recycling", "date": "Monday" }
+        ]
+      },
+      {
+        "id": "bd100uv_002",
+        "label": "3 Meadow Court, Bradford, BD10 0UV",
+        "collections": [
+          { "bin_type": "General waste", "date": "Thursday" },
+          { "bin_type": "Recycling", "date": "Tuesday" }
+        ]
+      }
+    ]
+  }
+]

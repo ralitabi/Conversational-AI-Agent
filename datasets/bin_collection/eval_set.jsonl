@@ -1,0 +1,55 @@
+{"text": "next bin collection", "label": "check_bin_collection_dates", "service": "bin_collection"}
+{"text": "when is my next bin", "label": "check_bin_collection_dates", "service": "bin_collection"}
+{"text": "collection date", "label": "check_bin_collection_dates", "service": "bin_collection"}
+{"text": "when is the next bin collection", "label": "check_bin_collection_dates", "service": "bin_collection"}
+{"text": "next pickup date", "label": "check_bin_collection_dates", "service": "bin_collection"}
+{"text": "waste collection date", "label": "check_bin_collection_dates", "service": "bin_collection"}
+{"text": "what day is my bin collected", "label": "check_bin_day_general", "service": "bin_collection"}
+{"text": "usual collection day", "label": "check_bin_day_general", "service": "bin_collection"}
+{"text": "what day are bins collected", "label": "check_bin_day_general", "service": "bin_collection"}
+{"text": "my bin was not collected", "label": "report_bin_not_collected_info", "service": "bin_collection"}
+{"text": "bin not collected today", "label": "report_bin_not_collected_info", "service": "bin_collection"}
+{"text": "report a missed bin", "label": "report_bin_not_collected_info", "service": "bin_collection"}
+{"text": "bins were not emptied this week", "label": "report_bin_not_collected_info", "service": "bin_collection"}
+{"text": "bin collection delay", "label": "service_disruption_bin", "service": "bin_collection"}
+{"text": "disruption to bin service", "label": "service_disruption_bin", "service": "bin_collection"}
+{"text": "bins delayed due to weather", "label": "service_disruption_bin", "service": "bin_collection"}
+{"text": "assisted bin collection", "label": "assisted_collection_request", "service": "bin_collection"}
+{"text": "i cannot move my bin", "label": "assisted_collection_request", "service": "bin_collection"}
+{"text": "need help with bin disability", "label": "assisted_collection_request", "service": "bin_collection"}
+{"text": "i live outside bradford district", "label": "bin_collection_outside_area", "service": "bin_collection"}
+{"text": "not in bradford area", "label": "bin_collection_outside_area", "service": "bin_collection"}
+{"text": "what goes in the blue bin", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "what can i recycle", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "what goes in the green bin", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "cardboard recycling which bin", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "can i put glass in the recycling", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "what bin should i use for food waste", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "refuse collection schedule", "label": "check_bin_collection_dates", "service": "bin_collection"}
+{"text": "recycling pickup date", "label": "check_bin_collection_dates", "service": "bin_collection"}
+{"text": "my bin day", "label": "check_bin_day_general", "service": "bin_collection"}
+{"text": "strike affecting bin collections", "label": "service_disruption_bin", "service": "bin_collection"}
+{"text": "mobility problem need bin help", "label": "assisted_collection_request", "service": "bin_collection"}
+{"text": "i am in harrogate", "label": "bin_collection_outside_area", "service": "bin_collection"}
+{"text": "plastic bottles recycling", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "left out overnight but not emptied", "label": "report_bin_not_collected_info", "service": "bin_collection"}
+{"text": "when is the brown bin collected", "label": "check_bin_day_general", "service": "bin_collection"}
+{"text": "nappies which bin", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "food scraps bin", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "bin collection this week", "label": "check_bin_collection_dates", "service": "bin_collection"}
+{"text": "they skipped my street", "label": "report_bin_not_collected_info", "service": "bin_collection"}
+{"text": "operational issue with bin collections", "label": "service_disruption_bin", "service": "bin_collection"}
+{"text": "rubbish lorry never came", "label": "report_bin_not_collected_info", "service": "bin_collection"}
+{"text": "when does the truck come", "label": "check_bin_collection_dates", "service": "bin_collection"}
+{"text": "tetra pak cartons which bin", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "whats the collection schedule", "label": "check_bin_collection_dates", "service": "bin_collection"}
+{"text": "dnt know which bin 2 use for cardboard", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "bin man hasnt been", "label": "report_bin_not_collected_info", "service": "bin_collection"}
+{"text": "foil trays recycling", "label": "bin_recycling_guidance", "service": "bin_collection"}
+{"text": "collection not happening this bank holiday", "label": "service_disruption_bin", "service": "bin_collection"}
+{"text": "i need someone to move my bins i have a bad back", "label": "assisted_collection_request", "service": "bin_collection"}
+{"text": "bins delayed due to strike", "label": "service_disruption_bin", "service": "bin_collection"}
+{"text": "broken bin lid replacement", "label": "unknown", "service": "bin_collection"}
+{"text": "where can i take old paint", "label": "unknown", "service": "bin_collection"}
+{"text": "bin smells bad", "label": "unknown", "service": "bin_collection"}
+{"text": "i live in shipley is that bradford", "label": "unknown", "service": "bin_collection"}

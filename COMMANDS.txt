@@ -1,0 +1,311 @@
+================================================================================
+  Bradford Council AI Chatbot — Commands Reference
+================================================================================
+
+All commands are run from the project root directory:
+  cd "c:\Users\rajaa\OneDrive\Desktop\AI Agent"
+
+
+================================================================================
+  1. FIRST-TIME SETUP
+================================================================================
+
+-- 1a. Create Python virtual environment --
+  python -m venv .venv
+
+-- 1b. Activate virtual environment --
+  Windows (Command Prompt):
+    .venv\Scripts\activate.bat
+
+  Windows (PowerShell):
+    .venv\Scripts\Activate.ps1
+
+  Windows (Git Bash):
+    source .venv/Scripts/activate
+
+  Mac / Linux:
+    source .venv/bin/activate
+
+-- 1c. Install Python dependencies --
+  pip install -r requirements.txt
+
+-- 1d. Set up environment variables --
+  Copy .env.example to .env and add your OpenAI API key:
+    cp .env.example .env
+  Then open .env and replace the placeholder with your real key.
+
+-- 1e. Install frontend dependencies --
+  cd frontend
+  npm install
+  cd ..
+
+
+================================================================================
+  2. RUNNING THE APPLICATION
+================================================================================
+
+-- 2a. Start the Python backend (FastAPI) --
+  python main.py
+
+  The API will be available at: http://127.0.0.1:8000
+  API docs (Swagger UI):         http://127.0.0.1:8000/docs
+  Health check:                  http://127.0.0.1:8000/health
+
+  On startup the backend automatically pre-builds all embedding caches in a
+  background thread — this takes 10–30 seconds on first run.
+
+-- 2b. Start the React frontend (in a SECOND terminal) --
+  cd frontend
+  npm start
+
+  The frontend will open at: http://localhost:3000
+
+-- 2c. Run both together (two separate terminals) --
+  Terminal 1:  python main.py
+  Terminal 2:  cd frontend && npm start
+
+
+================================================================================
+  3. MODEL TRAINING
+================================================================================
+
+-- 3a. Refresh / retrain the intent classifier --
+  python scripts/train_model.py
+
+  This re-reads all *_intents.json files from datasets/ and rebuilds
+  the classifier. Run this after adding or editing training examples.
+  Covers all 6 services: bin collection, council tax, benefits, blue badge,
+  libraries, school admissions (61 intents total).
+
+-- 3b. Verify classifier loads correctly --
+  python -c "
+  from pathlib import Path
+  from backend.intent_classifier import IntentClassifier
+  c = IntentClassifier(Path('datasets'))
+  c.load(Path('models/intent_classifier.joblib'))
+  print('Intents:', list(c.by_intent.keys())[:5], '...')
+  print('Total examples:', sum(len(v) for v in c.by_intent.values()))
+  "
+
+-- 3c. Rebuild embedding caches (force refresh) --
+  python -c "
+  from pathlib import Path
+  from backend.embeddings.cache_builder import build_all_caches
+  build_all_caches(
+      datasets_path=Path('datasets'),
+      cache_dir=Path('.embedding_cache'),
+      force=True
+  )
+  print('Done.')
+  "
+  Run this after editing any *_faq.json files.
+
+
+================================================================================
+  4. EVALUATION
+================================================================================
+
+-- 4a. Run the full evaluation suite (intent classifier) --
+  python scripts/evaluate_intent_model.py
+
+  Outputs saved to evaluation/ folder:
+    evaluation_report.html          Open in browser for full visual report
+    classification_report.txt       Per-intent precision / recall / F1
+    per_intent_summary.csv          Accuracy per intent
+    per_service_summary.csv         Accuracy per service
+    confusion_matrix.png            Visual confusion matrix
+    per_intent_accuracy.png         Bar chart (red / amber / green)
+    confidence_histogram.png        Confidence score distribution
+    misclassification_pairs.csv     Most common misclassification pairs
+    hardest_cases.csv               Hardest examples (wrong + low confidence)
+
+-- 4b. Open evaluation report in browser --
+  Windows:
+    start evaluation\evaluation_report.html
+
+  Mac / Linux:
+    open evaluation/evaluation_report.html
+
+-- 4c. Generate visual poster charts --
+  python generate_eval_charts.py
+
+  Outputs:
+    eval_by_service.png   Stacked bar — pass/partial/fail per service
+    eval_metrics.png      Horizontal bar — 5 key performance metrics
+    eval_scenarios.png    Colour-coded grid of all 22 test scenarios
+
+-- 4d. Quick accuracy check (single query) --
+  python -c "
+  from pathlib import Path
+  from backend.intent_classifier import IntentClassifier
+  c = IntentClassifier(Path('datasets'))
+  c.load(Path('models/intent_classifier.joblib'))
+  result = c.classify('when is my next bin collection')
+  print(result)
+  "
+
+
+================================================================================
+  5. DEVELOPMENT UTILITIES
+================================================================================
+
+-- 5a. Run backend with auto-reload (development mode) --
+  uvicorn backend.api:app --host 127.0.0.1 --port 8000 --reload
+
+-- 5b. Test a chat message via curl --
+  curl -X POST http://127.0.0.1:8000/chat \
+    -H "Content-Type: application/json" \
+    -d "{\"message\": \"bin collection\", \"session_id\": \"test123\"}"
+
+-- 5c. Test chat via Python --
+  python -c "
+  import requests
+  r = requests.post('http://127.0.0.1:8000/chat',
+      json={'message': 'council tax', 'session_id': 'dev'})
+  print(r.json())
+  "
+
+-- 5d. Run linter (ruff) --
+  ruff check backend/
+  ruff check scripts/
+
+-- 5e. Format code (black) --
+  black backend/
+  black scripts/
+
+-- 5f. Build frontend for production --
+  cd frontend
+  npm run build
+  cd ..
+
+-- 5g. Run frontend tests --
+  cd frontend
+  npm test
+  cd ..
+
+
+================================================================================
+  6. DATASET MANAGEMENT
+================================================================================
+
+-- 6a. Check training example counts --
+  python -c "
+  import json
+  from pathlib import Path
+  for f in sorted(Path('datasets').rglob('*_intents.json')):
+      data = json.loads(f.read_text(encoding='utf-8'))
+      examples = data if isinstance(data, list) else data.get('intents', [])
+      print(f'{f.parent.name}/{f.name}: {len(examples)} examples')
+  "
+
+-- 6b. Check eval set sizes --
+  python -c "
+  from pathlib import Path
+  for f in sorted(Path('datasets').rglob('eval_set.jsonl')):
+      lines = [l for l in f.read_text(encoding='utf-8').splitlines() if l.strip()]
+      print(f'{f.parent.name}/eval_set.jsonl: {len(lines)} examples')
+  "
+
+-- 6c. List all FAQ entry counts --
+  python -c "
+  import json
+  from pathlib import Path
+  for f in sorted(Path('datasets').rglob('*_faq.json')):
+      data = json.loads(f.read_text(encoding='utf-8'))
+      print(f'{f.parent.name}/{f.name}: {len(data)} entries')
+  "
+
+
+================================================================================
+  7. SESSION / LOG MANAGEMENT
+================================================================================
+
+-- 7a. List all chat session logs --
+  ls chat_logs/
+
+-- 7b. View a specific session log --
+  python -c "
+  import json
+  from pathlib import Path
+  # Replace <session-id> with the actual file name (without .jsonl)
+  f = Path('chat_logs/<session-id>.jsonl')
+  for line in f.read_text(encoding='utf-8').splitlines():
+      if line.strip():
+          msg = json.loads(line)
+          print(f\"[{msg['role'].upper()}] {msg['content'][:120]}\")
+  "
+
+-- 7c. Clear all chat logs --
+  rm chat_logs/*.jsonl
+
+
+================================================================================
+  8. COMMON TROUBLESHOOTING
+================================================================================
+
+Problem: "ModuleNotFoundError: No module named 'backend'"
+  Solution: Run from the project root directory, NOT from inside backend/.
+  Run: cd "c:\Users\rajaa\OneDrive\Desktop\AI Agent"
+
+Problem: "OPENAI_API_KEY missing" or "API key missing in .env file"
+  Solution: Copy .env.example to .env and add your real OpenAI API key.
+
+Problem: "Port 8000 already in use"
+  Solution:
+    Windows: netstat -ano | findstr :8000
+             taskkill /PID <PID> /F
+    Mac/Linux: lsof -i :8000 && kill <PID>
+
+Problem: Frontend shows CORS error
+  Solution: Make sure the backend is running on port 8000 before starting the
+  frontend. The backend allows any localhost port in dev mode.
+
+Problem: Bin date lookup fails or returns empty
+  Solution: Bradford Council website may be temporarily unavailable.
+  The chatbot returns a user-friendly error and suggests calling the council.
+
+Problem: "intent_classifier.joblib not found"
+  Solution: Run: python scripts/train_model.py
+
+Problem: Embedding lookup is slow on first query
+  Solution: Embeddings are pre-built at startup in a background thread.
+  Wait ~30 seconds after starting the backend for caches to finish building.
+  To force a full rebuild: see section 3c above.
+
+Problem: Accuracy below 90% after adding new intents
+  Solution:
+    1. Add more training examples to *_intents.json (aim for 8+ per intent)
+    2. Check for overlapping phrases between similar intents
+    3. Run: python scripts/evaluate_intent_model.py
+    4. Check misclassification_pairs.csv for which intents are being confused
+    5. Add disambiguation phrases to backend/handlers/intent_keyword_matcher.py
+
+
+================================================================================
+  9. FOLDER STRUCTURE QUICK REFERENCE
+================================================================================
+
+  AI Agent/
+  ├── main.py                          START HERE — runs the backend
+  ├── requirements.txt                 pip install -r requirements.txt
+  ├── .env                             Your secrets (not committed)
+  ├── .env.example                     Template — copy to .env
+  ├── backend/                         All Python server code
+  │   ├── handlers/                    Conversational logic per service
+  │   │   └── intent_keyword_matcher.py  Keyword phrase overrides (extracted module)
+  │   ├── embeddings/                  FAISS embedding pipeline
+  │   └── llm/                         gpt-4o-mini prompt templates + enhancer
+  ├── frontend/                        React UI (npm start)
+  ├── datasets/                        Training data + FAQ content (6 services)
+  ├── scripts/                         Utility scripts
+  │   ├── train_model.py               Retrain classifier
+  │   └── evaluate_intent_model.py     Run evaluation suite
+  ├── models/                          Auto-generated model files
+  ├── evaluation/                      Auto-generated eval reports
+  ├── .embedding_cache/                Auto-generated FAISS caches
+  ├── chat_logs/                       Auto-generated session logs
+  ├── generate_eval_charts.py          Generates poster PNG charts
+  └── docs/
+      └── PROJECT_OVERVIEW.txt         Full project documentation
+
+================================================================================

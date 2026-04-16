@@ -1,0 +1,242 @@
+[
+  {
+    "id": "faq_001",
+    "intent": "bin_recycling_guidance",
+    "topic": "green_bin_general_waste",
+    "question": "What can I put in the green bin?",
+    "answer": "The green bin is for general household waste that cannot usually be recycled through the standard household recycling service.",
+    "keywords": ["green bin", "general waste", "what goes in green bin"]
+  },
+  {
+    "id": "faq_002",
+    "intent": "bin_recycling_guidance",
+    "topic": "green_bin_examples",
+    "question": "What items usually go in the green bin?",
+    "answer": "Typical general waste items may include non-recyclable packaging, nappies, pet waste, and other household rubbish that cannot go into recycling collections.",
+    "keywords": ["green bin items", "general rubbish", "nappies"]
+  },
+  {
+    "id": "faq_003",
+    "intent": "bin_recycling_guidance",
+    "topic": "blue_bin_recycling",
+    "question": "What goes in the blue bin?",
+    "answer": "The blue bin is usually for recyclable materials such as paper, cardboard, some plastics, and metal packaging, depending on local collection rules.",
+    "keywords": ["blue bin", "recycling bin", "paper", "cardboard"]
+  },
+  {
+    "id": "faq_004",
+    "intent": "bin_recycling_guidance",
+    "topic": "brown_bin_garden",
+    "question": "What goes in the brown bin?",
+    "answer": "The brown bin is commonly used for garden waste such as grass cuttings, leaves, weeds, and small branches, where that service is available.",
+    "keywords": ["brown bin", "garden waste", "grass cuttings"]
+  },
+  {
+    "id": "faq_005",
+    "intent": "bin_recycling_guidance",
+    "topic": "cardboard",
+    "question": "Which bin should cardboard go in?",
+    "answer": "Clean and dry cardboard usually goes in the recycling bin. Wet or heavily contaminated cardboard may need to go in general waste instead.",
+    "keywords": ["cardboard", "paper", "recycling"]
+  },
+  {
+    "id": "faq_006",
+    "intent": "bin_recycling_guidance",
+    "topic": "paper",
+    "question": "Which bin should paper go in?",
+    "answer": "Clean paper usually goes in the recycling bin. Shredded, wet, or heavily soiled paper may not be suitable for normal recycling collections.",
+    "keywords": ["paper", "recycle paper"]
+  },
+  {
+    "id": "faq_007",
+    "intent": "bin_recycling_guidance",
+    "topic": "plastic_bottles",
+    "question": "Can I recycle plastic bottles?",
+    "answer": "Plastic bottles are usually accepted in household recycling if they are empty and reasonably clean.",
+    "keywords": ["plastic bottles", "recycling plastic"]
+  },
+  {
+    "id": "faq_008",
+    "intent": "bin_recycling_guidance",
+    "topic": "plastic_trays",
+    "question": "Can plastic trays go in recycling?",
+    "answer": "Some councils accept plastic trays, while others limit recycling to bottles and containers. Local guidance should always be checked for the accepted plastic types.",
+    "keywords": ["plastic trays", "recycling trays"]
+  },
+  {
+    "id": "faq_009",
+    "intent": "bin_recycling_guidance",
+    "topic": "glass",
+    "question": "Can I recycle glass bottles and jars?",
+    "answer": "Glass bottles and jars are often recyclable, but local collection arrangements vary. They may be accepted at the kerbside or through bottle banks.",
+    "keywords": ["glass", "glass bottles", "glass jars"]
+  },
+  {
+    "id": "faq_010",
+    "intent": "bin_recycling_guidance",
+    "topic": "foil",
+    "question": "Can I recycle foil?",
+    "answer": "Clean aluminium foil may be recyclable in some areas, but dirty foil may need to go into general waste if it cannot be cleaned.",
+    "keywords": ["foil", "aluminium foil"]
+  },
+  {
+    "id": "faq_011",
+    "intent": "bin_recycling_guidance",
+    "topic": "food_waste",
+    "question": "Which bin should food waste go in?",
+    "answer": "Food waste should follow the local council’s collection arrangement. Where no separate food waste service exists, it may need to go in general waste.",
+    "keywords": ["food waste", "kitchen waste"]
+  },
+  {
+    "id": "faq_012",
+    "intent": "bin_recycling_guidance",
+    "topic": "nappies",
+    "question": "Can nappies go in the green bin?",
+    "answer": "Disposable nappies usually go in general waste rather than recycling.",
+    "keywords": ["nappies", "green bin"]
+  },
+  {
+    "id": "faq_013",
+    "intent": "bin_recycling_guidance",
+    "topic": "black_bags",
+    "question": "Can black bags go in recycling?",
+    "answer": "Black bags are generally not accepted in mixed recycling and usually belong in general household waste unless local guidance says otherwise.",
+    "keywords": ["black bags", "recycling bags"]
+  },
+  {
+    "id": "faq_014",
+    "intent": "bin_recycling_guidance",
+    "topic": "contamination",
+    "question": "What happens if recycling is contaminated?",
+    "answer": "If recycling contains the wrong materials or heavily soiled items, it may be treated as contaminated and not collected as recycling.",
+    "keywords": ["contaminated recycling", "wrong items in recycling"]
+  },
+  {
+    "id": "faq_015",
+    "intent": "bin_recycling_guidance",
+    "topic": "textiles",
+    "question": "Can clothes go in household recycling bins?",
+    "answer": "Clothing and textiles are usually not placed in standard mixed recycling bins and may need a dedicated textile bank or charity donation route.",
+    "keywords": ["clothes", "textiles"]
+  },
+  {
+    "id": "faq_016",
+    "intent": "bin_recycling_guidance",
+    "topic": "electrical_items",
+    "question": "Can electrical items go in my household bin?",
+    "answer": "Electrical items are usually not suitable for standard household bins and often need a dedicated reuse or recycling route.",
+    "keywords": ["electrical", "electronics", "waste electrical"]
+  },
+  {
+    "id": "faq_017",
+    "intent": "bin_recycling_guidance",
+    "topic": "batteries",
+    "question": "Can batteries go in normal bins?",
+    "answer": "Batteries should not usually be placed in normal household bins and should be recycled through a proper battery collection point.",
+    "keywords": ["batteries", "battery disposal"]
+  },
+  {
+    "id": "faq_018",
+    "intent": "bin_recycling_guidance",
+    "topic": "paint",
+    "question": "Can I put paint tins in household bins?",
+    "answer": "Paint tins may need special disposal arrangements depending on whether they are empty, dry, or contain leftover paint.",
+    "keywords": ["paint tins", "paint disposal"]
+  },
+  {
+    "id": "faq_019",
+    "intent": "bin_recycling_guidance",
+    "topic": "bulky_items",
+    "question": "Can bulky items go in household bins?",
+    "answer": "Large household items such as furniture are normally not suitable for standard bin collections and may require a bulky waste service.",
+    "keywords": ["bulky waste", "furniture", "large items"]
+  },
+  {
+    "id": "faq_020",
+    "intent": "bin_recycling_guidance",
+    "topic": "garden_waste_subscription",
+    "question": "Do I need to subscribe for garden waste collection?",
+    "answer": "Garden waste collection arrangements vary by council. Some councils provide a subscription-based service for brown bin collections.",
+    "keywords": ["garden waste subscription", "brown bin subscription"]
+  },
+  {
+    "id": "faq_021",
+    "intent": "service_disruption_bin",
+    "topic": "weather_disruption",
+    "question": "Can weather affect bin collections?",
+    "answer": "Yes. Severe weather such as snow, ice, flooding, or high winds can delay or disrupt scheduled bin collections.",
+    "keywords": ["weather", "snow", "ice", "delay"]
+  },
+  {
+    "id": "faq_022",
+    "intent": "service_disruption_bin",
+    "topic": "vehicle_issue",
+    "question": "Can operational issues delay bin collections?",
+    "answer": "Yes. Vehicle breakdowns, staffing shortages, and operational issues can cause delays to waste and recycling collections.",
+    "keywords": ["vehicle issue", "operational issue", "staff shortage"]
+  },
+  {
+    "id": "faq_023",
+    "intent": "service_disruption_bin",
+    "topic": "strike",
+    "question": "Can strikes affect collections?",
+    "answer": "Industrial action may affect waste collection schedules if council or contractor services are disrupted.",
+    "keywords": ["strike", "industrial action"]
+  },
+  {
+    "id": "faq_024",
+    "intent": "report_bin_not_collected_info",
+    "topic": "missed_bin_general",
+    "question": "What should I do if my bin was missed?",
+    "answer": "If your bin was missed, you usually need to check that it was presented correctly, on time, and that the collection window has passed before reporting it.",
+    "keywords": ["missed bin", "not collected", "report missed collection"]
+  },
+  {
+    "id": "faq_025",
+    "intent": "report_bin_not_collected_info",
+    "topic": "missed_bin_conditions",
+    "question": "Why might a bin not be collected?",
+    "answer": "A bin may not be collected if it was not presented on time, was too heavy, was contaminated, or if access was blocked.",
+    "keywords": ["why was bin not collected", "too heavy", "blocked access"]
+  },
+  {
+    "id": "faq_026",
+    "intent": "assisted_collection_request",
+    "topic": "assisted_collection_eligibility",
+    "question": "Who can get assisted collection?",
+    "answer": "Assisted collection is usually for residents who cannot put their bins out themselves because of disability, illness, age, or mobility-related reasons.",
+    "keywords": ["who can get assisted collection", "eligibility", "mobility"]
+  },
+  {
+    "id": "faq_027",
+    "intent": "assisted_collection_request",
+    "topic": "assisted_collection_how_it_works",
+    "question": "How does assisted collection work?",
+    "answer": "With assisted collection, the crew may collect the bin from an agreed location and return it after emptying, depending on local arrangements.",
+    "keywords": ["how assisted collection works", "bin returned"]
+  },
+  {
+    "id": "faq_028",
+    "intent": "bin_collection_outside_area",
+    "topic": "outside_area",
+    "question": "What if the property is outside Bradford district?",
+    "answer": "If the address is outside the council’s service area, waste and recycling services are usually handled by the relevant local authority for that district.",
+    "keywords": ["outside bradford", "outside district", "service area"]
+  },
+  {
+    "id": "faq_029",
+    "intent": "check_bin_day_general",
+    "topic": "usual_collection_day",
+    "question": "How can I find my usual collection day?",
+    "answer": "The usual collection day depends on the property address and may change during bank holidays or service disruption periods.",
+    "keywords": ["usual collection day", "what day is my bin"]
+  },
+  {
+    "id": "faq_030",
+    "intent": "check_bin_collection_dates",
+    "topic": "exact_date_lookup",
+    "question": "How can I check my next bin collection date?",
+    "answer": "To check the exact next collection date for a property, the service usually needs the postcode and then the correct address selection.",
+    "keywords": ["next collection date", "postcode", "address lookup"]
+  }
+]

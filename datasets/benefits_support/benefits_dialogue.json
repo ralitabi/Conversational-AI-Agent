@@ -1,0 +1,81 @@
+{
+  "housing_benefit_eligibility": {
+    "steps": [
+      "Are you asking whether you may be eligible for Housing Benefit in Bradford?",
+      "Are you currently renting your home from a private landlord, housing association, or Bradford Council?",
+      "Is your question about whether your income or savings level affects eligibility?",
+      "Would you like to know what supporting information Bradford may ask for when you check eligibility?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "apply_housing_benefit_ctr": {
+    "steps": [
+      "Do you want to make a new claim for Housing Benefit, Council Tax Reduction, or both?",
+      "Have you already registered for a Bradford MyInfo account, which is used to apply online?",
+      "Do you have details such as your National Insurance number, landlord's name and address, and recent bank statements ready?",
+      "Would you like guidance on what happens after you submit the claim and how long it usually takes?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "discretionary_housing_payment": {
+    "steps": [
+      "Are you already receiving Housing Benefit but finding that it does not cover the full cost of your rent?",
+      "Is the shortfall due to the spare room reduction, a local housing allowance cap, or another reason?",
+      "Are you experiencing financial difficulty that makes it hard to meet the gap between your benefit and your rent?",
+      "Would you like to know how to apply for a Discretionary Housing Payment from Bradford Council?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "benefits_myinfo_access": {
+    "steps": [
+      "Are you trying to register for a Bradford MyInfo account, or do you already have one and need help accessing it?",
+      "Do you need help with logging in, resetting your password, or understanding what you can see in MyInfo?",
+      "Is the issue that you cannot find your claim details, or that something looks incorrect in your account?",
+      "Would you like the link and guidance for the Bradford MyInfo portal?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "submit_benefit_evidence": {
+    "steps": [
+      "Are you trying to upload or send documents to support an existing Housing Benefit or Council Tax Reduction claim?",
+      "Do you have the documents ready, such as payslips, bank statements, tenancy agreement, or proof of identity?",
+      "Are you trying to submit evidence online via MyInfo, or do you need to know about other ways to send documents?",
+      "Would you like to know which specific documents Bradford usually requires and how to upload them?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "report_change_of_circumstances": {
+    "steps": [
+      "Do you need to tell Bradford Council about a change that may affect your Housing Benefit or Council Tax Reduction?",
+      "What type of change are you reporting? For example: new job, change in income, someone moving in or out, change of address, or a change in rent.",
+      "Are you aware that you must report changes promptly to avoid an overpayment that you may have to pay back?",
+      "Would you like guidance on how to report the change and what information Bradford will need from you?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "benefit_appeal_or_reconsideration": {
+    "steps": [
+      "Are you challenging a decision Bradford Council has made about your Housing Benefit or Council Tax Reduction?",
+      "Do you want to request a reconsideration first, or are you ready to make a formal appeal?",
+      "Do you have the decision letter to hand, as this will have the date and reference you need to appeal?",
+      "Would you like to know the steps involved and the timescales for appealing a benefits decision in Bradford?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "benefits_support_contact": {
+    "steps": [
+      "Do you need to contact the Bradford Benefits team by phone, email, or online form?",
+      "Is your query about an existing claim, a new application, or a general benefits question?",
+      "I can help identify the best contact route so your query reaches the right team.",
+      "Would you like the contact details and opening hours for Bradford's Benefits service?"
+    ],
+    "completion_mode": "rag"
+  }
+}

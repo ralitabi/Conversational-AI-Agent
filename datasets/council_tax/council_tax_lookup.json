@@ -1,0 +1,1772 @@
+[
+  {
+    "postcode": "BD2 3BH",
+    "addresses": [
+      {
+        "id": "ct_000_001",
+        "label": "1 Canal Road, Bradford, BD2 3BH",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 4.34,
+        "annual_total_2026_27": 1818.93,
+        "account_number": "CT202600001",
+        "payment_reference": "CT202600001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_000_002",
+        "label": "2 Manningham Lane, Bradford, BD2 3BH",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 6.51,
+        "annual_total_2026_27": 2080.34,
+        "account_number": "CT202600002",
+        "payment_reference": "CT202600002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_000_003",
+        "label": "3 Leeds Road, Bradford, BD2 3BH",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 8.68,
+        "annual_total_2026_27": 2341.73,
+        "account_number": "CT202600003",
+        "payment_reference": "CT202600003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_000_004",
+        "label": "4 Great Horton Road, Bradford, BD2 3BH",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 10.85,
+        "annual_total_2026_27": 2862.36,
+        "account_number": "CT202600004",
+        "payment_reference": "CT202600004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD3 6CO",
+    "addresses": [
+      {
+        "id": "ct_001_001",
+        "label": "4 Manningham Lane, Bradford, BD3 6CO",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 13.02,
+        "annual_total_2026_27": 2086.85,
+        "account_number": "CT202601001",
+        "payment_reference": "CT202601001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_001_002",
+        "label": "5 Leeds Road, Bradford, BD3 6CO",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 17.36,
+        "annual_total_2026_27": 2350.41,
+        "account_number": "CT202601002",
+        "payment_reference": "CT202601002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_001_003",
+        "label": "6 Great Horton Road, Bradford, BD3 6CO",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 21.7,
+        "annual_total_2026_27": 2873.21,
+        "account_number": "CT202601003",
+        "payment_reference": "CT202601003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_001_004",
+        "label": "7 Oak Avenue, Bradford, BD3 6CO",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 26.04,
+        "annual_total_2026_27": 3396.0,
+        "account_number": "CT202601004",
+        "payment_reference": "CT202601004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_001_005",
+        "label": "8 Park Crescent, Bradford, BD3 6CO",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 30.38,
+        "annual_total_2026_27": 3918.8,
+        "account_number": "CT202601005",
+        "payment_reference": "CT202601005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD4 9DB",
+    "addresses": [
+      {
+        "id": "ct_002_001",
+        "label": "7 Leeds Road, Bradford, BD4 9DB",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 26.04,
+        "annual_total_2026_27": 2359.09,
+        "account_number": "CT202602001",
+        "payment_reference": "CT202602001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_002_002",
+        "label": "8 Great Horton Road, Bradford, BD4 9DB",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 32.55,
+        "annual_total_2026_27": 2884.06,
+        "account_number": "CT202602002",
+        "payment_reference": "CT202602002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_002_003",
+        "label": "9 Oak Avenue, Bradford, BD4 9DB",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 39.06,
+        "annual_total_2026_27": 3409.02,
+        "account_number": "CT202602003",
+        "payment_reference": "CT202602003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_002_004",
+        "label": "10 Park Crescent, Bradford, BD4 9DB",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 45.57,
+        "annual_total_2026_27": 3933.99,
+        "account_number": "CT202602004",
+        "payment_reference": "CT202602004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD5 2EI",
+    "addresses": [
+      {
+        "id": "ct_003_001",
+        "label": "10 Great Horton Road, Bradford, BD5 2EI",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 43.4,
+        "annual_total_2026_27": 2894.91,
+        "account_number": "CT202603001",
+        "payment_reference": "CT202603001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_003_002",
+        "label": "11 Oak Avenue, Bradford, BD5 2EI",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 52.08,
+        "annual_total_2026_27": 3422.04,
+        "account_number": "CT202603002",
+        "payment_reference": "CT202603002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_003_003",
+        "label": "12 Park Crescent, Bradford, BD5 2EI",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 60.76,
+        "annual_total_2026_27": 3949.18,
+        "account_number": "CT202603003",
+        "payment_reference": "CT202603003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_003_004",
+        "label": "13 Valley Road, Bradford, BD5 2EI",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 69.44,
+        "annual_total_2026_27": 4735.54,
+        "account_number": "CT202603004",
+        "payment_reference": "CT202603004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_003_005",
+        "label": "14 North Street, Bradford, BD5 2EI",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 8.68,
+        "annual_total_2026_27": 1564.05,
+        "account_number": "CT202603005",
+        "payment_reference": "CT202603005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD6 5FP",
+    "addresses": [
+      {
+        "id": "ct_004_001",
+        "label": "13 Oak Avenue, Bradford, BD6 5FP",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 65.1,
+        "annual_total_2026_27": 3435.06,
+        "account_number": "CT202604001",
+        "payment_reference": "CT202604001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_004_002",
+        "label": "14 Park Crescent, Bradford, BD6 5FP",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 75.95,
+        "annual_total_2026_27": 3964.37,
+        "account_number": "CT202604002",
+        "payment_reference": "CT202604002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_004_003",
+        "label": "15 Valley Road, Bradford, BD6 5FP",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 86.8,
+        "annual_total_2026_27": 4752.9,
+        "account_number": "CT202604003",
+        "payment_reference": "CT202604003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_004_004",
+        "label": "16 North Street, Bradford, BD6 5FP",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 10.85,
+        "annual_total_2026_27": 1566.22,
+        "account_number": "CT202604004",
+        "payment_reference": "CT202604004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD7 8GC",
+    "addresses": [
+      {
+        "id": "ct_005_001",
+        "label": "16 Park Crescent, Bradford, BD7 8GC",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 15.19,
+        "annual_total_2026_27": 3903.61,
+        "account_number": "CT202605001",
+        "payment_reference": "CT202605001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_005_002",
+        "label": "17 Valley Road, Bradford, BD7 8GC",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 17.36,
+        "annual_total_2026_27": 4683.46,
+        "account_number": "CT202605002",
+        "payment_reference": "CT202605002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_005_003",
+        "label": "18 North Street, Bradford, BD7 8GC",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 2.17,
+        "annual_total_2026_27": 1557.54,
+        "account_number": "CT202605003",
+        "payment_reference": "CT202605003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_005_004",
+        "label": "19 Southfield Lane, Bradford, BD7 8GC",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 1814.59,
+        "account_number": "CT202605004",
+        "payment_reference": "CT202605004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_005_005",
+        "label": "20 Meadow View, Bradford, BD7 8GC",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 6.51,
+        "annual_total_2026_27": 2080.34,
+        "account_number": "CT202605005",
+        "payment_reference": "CT202605005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD8 1HJ",
+    "addresses": [
+      {
+        "id": "ct_006_001",
+        "label": "19 Valley Road, Bradford, BD8 1HJ",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 34.72,
+        "annual_total_2026_27": 4700.82,
+        "account_number": "CT202606001",
+        "payment_reference": "CT202606001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_006_002",
+        "label": "20 North Street, Bradford, BD8 1HJ",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 4.34,
+        "annual_total_2026_27": 1559.71,
+        "account_number": "CT202606002",
+        "payment_reference": "CT202606002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_006_003",
+        "label": "21 Southfield Lane, Bradford, BD8 1HJ",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 1814.59,
+        "account_number": "CT202606003",
+        "payment_reference": "CT202606003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_006_004",
+        "label": "22 Meadow View, Bradford, BD8 1HJ",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 13.02,
+        "annual_total_2026_27": 2086.85,
+        "account_number": "CT202606004",
+        "payment_reference": "CT202606004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD9 4IQ",
+    "addresses": [
+      {
+        "id": "ct_007_001",
+        "label": "22 North Street, Bradford, BD9 4IQ",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 6.51,
+        "annual_total_2026_27": 1561.88,
+        "account_number": "CT202607001",
+        "payment_reference": "CT202607001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_007_002",
+        "label": "23 Southfield Lane, Bradford, BD9 4IQ",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 1814.59,
+        "account_number": "CT202607002",
+        "payment_reference": "CT202607002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_007_003",
+        "label": "24 Meadow View, Bradford, BD9 4IQ",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 19.53,
+        "annual_total_2026_27": 2093.36,
+        "account_number": "CT202607003",
+        "payment_reference": "CT202607003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_007_004",
+        "label": "25 Westgate, Bradford, BD9 4IQ",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 26.04,
+        "annual_total_2026_27": 2359.09,
+        "account_number": "CT202607004",
+        "payment_reference": "CT202607004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_007_005",
+        "label": "26 Cedar Grove, Bradford, BD9 4IQ",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 32.55,
+        "annual_total_2026_27": 2884.06,
+        "account_number": "CT202607005",
+        "payment_reference": "CT202607005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD10 7JD",
+    "addresses": [
+      {
+        "id": "ct_008_001",
+        "label": "25 Southfield Lane, Bradford, BD10 7JD",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 1814.59,
+        "account_number": "CT202608001",
+        "payment_reference": "CT202608001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_008_002",
+        "label": "26 Meadow View, Bradford, BD10 7JD",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 26.04,
+        "annual_total_2026_27": 2099.87,
+        "account_number": "CT202608002",
+        "payment_reference": "CT202608002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_008_003",
+        "label": "27 Westgate, Bradford, BD10 7JD",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 34.72,
+        "annual_total_2026_27": 2367.77,
+        "account_number": "CT202608003",
+        "payment_reference": "CT202608003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_008_004",
+        "label": "28 Cedar Grove, Bradford, BD10 7JD",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 43.4,
+        "annual_total_2026_27": 2894.91,
+        "account_number": "CT202608004",
+        "payment_reference": "CT202608004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD1 0KK",
+    "addresses": [
+      {
+        "id": "ct_009_001",
+        "label": "28 Meadow View, Bradford, BD1 0KK",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 32.55,
+        "annual_total_2026_27": 2106.38,
+        "account_number": "CT202609001",
+        "payment_reference": "CT202609001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_009_002",
+        "label": "29 Westgate, Bradford, BD1 0KK",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 43.4,
+        "annual_total_2026_27": 2376.45,
+        "account_number": "CT202609002",
+        "payment_reference": "CT202609002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_009_003",
+        "label": "30 Cedar Grove, Bradford, BD1 0KK",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 54.25,
+        "annual_total_2026_27": 2905.76,
+        "account_number": "CT202609003",
+        "payment_reference": "CT202609003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_009_004",
+        "label": "31 Hill Top Road, Bradford, BD1 0KK",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 65.1,
+        "annual_total_2026_27": 3435.06,
+        "account_number": "CT202609004",
+        "payment_reference": "CT202609004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_009_005",
+        "label": "32 University Avenue, Bradford, BD1 0KK",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 75.95,
+        "annual_total_2026_27": 3964.37,
+        "account_number": "CT202609005",
+        "payment_reference": "CT202609005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD2 3LR",
+    "addresses": [
+      {
+        "id": "ct_010_001",
+        "label": "31 Westgate, Bradford, BD2 3LR",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 8.68,
+        "annual_total_2026_27": 2341.73,
+        "account_number": "CT202610001",
+        "payment_reference": "CT202610001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_010_002",
+        "label": "32 Cedar Grove, Bradford, BD2 3LR",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 10.85,
+        "annual_total_2026_27": 2862.36,
+        "account_number": "CT202610002",
+        "payment_reference": "CT202610002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_010_003",
+        "label": "33 Hill Top Road, Bradford, BD2 3LR",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 13.02,
+        "annual_total_2026_27": 3382.98,
+        "account_number": "CT202610003",
+        "payment_reference": "CT202610003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_010_004",
+        "label": "34 University Avenue, Bradford, BD2 3LR",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 15.19,
+        "annual_total_2026_27": 3903.61,
+        "account_number": "CT202610004",
+        "payment_reference": "CT202610004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD3 6ME",
+    "addresses": [
+      {
+        "id": "ct_011_001",
+        "label": "34 Cedar Grove, Bradford, BD3 6ME",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 21.7,
+        "annual_total_2026_27": 2873.21,
+        "account_number": "CT202611001",
+        "payment_reference": "CT202611001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_011_002",
+        "label": "35 Hill Top Road, Bradford, BD3 6ME",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 26.04,
+        "annual_total_2026_27": 3396.0,
+        "account_number": "CT202611002",
+        "payment_reference": "CT202611002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_011_003",
+        "label": "36 University Avenue, Bradford, BD3 6ME",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 30.38,
+        "annual_total_2026_27": 3918.8,
+        "account_number": "CT202611003",
+        "payment_reference": "CT202611003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_011_004",
+        "label": "37 Canterbury Drive, Bradford, BD3 6ME",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 34.72,
+        "annual_total_2026_27": 4700.82,
+        "account_number": "CT202611004",
+        "payment_reference": "CT202611004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_011_005",
+        "label": "38 Ashfield Close, Bradford, BD3 6ME",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 4.34,
+        "annual_total_2026_27": 1559.71,
+        "account_number": "CT202611005",
+        "payment_reference": "CT202611005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD4 9NL",
+    "addresses": [
+      {
+        "id": "ct_012_001",
+        "label": "37 Hill Top Road, Bradford, BD4 9NL",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 39.06,
+        "annual_total_2026_27": 3409.02,
+        "account_number": "CT202612001",
+        "payment_reference": "CT202612001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_012_002",
+        "label": "38 University Avenue, Bradford, BD4 9NL",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 45.57,
+        "annual_total_2026_27": 3933.99,
+        "account_number": "CT202612002",
+        "payment_reference": "CT202612002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_012_003",
+        "label": "39 Canterbury Drive, Bradford, BD4 9NL",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 52.08,
+        "annual_total_2026_27": 4718.18,
+        "account_number": "CT202612003",
+        "payment_reference": "CT202612003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_012_004",
+        "label": "40 Ashfield Close, Bradford, BD4 9NL",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 6.51,
+        "annual_total_2026_27": 1561.88,
+        "account_number": "CT202612004",
+        "payment_reference": "CT202612004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD5 2OS",
+    "addresses": [
+      {
+        "id": "ct_013_001",
+        "label": "40 University Avenue, Bradford, BD5 2OS",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 60.76,
+        "annual_total_2026_27": 3949.18,
+        "account_number": "CT202613001",
+        "payment_reference": "CT202613001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_013_002",
+        "label": "41 Canterbury Drive, Bradford, BD5 2OS",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 69.44,
+        "annual_total_2026_27": 4735.54,
+        "account_number": "CT202613002",
+        "payment_reference": "CT202613002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_013_003",
+        "label": "42 Ashfield Close, Bradford, BD5 2OS",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 8.68,
+        "annual_total_2026_27": 1564.05,
+        "account_number": "CT202613003",
+        "payment_reference": "CT202613003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_013_004",
+        "label": "43 Rose Lane, Bradford, BD5 2OS",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 17.36,
+        "annual_total_2026_27": 1831.95,
+        "account_number": "CT202613004",
+        "payment_reference": "CT202613004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_013_005",
+        "label": "44 Maple Court, Bradford, BD5 2OS",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 2073.83,
+        "account_number": "CT202613005",
+        "payment_reference": "CT202613005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD6 5PF",
+    "addresses": [
+      {
+        "id": "ct_014_001",
+        "label": "43 Canterbury Drive, Bradford, BD6 5PF",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 86.8,
+        "annual_total_2026_27": 4752.9,
+        "account_number": "CT202614001",
+        "payment_reference": "CT202614001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_014_002",
+        "label": "44 Ashfield Close, Bradford, BD6 5PF",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 10.85,
+        "annual_total_2026_27": 1566.22,
+        "account_number": "CT202614002",
+        "payment_reference": "CT202614002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_014_003",
+        "label": "45 Rose Lane, Bradford, BD6 5PF",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 21.7,
+        "annual_total_2026_27": 1836.29,
+        "account_number": "CT202614003",
+        "payment_reference": "CT202614003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_014_004",
+        "label": "46 Maple Court, Bradford, BD6 5PF",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 2073.83,
+        "account_number": "CT202614004",
+        "payment_reference": "CT202614004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD7 8QM",
+    "addresses": [
+      {
+        "id": "ct_015_001",
+        "label": "46 Ashfield Close, Bradford, BD7 8QM",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 2.17,
+        "annual_total_2026_27": 1557.54,
+        "account_number": "CT202615001",
+        "payment_reference": "CT202615001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_015_002",
+        "label": "47 Rose Lane, Bradford, BD7 8QM",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 4.34,
+        "annual_total_2026_27": 1818.93,
+        "account_number": "CT202615002",
+        "payment_reference": "CT202615002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_015_003",
+        "label": "48 Maple Court, Bradford, BD7 8QM",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 2073.83,
+        "account_number": "CT202615003",
+        "payment_reference": "CT202615003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_015_004",
+        "label": "49 Station Road, Bradford, BD7 8QM",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 8.68,
+        "annual_total_2026_27": 2341.73,
+        "account_number": "CT202615004",
+        "payment_reference": "CT202615004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_015_005",
+        "label": "50 Albion Street, Bradford, BD7 8QM",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 10.85,
+        "annual_total_2026_27": 2862.36,
+        "account_number": "CT202615005",
+        "payment_reference": "CT202615005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD8 1RT",
+    "addresses": [
+      {
+        "id": "ct_016_001",
+        "label": "49 Rose Lane, Bradford, BD8 1RT",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 8.68,
+        "annual_total_2026_27": 1823.27,
+        "account_number": "CT202616001",
+        "payment_reference": "CT202616001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_016_002",
+        "label": "50 Maple Court, Bradford, BD8 1RT",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 2073.83,
+        "account_number": "CT202616002",
+        "payment_reference": "CT202616002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_016_003",
+        "label": "51 Station Road, Bradford, BD8 1RT",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 17.36,
+        "annual_total_2026_27": 2350.41,
+        "account_number": "CT202616003",
+        "payment_reference": "CT202616003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_016_004",
+        "label": "52 Albion Street, Bradford, BD8 1RT",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 21.7,
+        "annual_total_2026_27": 2873.21,
+        "account_number": "CT202616004",
+        "payment_reference": "CT202616004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD9 4SG",
+    "addresses": [
+      {
+        "id": "ct_017_001",
+        "label": "52 Maple Court, Bradford, BD9 4SG",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 2073.83,
+        "account_number": "CT202617001",
+        "payment_reference": "CT202617001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_017_002",
+        "label": "53 Station Road, Bradford, BD9 4SG",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 26.04,
+        "annual_total_2026_27": 2359.09,
+        "account_number": "CT202617002",
+        "payment_reference": "CT202617002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_017_003",
+        "label": "54 Albion Street, Bradford, BD9 4SG",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 32.55,
+        "annual_total_2026_27": 2884.06,
+        "account_number": "CT202617003",
+        "payment_reference": "CT202617003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_017_004",
+        "label": "55 Canal Road, Bradford, BD9 4SG",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 39.06,
+        "annual_total_2026_27": 3409.02,
+        "account_number": "CT202617004",
+        "payment_reference": "CT202617004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_017_005",
+        "label": "56 Manningham Lane, Bradford, BD9 4SG",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 45.57,
+        "annual_total_2026_27": 3933.99,
+        "account_number": "CT202617005",
+        "payment_reference": "CT202617005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD10 7TN",
+    "addresses": [
+      {
+        "id": "ct_018_001",
+        "label": "55 Station Road, Bradford, BD10 7TN",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 34.72,
+        "annual_total_2026_27": 2367.77,
+        "account_number": "CT202618001",
+        "payment_reference": "CT202618001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_018_002",
+        "label": "56 Albion Street, Bradford, BD10 7TN",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 43.4,
+        "annual_total_2026_27": 2894.91,
+        "account_number": "CT202618002",
+        "payment_reference": "CT202618002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_018_003",
+        "label": "57 Canal Road, Bradford, BD10 7TN",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 52.08,
+        "annual_total_2026_27": 3422.04,
+        "account_number": "CT202618003",
+        "payment_reference": "CT202618003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_018_004",
+        "label": "58 Manningham Lane, Bradford, BD10 7TN",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 60.76,
+        "annual_total_2026_27": 3949.18,
+        "account_number": "CT202618004",
+        "payment_reference": "CT202618004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD1 0AA",
+    "addresses": [
+      {
+        "id": "ct_019_001",
+        "label": "58 Albion Street, Bradford, BD1 0AA",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 54.25,
+        "annual_total_2026_27": 2905.76,
+        "account_number": "CT202619001",
+        "payment_reference": "CT202619001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_019_002",
+        "label": "59 Canal Road, Bradford, BD1 0AA",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 65.1,
+        "annual_total_2026_27": 3435.06,
+        "account_number": "CT202619002",
+        "payment_reference": "CT202619002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_019_003",
+        "label": "60 Manningham Lane, Bradford, BD1 0AA",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 75.95,
+        "annual_total_2026_27": 3964.37,
+        "account_number": "CT202619003",
+        "payment_reference": "CT202619003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_019_004",
+        "label": "61 Leeds Road, Bradford, BD1 0AA",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 86.8,
+        "annual_total_2026_27": 4752.9,
+        "account_number": "CT202619004",
+        "payment_reference": "CT202619004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_019_005",
+        "label": "62 Great Horton Road, Bradford, BD1 0AA",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 10.85,
+        "annual_total_2026_27": 1566.22,
+        "account_number": "CT202619005",
+        "payment_reference": "CT202619005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD2 3BH",
+    "addresses": [
+      {
+        "id": "ct_020_001",
+        "label": "61 Canal Road, Bradford, BD2 3BH",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 13.02,
+        "annual_total_2026_27": 3382.98,
+        "account_number": "CT202620001",
+        "payment_reference": "CT202620001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_020_002",
+        "label": "62 Manningham Lane, Bradford, BD2 3BH",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 15.19,
+        "annual_total_2026_27": 3903.61,
+        "account_number": "CT202620002",
+        "payment_reference": "CT202620002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_020_003",
+        "label": "63 Leeds Road, Bradford, BD2 3BH",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 17.36,
+        "annual_total_2026_27": 4683.46,
+        "account_number": "CT202620003",
+        "payment_reference": "CT202620003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_020_004",
+        "label": "64 Great Horton Road, Bradford, BD2 3BH",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 2.17,
+        "annual_total_2026_27": 1557.54,
+        "account_number": "CT202620004",
+        "payment_reference": "CT202620004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD3 6CO",
+    "addresses": [
+      {
+        "id": "ct_021_001",
+        "label": "64 Manningham Lane, Bradford, BD3 6CO",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 30.38,
+        "annual_total_2026_27": 3918.8,
+        "account_number": "CT202621001",
+        "payment_reference": "CT202621001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_021_002",
+        "label": "65 Leeds Road, Bradford, BD3 6CO",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 34.72,
+        "annual_total_2026_27": 4700.82,
+        "account_number": "CT202621002",
+        "payment_reference": "CT202621002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_021_003",
+        "label": "66 Great Horton Road, Bradford, BD3 6CO",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 4.34,
+        "annual_total_2026_27": 1559.71,
+        "account_number": "CT202621003",
+        "payment_reference": "CT202621003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_021_004",
+        "label": "67 Oak Avenue, Bradford, BD3 6CO",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 8.68,
+        "annual_total_2026_27": 1823.27,
+        "account_number": "CT202621004",
+        "payment_reference": "CT202621004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_021_005",
+        "label": "68 Park Crescent, Bradford, BD3 6CO",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 13.02,
+        "annual_total_2026_27": 2086.85,
+        "account_number": "CT202621005",
+        "payment_reference": "CT202621005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD4 9DB",
+    "addresses": [
+      {
+        "id": "ct_022_001",
+        "label": "67 Leeds Road, Bradford, BD4 9DB",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 52.08,
+        "annual_total_2026_27": 4718.18,
+        "account_number": "CT202622001",
+        "payment_reference": "CT202622001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_022_002",
+        "label": "68 Great Horton Road, Bradford, BD4 9DB",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 6.51,
+        "annual_total_2026_27": 1561.88,
+        "account_number": "CT202622002",
+        "payment_reference": "CT202622002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_022_003",
+        "label": "69 Oak Avenue, Bradford, BD4 9DB",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 13.02,
+        "annual_total_2026_27": 1827.61,
+        "account_number": "CT202622003",
+        "payment_reference": "CT202622003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_022_004",
+        "label": "70 Park Crescent, Bradford, BD4 9DB",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 19.53,
+        "annual_total_2026_27": 2093.36,
+        "account_number": "CT202622004",
+        "payment_reference": "CT202622004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD5 2EI",
+    "addresses": [
+      {
+        "id": "ct_023_001",
+        "label": "70 Great Horton Road, Bradford, BD5 2EI",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 8.68,
+        "annual_total_2026_27": 1564.05,
+        "account_number": "CT202623001",
+        "payment_reference": "CT202623001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_023_002",
+        "label": "71 Oak Avenue, Bradford, BD5 2EI",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 17.36,
+        "annual_total_2026_27": 1831.95,
+        "account_number": "CT202623002",
+        "payment_reference": "CT202623002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_023_003",
+        "label": "72 Park Crescent, Bradford, BD5 2EI",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 26.04,
+        "annual_total_2026_27": 2099.87,
+        "account_number": "CT202623003",
+        "payment_reference": "CT202623003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_023_004",
+        "label": "73 Valley Road, Bradford, BD5 2EI",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 2333.05,
+        "account_number": "CT202623004",
+        "payment_reference": "CT202623004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_023_005",
+        "label": "74 North Street, Bradford, BD5 2EI",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 43.4,
+        "annual_total_2026_27": 2894.91,
+        "account_number": "CT202623005",
+        "payment_reference": "CT202623005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD6 5FP",
+    "addresses": [
+      {
+        "id": "ct_024_001",
+        "label": "73 Oak Avenue, Bradford, BD6 5FP",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 21.7,
+        "annual_total_2026_27": 1836.29,
+        "account_number": "CT202624001",
+        "payment_reference": "CT202624001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_024_002",
+        "label": "74 Park Crescent, Bradford, BD6 5FP",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 32.55,
+        "annual_total_2026_27": 2106.38,
+        "account_number": "CT202624002",
+        "payment_reference": "CT202624002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_024_003",
+        "label": "75 Valley Road, Bradford, BD6 5FP",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 2333.05,
+        "account_number": "CT202624003",
+        "payment_reference": "CT202624003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_024_004",
+        "label": "76 North Street, Bradford, BD6 5FP",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 54.25,
+        "annual_total_2026_27": 2905.76,
+        "account_number": "CT202624004",
+        "payment_reference": "CT202624004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD7 8GC",
+    "addresses": [
+      {
+        "id": "ct_025_001",
+        "label": "76 Park Crescent, Bradford, BD7 8GC",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Wrose",
+        "parish_precept_additional": 6.51,
+        "annual_total_2026_27": 2080.34,
+        "account_number": "CT202625001",
+        "payment_reference": "CT202625001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_025_002",
+        "label": "77 Valley Road, Bradford, BD7 8GC",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 2333.05,
+        "account_number": "CT202625002",
+        "payment_reference": "CT202625002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_025_003",
+        "label": "78 North Street, Bradford, BD7 8GC",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 10.85,
+        "annual_total_2026_27": 2862.36,
+        "account_number": "CT202625003",
+        "payment_reference": "CT202625003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_025_004",
+        "label": "79 Southfield Lane, Bradford, BD7 8GC",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 13.02,
+        "annual_total_2026_27": 3382.98,
+        "account_number": "CT202625004",
+        "payment_reference": "CT202625004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_025_005",
+        "label": "80 Meadow View, Bradford, BD7 8GC",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 15.19,
+        "annual_total_2026_27": 3903.61,
+        "account_number": "CT202625005",
+        "payment_reference": "CT202625005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD8 1HJ",
+    "addresses": [
+      {
+        "id": "ct_026_001",
+        "label": "79 Valley Road, Bradford, BD8 1HJ",
+        "band": "D",
+        "standard_amount_2026_27": 2333.05,
+        "parish_area": "Bradford (no parish precept)",
+        "parish_precept_additional": 0.0,
+        "annual_total_2026_27": 2333.05,
+        "account_number": "CT202626001",
+        "payment_reference": "CT202626001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_026_002",
+        "label": "80 North Street, Bradford, BD8 1HJ",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 21.7,
+        "annual_total_2026_27": 2873.21,
+        "account_number": "CT202626002",
+        "payment_reference": "CT202626002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_026_003",
+        "label": "81 Southfield Lane, Bradford, BD8 1HJ",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 26.04,
+        "annual_total_2026_27": 3396.0,
+        "account_number": "CT202626003",
+        "payment_reference": "CT202626003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_026_004",
+        "label": "82 Meadow View, Bradford, BD8 1HJ",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 30.38,
+        "annual_total_2026_27": 3918.8,
+        "account_number": "CT202626004",
+        "payment_reference": "CT202626004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD9 4IQ",
+    "addresses": [
+      {
+        "id": "ct_027_001",
+        "label": "82 North Street, Bradford, BD9 4IQ",
+        "band": "E",
+        "standard_amount_2026_27": 2851.51,
+        "parish_area": "Baildon",
+        "parish_precept_additional": 32.55,
+        "annual_total_2026_27": 2884.06,
+        "account_number": "CT202627001",
+        "payment_reference": "CT202627001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_027_002",
+        "label": "83 Southfield Lane, Bradford, BD9 4IQ",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 39.06,
+        "annual_total_2026_27": 3409.02,
+        "account_number": "CT202627002",
+        "payment_reference": "CT202627002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_027_003",
+        "label": "84 Meadow View, Bradford, BD9 4IQ",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 45.57,
+        "annual_total_2026_27": 3933.99,
+        "account_number": "CT202627003",
+        "payment_reference": "CT202627003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_027_004",
+        "label": "85 Westgate, Bradford, BD9 4IQ",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 52.08,
+        "annual_total_2026_27": 4718.18,
+        "account_number": "CT202627004",
+        "payment_reference": "CT202627004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_027_005",
+        "label": "86 Cedar Grove, Bradford, BD9 4IQ",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 6.51,
+        "annual_total_2026_27": 1561.88,
+        "account_number": "CT202627005",
+        "payment_reference": "CT202627005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD10 7JD",
+    "addresses": [
+      {
+        "id": "ct_028_001",
+        "label": "85 Southfield Lane, Bradford, BD10 7JD",
+        "band": "F",
+        "standard_amount_2026_27": 3369.96,
+        "parish_area": "Bingley",
+        "parish_precept_additional": 52.08,
+        "annual_total_2026_27": 3422.04,
+        "account_number": "CT202628001",
+        "payment_reference": "CT202628001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_028_002",
+        "label": "86 Meadow View, Bradford, BD10 7JD",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 60.76,
+        "annual_total_2026_27": 3949.18,
+        "account_number": "CT202628002",
+        "payment_reference": "CT202628002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_028_003",
+        "label": "87 Westgate, Bradford, BD10 7JD",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 69.44,
+        "annual_total_2026_27": 4735.54,
+        "account_number": "CT202628003",
+        "payment_reference": "CT202628003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_028_004",
+        "label": "88 Cedar Grove, Bradford, BD10 7JD",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 8.68,
+        "annual_total_2026_27": 1564.05,
+        "account_number": "CT202628004",
+        "payment_reference": "CT202628004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  },
+  {
+    "postcode": "BD1 0KK",
+    "addresses": [
+      {
+        "id": "ct_029_001",
+        "label": "88 Meadow View, Bradford, BD1 0KK",
+        "band": "G",
+        "standard_amount_2026_27": 3888.42,
+        "parish_area": "Clayton",
+        "parish_precept_additional": 75.95,
+        "annual_total_2026_27": 3964.37,
+        "account_number": "CT202629001",
+        "payment_reference": "CT202629001",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_029_002",
+        "label": "89 Westgate, Bradford, BD1 0KK",
+        "band": "H",
+        "standard_amount_2026_27": 4666.1,
+        "parish_area": "Haworth and Stanbury",
+        "parish_precept_additional": 86.8,
+        "annual_total_2026_27": 4752.9,
+        "account_number": "CT202629002",
+        "payment_reference": "CT202629002",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_029_003",
+        "label": "90 Cedar Grove, Bradford, BD1 0KK",
+        "band": "A",
+        "standard_amount_2026_27": 1555.37,
+        "parish_area": "Ilkley",
+        "parish_precept_additional": 10.85,
+        "annual_total_2026_27": 1566.22,
+        "account_number": "CT202629003",
+        "payment_reference": "CT202629003",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_029_004",
+        "label": "91 Hill Top Road, Bradford, BD1 0KK",
+        "band": "B",
+        "standard_amount_2026_27": 1814.59,
+        "parish_area": "Keighley",
+        "parish_precept_additional": 21.7,
+        "annual_total_2026_27": 1836.29,
+        "account_number": "CT202629004",
+        "payment_reference": "CT202629004",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      },
+      {
+        "id": "ct_029_005",
+        "label": "92 University Avenue, Bradford, BD1 0KK",
+        "band": "C",
+        "standard_amount_2026_27": 2073.83,
+        "parish_area": "Shipley",
+        "parish_precept_additional": 32.55,
+        "annual_total_2026_27": 2106.38,
+        "account_number": "CT202629005",
+        "payment_reference": "CT202629005",
+        "source_url": "https://www.bradford.gov.uk/council-tax/council-tax-bills/council-tax-bands-and-amounts/"
+      }
+    ]
+  }
+]

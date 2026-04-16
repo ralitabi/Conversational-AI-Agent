@@ -1,0 +1,42 @@
+{"text": "how do i apply for a blue badge in bradford", "intent": "blue_badge_apply", "service": "blue_badge"}
+{"text": "what documents do i need for blue badge application", "intent": "blue_badge_apply", "service": "blue_badge"}
+{"text": "how long does blue badge take to process", "intent": "blue_badge_apply", "service": "blue_badge"}
+{"text": "apply for disabled parking badge online", "intent": "blue_badge_apply", "service": "blue_badge"}
+{"text": "where can i apply for blue badge", "intent": "blue_badge_apply", "service": "blue_badge"}
+{"text": "blue badge application form bradford", "intent": "blue_badge_apply", "service": "blue_badge"}
+{"text": "who is eligible for a blue badge", "intent": "blue_badge_eligibility", "service": "blue_badge"}
+{"text": "can i get blue badge with PIP higher rate", "intent": "blue_badge_eligibility", "service": "blue_badge"}
+{"text": "blue badge autism eligibility", "intent": "blue_badge_eligibility", "service": "blue_badge"}
+{"text": "do i qualify for a blue badge", "intent": "blue_badge_eligibility", "service": "blue_badge"}
+{"text": "hidden disability blue badge criteria", "intent": "blue_badge_eligibility", "service": "blue_badge"}
+{"text": "can a child apply for blue badge", "intent": "blue_badge_eligibility", "service": "blue_badge"}
+{"text": "blue badge eligibility mental health condition", "intent": "blue_badge_eligibility", "service": "blue_badge"}
+{"text": "how much does a blue badge cost", "intent": "blue_badge_cost", "service": "blue_badge"}
+{"text": "is there a fee for blue badge", "intent": "blue_badge_cost", "service": "blue_badge"}
+{"text": "blue badge price england", "intent": "blue_badge_cost", "service": "blue_badge"}
+{"text": "do i have to pay for a blue badge", "intent": "blue_badge_cost", "service": "blue_badge"}
+{"text": "how do i renew my blue badge", "intent": "blue_badge_renewal", "service": "blue_badge"}
+{"text": "my blue badge expires next month", "intent": "blue_badge_renewal", "service": "blue_badge"}
+{"text": "renew blue badge before it expires", "intent": "blue_badge_renewal", "service": "blue_badge"}
+{"text": "how long is a blue badge valid for", "intent": "blue_badge_renewal", "service": "blue_badge"}
+{"text": "my blue badge has expired what do i do", "intent": "blue_badge_renewal", "service": "blue_badge"}
+{"text": "i lost my blue badge", "intent": "blue_badge_replacement", "service": "blue_badge"}
+{"text": "blue badge was stolen", "intent": "blue_badge_replacement", "service": "blue_badge"}
+{"text": "how do i replace a damaged blue badge", "intent": "blue_badge_replacement", "service": "blue_badge"}
+{"text": "replacement blue badge bradford", "intent": "blue_badge_replacement", "service": "blue_badge"}
+{"text": "where can i park with a blue badge", "intent": "blue_badge_parking_rules", "service": "blue_badge"}
+{"text": "can i park on double yellow lines with blue badge", "intent": "blue_badge_parking_rules", "service": "blue_badge"}
+{"text": "blue badge parking concessions bradford", "intent": "blue_badge_parking_rules", "service": "blue_badge"}
+{"text": "is my blue badge valid in europe", "intent": "blue_badge_parking_rules", "service": "blue_badge"}
+{"text": "do i need a parking clock with my blue badge", "intent": "blue_badge_parking_rules", "service": "blue_badge"}
+{"text": "where am i not allowed to park with a blue badge", "intent": "blue_badge_parking_rules", "service": "blue_badge"}
+{"text": "can someone else use my blue badge to park", "intent": "blue_badge_parking_rules", "service": "blue_badge"}
+{"text": "report blue badge misuse in bradford", "intent": "blue_badge_misuse", "service": "blue_badge"}
+{"text": "someone is using a blue badge when the holder is not there", "intent": "blue_badge_misuse", "service": "blue_badge"}
+{"text": "is using an expired blue badge illegal", "intent": "blue_badge_misuse", "service": "blue_badge"}
+{"text": "blue badge fraud hotline", "intent": "blue_badge_misuse", "service": "blue_badge"}
+{"text": "my neighbour is using a dead person's blue badge", "intent": "blue_badge_misuse", "service": "blue_badge"}
+{"text": "can an organisation apply for a blue badge", "intent": "blue_badge_organisations", "service": "blue_badge"}
+{"text": "care home applying for blue badge", "intent": "blue_badge_organisations", "service": "blue_badge"}
+{"text": "how do i contact bradford about my blue badge", "intent": "blue_badge_contact", "service": "blue_badge"}
+{"text": "blue badge team phone number bradford", "intent": "blue_badge_contact", "service": "blue_badge"}

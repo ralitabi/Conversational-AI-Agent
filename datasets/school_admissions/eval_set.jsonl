@@ -1,0 +1,65 @@
+{"text": "school finder", "label": "school_finder", "service": "school_admissions"}
+{"text": "find a school", "label": "school_finder", "service": "school_admissions"}
+{"text": "find nearby schools", "label": "school_finder", "service": "school_admissions"}
+{"text": "search for a school in bradford", "label": "school_finder", "service": "school_admissions"}
+{"text": "what schools are near me", "label": "school_finder", "service": "school_admissions"}
+{"text": "show me primary schools in bingley", "label": "school_finder", "service": "school_admissions"}
+{"text": "find secondary school near shipley", "label": "school_finder", "service": "school_admissions"}
+{"text": "schools in keighley", "label": "school_finder", "service": "school_admissions"}
+{"text": "list bradford schools", "label": "school_finder", "service": "school_admissions"}
+{"text": "locate a school for my child", "label": "school_finder", "service": "school_admissions"}
+{"text": "how do i apply for a primary school place", "label": "primary_admissions", "service": "school_admissions"}
+{"text": "apply for reception place", "label": "primary_admissions", "service": "school_admissions"}
+{"text": "primary school application bradford", "label": "primary_admissions", "service": "school_admissions"}
+{"text": "my child is starting school how do i apply", "label": "primary_admissions", "service": "school_admissions"}
+{"text": "when can i apply for primary school", "label": "primary_admissions", "service": "school_admissions"}
+{"text": "how to get a primary school place", "label": "primary_admissions", "service": "school_admissions"}
+{"text": "infant school application", "label": "primary_admissions", "service": "school_admissions"}
+{"text": "register child for primary school", "label": "primary_admissions", "service": "school_admissions"}
+{"text": "how do i apply for secondary school", "label": "secondary_admissions", "service": "school_admissions"}
+{"text": "secondary school application", "label": "secondary_admissions", "service": "school_admissions"}
+{"text": "apply for year 7 place", "label": "secondary_admissions", "service": "school_admissions"}
+{"text": "my child is moving to high school", "label": "secondary_admissions", "service": "school_admissions"}
+{"text": "year 7 admissions bradford", "label": "secondary_admissions", "service": "school_admissions"}
+{"text": "how to get into secondary school", "label": "secondary_admissions", "service": "school_admissions"}
+{"text": "starting secondary school application", "label": "secondary_admissions", "service": "school_admissions"}
+{"text": "when is the school admissions deadline", "label": "school_admissions_dates", "service": "school_admissions"}
+{"text": "school application deadline", "label": "school_admissions_dates", "service": "school_admissions"}
+{"text": "when do i find out if my child got a school place", "label": "school_admissions_dates", "service": "school_admissions"}
+{"text": "key dates for school admissions", "label": "school_admissions_dates", "service": "school_admissions"}
+{"text": "when are school offer letters sent", "label": "school_admissions_dates", "service": "school_admissions"}
+{"text": "march offer day secondary", "label": "school_admissions_dates", "service": "school_admissions"}
+{"text": "april offer day primary", "label": "school_admissions_dates", "service": "school_admissions"}
+{"text": "how do i appeal a school admissions decision", "label": "school_appeals", "service": "school_admissions"}
+{"text": "school admissions appeal", "label": "school_appeals", "service": "school_admissions"}
+{"text": "my child was not offered a school place", "label": "school_appeals", "service": "school_admissions"}
+{"text": "how to appeal school rejection", "label": "school_appeals", "service": "school_admissions"}
+{"text": "i was refused a school place what can i do", "label": "school_appeals", "service": "school_admissions"}
+{"text": "school appeal process bradford", "label": "school_appeals", "service": "school_admissions"}
+{"text": "appeal admissions decision", "label": "school_appeals", "service": "school_admissions"}
+{"text": "how do i move my child to a different school", "label": "in_year_admissions", "service": "school_admissions"}
+{"text": "in year transfer bradford", "label": "in_year_admissions", "service": "school_admissions"}
+{"text": "changing school mid year", "label": "in_year_admissions", "service": "school_admissions"}
+{"text": "moved house need new school", "label": "in_year_admissions", "service": "school_admissions"}
+{"text": "apply for school place during term", "label": "in_year_admissions", "service": "school_admissions"}
+{"text": "new to bradford need a school for my child", "label": "in_year_admissions", "service": "school_admissions"}
+{"text": "in year admissions form", "label": "in_year_admissions", "service": "school_admissions"}
+{"text": "contact school admissions team", "label": "contact_admissions", "service": "school_admissions"}
+{"text": "admissions team phone number", "label": "contact_admissions", "service": "school_admissions"}
+{"text": "email school admissions bradford", "label": "contact_admissions", "service": "school_admissions"}
+{"text": "how do i contact school admissions", "label": "contact_admissions", "service": "school_admissions"}
+{"text": "speak to someone about school admissions", "label": "contact_admissions", "service": "school_admissions"}
+{"text": "how are school places allocated", "label": "school_admissions_criteria", "service": "school_admissions"}
+{"text": "school oversubscribed what happens", "label": "school_admissions_criteria", "service": "school_admissions"}
+{"text": "sibling priority school admissions", "label": "school_admissions_criteria", "service": "school_admissions"}
+{"text": "catchment area school", "label": "school_admissions_criteria", "service": "school_admissions"}
+{"text": "admissions criteria bradford schools", "label": "school_admissions_criteria", "service": "school_admissions"}
+{"text": "how do i apply for a school place", "label": "school_admissions_process", "service": "school_admissions"}
+{"text": "what is the icaf form", "label": "school_admissions_process", "service": "school_admissions"}
+{"text": "school application form bradford", "label": "school_admissions_process", "service": "school_admissions"}
+{"text": "how does admissions work", "label": "school_admissions_process", "service": "school_admissions"}
+{"text": "apply online for school bradford", "label": "school_admissions_process", "service": "school_admissions"}
+{"text": "catholic school application bradford", "label": "school_admissions_process", "service": "school_admissions"}
+{"text": "sen school admission", "label": "school_admissions_process", "service": "school_admissions"}
+{"text": "late school application missed deadline", "label": "school_admissions_process", "service": "school_admissions"}
+{"text": "what happens if i miss the school deadline", "label": "school_admissions_process", "service": "school_admissions"}

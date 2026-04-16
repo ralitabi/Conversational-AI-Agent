@@ -1,0 +1,45 @@
+{
+  "entries": [
+    {
+      "keywords": ["black bin", "black bins", "grey bin", "general waste", "non recyclable", "non-recyclable"],
+      "answer": "You can put general non-recyclable waste in your black bin, such as food waste, used tissues, nappies, polystyrene, and broken non-recyclable items. Do not put glass, paper, cardboard, plastic bottles, or garden waste in the black bin."
+    },
+    {
+      "keywords": ["blue bin", "paper", "cardboard", "plastic bottles", "cans", "tins", "recycling bin"],
+      "answer": "Your blue bin is for common household recycling such as paper, cardboard, plastic bottles, cans, tins, and other clean recyclable containers. Please keep items clean and dry where possible."
+    },
+    {
+      "keywords": ["green bin", "glass", "glass bottles", "glass jars"],
+      "answer": "Your green bin is usually for glass recycling, including glass bottles and jars. Do not put ceramics, Pyrex, oven glass, or light bulbs in the green bin."
+    },
+    {
+      "keywords": ["brown bin", "garden waste", "grass cuttings", "leaves", "branches", "hedge clippings", "weeds"],
+      "answer": "Your brown bin is for garden waste such as grass cuttings, leaves, small branches, weeds, and hedge clippings. Do not put plastic bags, soil, rubble, or general household waste in the brown bin."
+    },
+    {
+      "keywords": ["cardboard"],
+      "answer": "Cardboard should usually go in your blue recycling bin, as long as it is clean and dry."
+    },
+    {
+      "keywords": ["paper"],
+      "answer": "Paper should usually go in your blue recycling bin, as long as it is clean and dry."
+    },
+    {
+      "keywords": ["foil"],
+      "answer": "Clean kitchen foil can usually go in your blue recycling bin."
+    },
+    {
+      "keywords": ["plastic tray", "plastic trays"],
+      "answer": "Plastic trays may be accepted in recycling if they are clean. If you are unsure, please check whether the tray is clean and recyclable in your local guidance."
+    },
+    {
+      "keywords": ["food waste"],
+      "answer": "Food waste usually goes in your black bin unless your area has a separate food waste collection."
+    },
+    {
+      "keywords": ["nappy", "nappies"],
+      "answer": "Nappies should usually go in your black bin."
+    }
+  ],
+  "fallback_answer": "I could not find a bin guidance answer for that item. Please ask about a specific item or bin type, such as glass, cardboard, black bin, blue bin, brown bin, or green bin."
+}

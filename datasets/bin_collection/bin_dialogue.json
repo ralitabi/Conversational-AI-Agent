@@ -1,0 +1,58 @@
+{
+  "check_bin_day_general": {
+    "steps": [
+      "Are you asking about your usual weekly bin collection day?",
+      "Do you want to check the general collection schedule or a specific date for your address?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "report_bin_not_collected_info": {
+    "steps": [
+      "Was your bin due for collection within the last 2 working days?",
+      "Which bin was missed? (general waste, recycling, garden waste)",
+      "Was the bin placed at the collection point before the scheduled collection time?",
+      "Was the lid closed and the bin not overfilled?",
+      "Was there any contamination or incorrect items in the bin?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "service_disruption_bin": {
+    "steps": [
+      "Are you asking about a disruption affecting bin collection today or recently?",
+      "Is the issue related to weather, a delay, a strike, or another operational problem?",
+      "Do you want general information about disruptions or updates for your area?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "assisted_collection_request": {
+    "steps": [
+      "Do you need help because you cannot move your bin to the collection point yourself?",
+      "Is this due to a disability, medical condition, age, or mobility issue?",
+      "Is there anyone else in your household who can move the bin for you?",
+      "Would you like to know how to apply for assisted collection support?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "bin_collection_outside_area": {
+    "steps": [
+      "Is the property located outside the Bradford council district?",
+      "Are you trying to find which council is responsible for bin collection in that area?",
+      "Do you want general advice on how to find the correct local authority service?"
+    ],
+    "completion_mode": "rag"
+  },
+
+  "bin_recycling_guidance": {
+    "steps": [
+      "What item or material are you asking about?",
+      "Which bin are you referring to? (green, blue, brown, or general waste)",
+      "Are you trying to find out if something can be recycled or where it should go?",
+      "Would you like guidance on general recycling rules or a specific item?"
+    ],
+    "completion_mode": "rag"
+  }
+}

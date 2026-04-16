@@ -1,0 +1,110 @@
+[
+  {
+    "id": "faq_lib_001",
+    "intent": "library_membership",
+    "topic": "joining_the_library",
+    "question": "How do I join Bradford libraries?",
+    "answer": "Joining Bradford libraries is completely free for anyone who lives, works, or studies in the Bradford district. You can join online at the Bradford Council website or in person at any branch. When joining online you will be sent a temporary membership number straight away so you can start using digital services immediately. When you visit a library in person, staff will issue you a library card on the spot. You will need to bring proof of your name and address, such as a utility bill or bank statement. Your library card gives you access to all Bradford libraries and lets you borrow up to 12 items at a time.",
+    "keywords": ["join library", "library card", "library membership", "how to join", "sign up library", "get a library card", "free membership", "library registration"],
+    "source_url": "https://www.bradford.gov.uk/libraries/join-the-library/"
+  },
+  {
+    "id": "faq_lib_002",
+    "intent": "library_catalogue",
+    "topic": "searching_the_catalogue",
+    "question": "Can I search and reserve books online?",
+    "answer": "Yes, Bradford Council provides an online catalogue where you can search the full stock of all Bradford libraries, reserve items, and manage your account. The catalogue is available at https://bradford.ent.sirsidynix.net.uk/client/en_GB/default. You can search for books, DVDs, audiobooks, and other items, then request them to be transferred to your local branch for collection. You will be notified when your reservation is ready to collect. A small reservation fee may apply for some items transferred between branches.",
+    "keywords": ["search books", "reserve a book", "library catalogue", "book online", "online catalogue", "find a book", "reserve items", "order books"],
+    "source_url": "https://bradford.ent.sirsidynix.net.uk/client/en_GB/default"
+  },
+  {
+    "id": "faq_lib_003",
+    "intent": "library_catalogue",
+    "topic": "renewing_books",
+    "question": "How do I renew my library books?",
+    "answer": "You can renew your library loans in three ways: online through the catalogue at https://bradford.ent.sirsidynix.net.uk/client/en_GB/default, by telephone at your local branch, or in person at any Bradford library. Standard loan items can be borrowed for up to six weeks. You can usually renew an item up to three times unless another borrower has reserved it. Items can be returned to any Bradford library, not just the one you borrowed from. If you are unsure whether you can renew an item, contact your local branch for advice.",
+    "keywords": ["renew books", "renew library books", "renew loan", "library renewal", "extend borrowing", "return library books", "overdue library books"],
+    "source_url": "https://bradford.ent.sirsidynix.net.uk/client/en_GB/default"
+  },
+  {
+    "id": "faq_lib_004",
+    "intent": "library_catalogue",
+    "topic": "ebooks_and_eaudio",
+    "question": "Are there eBooks and eAudio books available from Bradford libraries?",
+    "answer": "Yes, Bradford library members can borrow eBooks and eAudio books for free using the BorrowBox app. BorrowBox is available to download on any smartphone, tablet, or computer. You log in using your library card number and PIN. Once logged in you can browse thousands of eBooks and eAudio titles and borrow them instantly with no waiting — there are no late fees and items expire automatically when the loan period ends. This service is included free with your Bradford library membership. Visit the Bradford Council libraries website for a link to download BorrowBox.",
+    "keywords": ["ebook", "ebooks", "eaudio", "audiobook", "digital books", "borrowbox", "download books", "read online", "borrow digital", "online books"],
+    "source_url": "https://www.bradford.gov.uk/libraries/borrowing/ebooks-and-eaudio/"
+  },
+  {
+    "id": "faq_lib_005",
+    "intent": "library_events",
+    "topic": "library_events_and_activities",
+    "question": "What events and activities do Bradford libraries run?",
+    "answer": "Bradford libraries run a wide range of events and activities across their branches. Regular children's activities include storytime sessions, rhymetime for toddlers, and after-school clubs. Adults can enjoy book groups, craft sessions, knit-and-natter groups, chess clubs, digital skills workshops, and local history talks. Many libraries also host one-off events such as author visits, art exhibitions, and community health and wellbeing sessions. Events vary by branch and some require booking in advance. Check the Bradford Council website or contact your local library for the current programme in your area.",
+    "keywords": ["library events", "activities", "storytime", "book group", "craft", "chess club", "digital skills", "rhymetime", "children activities", "what's on"],
+    "source_url": "https://www.bradford.gov.uk/libraries/library-events-and-activities/"
+  },
+  {
+    "id": "faq_lib_006",
+    "intent": "library_membership",
+    "topic": "free_membership",
+    "question": "Is it free to join Bradford libraries?",
+    "answer": "Yes, joining Bradford libraries is completely free. There is no annual fee or membership charge. The service is available free of charge to anyone who lives, works, or studies in the Bradford metropolitan district. Children can also join for free. Once you have a library card you can borrow books, DVDs, and audiobooks, access computers and wifi at branch libraries, and use digital services such as BorrowBox for eBooks — all at no cost.",
+    "keywords": ["free library", "cost to join", "library fee", "is library free", "free membership", "no charge", "library joining fee"],
+    "source_url": "https://www.bradford.gov.uk/libraries/join-the-library/"
+  },
+  {
+    "id": "faq_lib_007",
+    "intent": "library_home_service",
+    "topic": "home_library_service",
+    "question": "What is the Home Library Service?",
+    "answer": "The Home Library Service is a free service provided by Bradford libraries for people who are unable to visit a library in person due to illness, disability, or other circumstances that make travelling difficult. A library volunteer or member of staff will deliver a selection of books and other library materials to your home, based on your reading preferences. They will also collect returned items. The service is entirely free and available to Bradford library members. To find out more or register for the Home Library Service, contact City Library on 01274 433600 or email city.library@bradford.gov.uk.",
+    "keywords": ["home library service", "home delivery", "books delivered", "housebound", "cant visit library", "disability library", "library at home", "books to your door"],
+    "source_url": "https://www.bradford.gov.uk/libraries/home-library-service/"
+  },
+  {
+    "id": "faq_lib_008",
+    "intent": "library_services",
+    "topic": "computers_and_wifi",
+    "question": "Can I use computers and wifi at Bradford libraries?",
+    "answer": "Yes, free public computers and wifi are available at most Bradford library branches. You do not need to be a library member to use the computers, although members receive longer session times. Computers can be used for internet browsing, job searching, completing online forms, and other everyday tasks. Printing is also available at many branches for a small charge. If you need help using a computer or the internet, staff at your local library will be happy to assist, and some branches run regular digital skills sessions.",
+    "keywords": ["library computers", "wifi library", "internet library", "free computer", "print at library", "digital access", "library internet", "free wifi"],
+    "source_url": "https://www.bradford.gov.uk/libraries/library-services/"
+  },
+  {
+    "id": "faq_lib_009",
+    "intent": "library_finder",
+    "topic": "finding_nearest_library",
+    "question": "How do I find my nearest Bradford library?",
+    "answer": "You can find your nearest Bradford library using the Library Finder on the Bradford Council website or by asking this chatbot. There are over 25 library branches across the Bradford district, from the city centre to rural communities such as Addingham, Denholme, and Wilsden. Simply enter your postcode or area name to see which libraries are closest to you, along with their opening hours and contact details. You can also search for libraries that offer specific facilities such as meeting rooms, computers, or children's activities.",
+    "keywords": ["find library", "nearest library", "local library", "library near me", "library finder", "libraries in bradford", "which library", "closest library"],
+    "source_url": "https://www.bradford.gov.uk/libraries/find-your-local-library/"
+  },
+  {
+    "id": "faq_lib_010",
+    "intent": "library_services",
+    "topic": "meeting_rooms",
+    "question": "Can I book a meeting room at a Bradford library?",
+    "answer": "Meeting rooms are available to book at a number of Bradford library branches, including City Library in Bradford city centre, Shipley Library, Eccleshill Library, Manningham Library, and Great Horton Library. Rooms can be booked by community groups, businesses, and individuals. Charges and availability vary by venue and room size. To enquire about booking a meeting room, contact the relevant library directly. City Library can be reached on 01274 433600 or by emailing city.library@bradford.gov.uk.",
+    "keywords": ["meeting room", "book a room", "room hire", "library room", "hire library", "community room", "meeting space", "library venue"],
+    "source_url": "https://www.bradford.gov.uk/libraries/library-services/"
+  },
+  {
+    "id": "faq_lib_011",
+    "intent": "library_hours",
+    "topic": "library_opening_hours",
+    "question": "What are the opening hours for Bradford libraries?",
+    "answer": "Opening hours vary by branch across the Bradford district. As a general guide:\n\n- City Library (Bradford city centre): Monday–Friday 9am–7pm, Saturday 9am–5pm, Sunday 11am–3pm\n- Shipley Library: Monday–Friday 9am–5pm (late Thursday until 7pm), Saturday 9am–5pm\n- Ilkley Library: Monday–Friday 9:30am–5:30pm, Saturday 9:30am–4pm\n- Keighley Library: Monday–Friday 9am–5pm, Saturday 9am–4pm\n- Smaller branch libraries typically open 3–5 days per week with shorter hours\n\nHours may change on bank holidays and during school holidays. For the most up-to-date hours for a specific branch, visit the Bradford Council website or contact your local library directly. City Library: 01274 433600.",
+    "keywords": ["opening hours", "library hours", "when does library open", "library times", "library open today", "what time does library close", "is library open", "library opening"],
+    "source_url": "https://www.bradford.gov.uk/libraries/find-your-local-library/"
+  },
+  {
+    "id": "faq_lib_012",
+    "intent": "library_contact",
+    "topic": "contacting_bradford_libraries",
+    "question": "How do I contact a Bradford library?",
+    "answer": "You can contact Bradford libraries in several ways depending on the branch:\n\n**City Library (Bradford city centre)**\n- Phone: 01274 433600\n- Email: city.library@bradford.gov.uk\n- Address: Centenary Square, Bradford, BD1 1SD\n\n**Keighley Library**\n- Phone: 01535 618215\n- Email: keighley.library@bradford.gov.uk\n\n**Shipley Library**\n- Phone: 01274 531680\n- Email: shipley.library@bradford.gov.uk\n\n**Ilkley Library**\n- Phone: 01943 600755\n- Email: ilkley.library@bradford.gov.uk\n\nFor other branches, visit the Bradford Council website to find individual contact details and opening hours. For general library enquiries you can also contact Bradford Council on 01274 432000.",
+    "keywords": ["contact library", "library phone number", "library email", "speak to library", "library contact details", "ring the library", "call the library", "email the library", "library address"],
+    "source_url": "https://www.bradford.gov.uk/libraries/find-your-local-library/"
+  }
+]

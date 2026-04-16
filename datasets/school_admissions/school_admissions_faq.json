@@ -1,0 +1,137 @@
+[
+  {
+    "id": "faq_sa_001",
+    "intent": "primary_admissions",
+    "topic": "primary_application_process",
+    "question": "How do I apply for a primary school place in Bradford?",
+    "answer": "To apply for a Reception (primary) school place in Bradford, you complete the online In Common Application Form (ICAF) on the Bradford Council website. You can list up to three school preferences in order. Applications for a September start must be submitted by the national deadline in January. Bradford processes all primary applications and posts allocation letters on 16 April. If you prefer a school that is part of a Catholic diocese or an All Star Academy, you may also need to apply directly to that school — always check its individual admissions policy. Contact the primary admissions team at primaryadmissions@bradford.gov.uk or call 01274 439200, Monday to Friday 9am to 4pm.",
+    "keywords": ["apply primary school", "primary application", "reception place", "icaf", "year 1", "starting school", "infant school", "apply for primary"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/apply-for-a-primary-school-place/"
+  },
+  {
+    "id": "faq_sa_002",
+    "intent": "secondary_admissions",
+    "topic": "secondary_application_process",
+    "question": "How do I apply for a secondary school place in Bradford?",
+    "answer": "To apply for a Year 7 (secondary) place in Bradford, you fill in the online In Common Application Form (ICAF) by the national closing date in October. You can list up to three school preferences. Bradford Council sends out allocation letters on 2 March. Some academies and faith schools have their own supplementary information forms — check each school's admissions policy before applying. For help contact secondaryadmissions@bradford.gov.uk or call 01274 439200, Monday to Friday 9am to 4pm.",
+    "keywords": ["apply secondary school", "secondary application", "year 7", "high school", "secondary admissions", "apply year 7"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/apply-for-a-secondary-school-place/"
+  },
+  {
+    "id": "faq_sa_003",
+    "intent": "school_admissions_dates",
+    "topic": "key_dates_deadlines",
+    "question": "What are the key school admissions dates and deadlines in Bradford?",
+    "answer": "Bradford's key school admissions dates are as follows. For secondary (Year 7): applications close in October, allocation letters are sent on 2 March, the appeal deadline is 13 April, and appeals are heard by 16 June. For primary (Reception): applications close in January, allocation letters are sent on 16 April, the appeal deadline is 15 May, and appeals are heard by 17 July. If you need the exact deadline for the current admissions year, call 01274 439200 or visit the Bradford Council website.",
+    "keywords": ["deadlines", "key dates", "allocation date", "offer date", "march offer", "april offer", "when do i find out", "offer letter", "admissions deadline"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/"
+  },
+  {
+    "id": "faq_sa_004",
+    "intent": "school_appeals",
+    "topic": "appeals_process",
+    "question": "How do I appeal a school admissions decision in Bradford?",
+    "answer": "If your child was not offered a place at your preferred school, you have the right to appeal. Appeals are heard by an independent panel at City Hall, Bradford. You must submit your appeal by the deadline shown on your allocation letter: 13 April for secondary schools, or 15 May for primary schools. Secondary appeals are completed by 16 June and primary appeals by 17 July. You can appeal for more than one school, and late appeals are still considered but heard after on-time ones. For appeals contact schoolappeals@bradford.gov.uk or call 01274 439200, Monday to Friday 9am to 4pm.",
+    "keywords": ["appeal", "school appeal", "refused place", "not offered", "rejected", "waiting list", "appeal form", "appeal deadline", "panel", "independent panel"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/school-admissions-appeals/"
+  },
+  {
+    "id": "faq_sa_005",
+    "intent": "in_year_admissions",
+    "topic": "in_year_transfer",
+    "question": "How do I apply to move my child to a different school during the school year?",
+    "answer": "If you need to change your child's school during the year, this is called an in-year transfer. Apply to Bradford Council's School Admissions team using the in-year application form. Schools must make a decision within 15 school days of receiving your application. If refused, you have the right to appeal, and in-year appeals are heard within 30 school days. If a school is full, your child can join the waiting list: primary waiting lists are held for one academic year and secondary waiting lists for one term. Contact schooladmissions@bradford.gov.uk or call 01274 439200, Monday to Friday 9am to 4pm.",
+    "keywords": ["in year", "mid year", "transfer school", "change school", "move school", "in year application", "new school", "moved house school", "in-year transfer"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/apply-for-a-school-place-in-year/"
+  },
+  {
+    "id": "faq_sa_006",
+    "intent": "contact_admissions",
+    "topic": "contact_details",
+    "question": "How do I contact the Bradford school admissions team?",
+    "answer": "You can contact Bradford Council's School Admissions team by phone on 01274 439200, Monday to Friday between 9am and 4pm. For primary school enquiries email primaryadmissions@bradford.gov.uk. For secondary school enquiries email secondaryadmissions@bradford.gov.uk. For in-year transfers and general admissions email schooladmissions@bradford.gov.uk. For school appeals email schoolappeals@bradford.gov.uk. You can also visit in person at City Hall, Bradford, BD1 1HY.",
+    "keywords": ["contact admissions", "phone number", "email admissions", "admissions team", "contact school admissions", "phone school admissions", "admissions contact", "01274 439200"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/"
+  },
+  {
+    "id": "faq_sa_007",
+    "intent": "school_admissions_criteria",
+    "topic": "oversubscription_criteria",
+    "question": "How are school places allocated when a school is oversubscribed in Bradford?",
+    "answer": "When a Bradford school receives more applications than it has places, it applies its published oversubscription criteria. Bradford's maintained schools typically prioritise in this order: first, looked-after and previously looked-after children; second, children with siblings already at the school; third, children living closest to the school, measured by straight-line distance. Academy and faith schools set their own admissions policies, which may include faith criteria, aptitude tests, or other conditions. You should always read a school's individual admissions policy before applying. All policies are published on the Bradford Council website.",
+    "keywords": ["oversubscribed", "how places allocated", "admissions criteria", "siblings", "catchment area", "distance", "faith criteria", "looked after children"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/school-admissions-policies/"
+  },
+  {
+    "id": "faq_sa_008",
+    "intent": "primary_admissions",
+    "topic": "starting_school_age",
+    "question": "When does my child start school in Bradford?",
+    "answer": "In Bradford, children can start school in the September after their fourth birthday. This is the Reception year. Most children in Bradford start Reception at age 4, although education is only legally compulsory from age 5. You must apply for a place in advance. Applications usually open in autumn with a January deadline for a September start. Allocation letters are sent on 16 April. Call 01274 439200 or visit the Bradford Council website for more information.",
+    "keywords": ["when start school", "school age", "4 years old", "5 years old", "reception age", "starting age", "what age school", "school starting age"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/apply-for-a-primary-school-place/"
+  },
+  {
+    "id": "faq_sa_009",
+    "intent": "school_admissions_process",
+    "topic": "icaf_form",
+    "question": "What is the ICAF form and where can I get it?",
+    "answer": "The ICAF (In Common Application Form) is Bradford Council's standard online application form used for Reception and Year 7 school place applications. You fill it in on the Bradford Council website and can list up to three school preferences in order. Most Bradford maintained schools and academies use ICAF. The exceptions are Catholic schools within the Diocese of Leeds and some All Star Academies, which may require you to apply directly to the school and submit a supplementary information form. Apply at the Bradford Council school admissions page or contact 01274 439200 for help.",
+    "keywords": ["icaf", "common application form", "application form", "where to apply", "online form", "apply online", "school application form"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/"
+  },
+  {
+    "id": "faq_sa_010",
+    "intent": "school_appeals",
+    "topic": "waiting_list",
+    "question": "How does the school waiting list work in Bradford?",
+    "answer": "If your child is not offered a place at your preferred school, you can ask for their name to be added to the waiting list. Your position on the list is determined by the school's oversubscription criteria, not by when you joined the list, so contacting the school or admissions team does not improve your position. For in-year applications, primary school waiting lists are held for one academic year and secondary waiting lists for one term. For normal round applications (Reception or Year 7), waiting lists are typically held until the end of the autumn term of the entry year. You can still appeal even while on the waiting list. Call 01274 439200 for further information.",
+    "keywords": ["waiting list", "on waiting list", "position waiting list", "when will i get a place", "waiting list how long", "join waiting list", "school waiting list"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/"
+  },
+  {
+    "id": "faq_sa_011",
+    "intent": "secondary_admissions",
+    "topic": "grammar_schools",
+    "question": "Are there grammar schools or selective schools in Bradford?",
+    "answer": "Bradford does not have state-funded grammar schools in the district. There are schools with specialist admission arrangements including some faith schools with faith-based criteria, such as Catholic schools, and some academies with their own admissions policies. Nearby areas outside Bradford district may have selective schools. For a full list of Bradford schools and their admissions policies, contact the admissions team on 01274 439200 or visit the Bradford Council website.",
+    "keywords": ["grammar school", "selective school", "entrance exam", "11 plus", "selective admission", "academic selection", "grammar schools bradford"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/"
+  },
+  {
+    "id": "faq_sa_012",
+    "intent": "school_admissions_process",
+    "topic": "faith_schools",
+    "question": "How do I apply for a Catholic or faith school in Bradford?",
+    "answer": "For Catholic schools in the Bradford diocese, you typically apply directly to the school rather than through the standard ICAF form, or in some cases you must submit both. You may also need to provide a supplementary information form with evidence of your faith, such as a baptism certificate or a letter from your priest. All Star Academies also accept direct applications. The exact requirements vary by school, so always check the individual school's admissions policy before applying. Call the admissions team on 01274 439200 for guidance on a specific school.",
+    "keywords": ["catholic school", "faith school", "church school", "c of e", "church of england", "religious school", "supplementary form", "baptism", "faith criteria"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/"
+  },
+  {
+    "id": "faq_sa_013",
+    "intent": "school_admissions_process",
+    "topic": "sen_admissions",
+    "question": "How do I apply for a school place for a child with special educational needs?",
+    "answer": "Children with an Education, Health and Care (EHC) Plan have a separate admissions process. Bradford Council names the school in the EHC Plan after consulting parents and the school, and the named school must admit the child even if it is full. If your child does not have an EHC Plan but has special educational needs, you apply through the normal ICAF process and can explain your reasons for preferring a particular school. For EHC Plan queries contact Bradford's SEND team. For general admissions with SEN call 01274 439200. More information is available at bradford.gov.uk under children and families.",
+    "keywords": ["sen", "send", "special needs", "ehc plan", "education health care", "statement", "special educational needs", "disability school", "sen admissions"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/"
+  },
+  {
+    "id": "faq_sa_014",
+    "intent": "school_admissions_process",
+    "topic": "late_applications",
+    "question": "What happens if I miss the school application deadline?",
+    "answer": "If you miss the national admissions deadline, your application is treated as a late application and is considered after all on-time applications have been processed. This means you are less likely to be offered a place at oversubscribed schools. You should still apply as soon as possible because Bradford will offer any available places to late applicants. If you missed the secondary deadline contact secondaryadmissions@bradford.gov.uk immediately, or for primary contact primaryadmissions@bradford.gov.uk. Do not delay — apply as quickly as you can.",
+    "keywords": ["late application", "missed deadline", "applied late", "past deadline", "after closing date", "can i still apply", "missed the deadline"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/school-admissions/"
+  },
+  {
+    "id": "faq_sa_015",
+    "intent": "school_admissions_process",
+    "topic": "general_admissions",
+    "question": "Where can I find out more about school admissions in Bradford?",
+    "answer": "For full information about school admissions in Bradford visit the Bradford Council education pages at bradford.gov.uk. You can also use the Bradford Schools Finder to browse schools at bradford.gov.uk/education-and-skills/find-a-school/schools-finder/. To speak to the admissions team call 01274 439200 Monday to Friday between 9am and 4pm. For primary admissions email primaryadmissions@bradford.gov.uk, for secondary admissions email secondaryadmissions@bradford.gov.uk, for in-year transfers and general queries email schooladmissions@bradford.gov.uk, and for school appeals email schoolappeals@bradford.gov.uk. Bradford Council also publishes an annual Composite Prospectus with details of all schools, admission numbers, and policies.",
+    "keywords": ["more information", "general information", "admissions info", "bradford schools", "composite prospectus", "find out more", "school admissions help"],
+    "source_url": "https://www.bradford.gov.uk/education-and-skills/education-and-skills/"
+  }
+]

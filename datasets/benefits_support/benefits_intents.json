@@ -1,0 +1,946 @@
+[
+  {
+    "text": "am i eligible for housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "housing benefit eligibility",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i get housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "do i qualify for housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "who is eligible for housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "housing benefit rules",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what are the rules for housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "housing benefit criteria",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "eligibility for housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "am i entitled to housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i am on a low income can i get housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i claim housing benefit while working",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what income level qualifies for housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "am i eligible for council tax reduction",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "who qualifies for council tax reduction",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i get help with my rent",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "apply for housing benefit",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "housing benefit application",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how do i apply for housing benefit",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "apply for council tax reduction",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "apply for ctr",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how do i apply for council tax reduction",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "housing benefit form",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "housing benefit application form",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "council tax reduction form",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "make a claim for housing benefit",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "start a housing benefit claim",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "claim housing benefit online",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how long does housing benefit application take",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what do i need to apply for housing benefit",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "discretionary housing payment",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "dhp",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "apply for dhp",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "rent shortfall help",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "help with rent shortfall",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my housing benefit does not cover all my rent",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "housing benefit does not cover rent",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "extra help with rent",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "top up payment for housing benefit",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "can i get a discretionary housing payment",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "am i eligible for a dhp",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what is a discretionary housing payment",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bedroom tax help",
+    "intent": "discretionary_housing_payment",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "myinfo",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "benefits myinfo",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my benefits account",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "access my benefits account",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "sign in to benefits",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "log in to benefits account",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "register for myinfo",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "create a benefits account",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "view my benefit claim online",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "check my housing benefit online",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how do i set up a myinfo account",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i forgot my myinfo password",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i cannot log in to my benefits account",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "submit benefit evidence",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "upload evidence for benefits",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "send documents for housing benefit",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "supporting documents for benefits",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how do i send my evidence",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "what evidence do i need for housing benefit",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "documents needed for benefits claim",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "upload proof of income",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "provide proof for housing benefit",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i need to provide evidence for my claim",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how to upload documents to benefits",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "submit payslips for housing benefit",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "report a change of circumstances",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "change of circumstances benefits",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my circumstances have changed",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "something has changed in my household",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i have a new job",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my income has changed",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "someone has moved into my property",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "someone has moved out",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i am moving house and need to update my housing benefit",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "moving house while on housing benefit",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i need to tell the council my situation has changed",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "notify council of changes to my benefits",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my rent has changed",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i have started work",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "appeal a benefits decision",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "benefits appeal",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i disagree with my benefits decision",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my housing benefit claim was refused",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how do i appeal housing benefit",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "reconsideration of benefits decision",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "wrong benefits decision",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "review my benefits decision",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "challenge my benefit decision",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i think my benefit has been calculated wrong",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "benefits overpayment appeal",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my benefit has been reduced and i want to appeal",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "contact benefits team",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "speak to someone about benefits",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "phone number for benefits",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "benefits contact number",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "email benefits team",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how do i contact bradford benefits",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "welfare advice bradford",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "benefits helpline",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "talk to someone about my claim",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "get help with benefits",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "bradford welfare support",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "benefits office contact details",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "hello",
+    "intent": "unknown",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "hi",
+    "intent": "unknown",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "help",
+    "intent": "unknown",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i need help with benefits",
+    "intent": "unknown",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "benefits help",
+    "intent": "unknown",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my wage went up",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my salary has changed",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "wage increase affect my housing benefit",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "baby born",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "new baby to report",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "had a baby",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "reduced my working hours",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "cut my hours at work",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my partner moved in",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "made redundant",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i retired",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "i retired last month",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "retired pensioner housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "pension age housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "cant get into the portal",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "portal login help",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "trouble logging into benefits portal",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "portal not letting me in",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "cannot access portal",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "they said no to my claim",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "my claim was declined",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "they turned me down",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "housing benefit application rejected",
+    "intent": "benefit_appeal_or_reconsideration",
+    "service": "benefits_support",
+    "needs_live_lookup": false
+  },
+  {
+    "text": "how do i get access to my claim online",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support"
+  },
+  {
+    "text": "housing benefit online account",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support"
+  },
+  {
+    "text": "access my housing benefit claim online",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support"
+  },
+  {
+    "text": "online access to my benefit claim",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support"
+  },
+  {
+    "text": "view my housing benefit account online",
+    "intent": "benefits_myinfo_access",
+    "service": "benefits_support"
+  },
+  {
+    "text": "speak to someone about my housing benefit claim",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support"
+  },
+  {
+    "text": "whats the number to ring about my housing benefit",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support"
+  },
+  {
+    "text": "number to ring about housing benefit",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support"
+  },
+  {
+    "text": "ring about my housing benefit",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support"
+  },
+  {
+    "text": "contact someone about my housing benefit claim",
+    "intent": "benefits_support_contact",
+    "service": "benefits_support"
+  },
+  {
+    "text": "lodger moved in last week",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support"
+  },
+  {
+    "text": "i have a lodger moving in",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support"
+  },
+  {
+    "text": "my income dropped last month",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support"
+  },
+  {
+    "text": "my income has dropped",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support"
+  },
+  {
+    "text": "my wages have gone down",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support"
+  },
+  {
+    "text": "income change benefits",
+    "intent": "report_change_of_circumstances",
+    "service": "benefits_support"
+  },
+  {
+    "text": "housing benefit for pensioners",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support"
+  },
+  {
+    "text": "am i eligible as a pensioner for housing benefit",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support"
+  },
+  {
+    "text": "council tax support scheme eligibility",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support"
+  },
+  {
+    "text": "am i eligible for council tax support scheme",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support"
+  },
+  {
+    "text": "eligibility for council tax support",
+    "intent": "housing_benefit_eligibility",
+    "service": "benefits_support"
+  },
+  {
+    "text": "new claim for council tax reduction online",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support"
+  },
+  {
+    "text": "start a new housing benefit claim",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support"
+  },
+  {
+    "text": "make a new claim for housing benefit",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support"
+  },
+  {
+    "text": "apply for council tax reduction online",
+    "intent": "apply_housing_benefit_ctr",
+    "service": "benefits_support"
+  },
+  {
+    "text": "send my p60 for my claim",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support"
+  },
+  {
+    "text": "submit my p60 for housing benefit",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support"
+  },
+  {
+    "text": "provide my p60 as evidence",
+    "intent": "submit_benefit_evidence",
+    "service": "benefits_support"
+  }
+]

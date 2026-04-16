@@ -1,0 +1,56 @@
+{"text": "what is my council tax band", "label": "find_council_tax_band", "service": "council_tax"}
+{"text": "find my council tax band", "label": "find_council_tax_band", "service": "council_tax"}
+{"text": "property band lookup", "label": "find_council_tax_band", "service": "council_tax"}
+{"text": "check my council tax balance", "label": "check_council_tax_balance", "service": "council_tax"}
+{"text": "how much do i owe in council tax", "label": "check_council_tax_balance", "service": "council_tax"}
+{"text": "view my council tax account balance", "label": "check_council_tax_balance", "service": "council_tax"}
+{"text": "pay my council tax", "label": "council_tax_payment", "service": "council_tax"}
+{"text": "make a council tax payment", "label": "council_tax_payment", "service": "council_tax"}
+{"text": "how can i pay council tax", "label": "council_tax_payment_methods", "service": "council_tax"}
+{"text": "ways to pay council tax", "label": "council_tax_payment_methods", "service": "council_tax"}
+{"text": "council tax payment options", "label": "council_tax_payment_methods", "service": "council_tax"}
+{"text": "pay by direct debit", "label": "set_up_direct_debit", "service": "council_tax"}
+{"text": "set up direct debit for council tax", "label": "set_up_direct_debit", "service": "council_tax"}
+{"text": "single person discount council tax", "label": "apply_council_tax_discount", "service": "council_tax"}
+{"text": "nobody else lives here", "label": "apply_council_tax_discount", "service": "council_tax"}
+{"text": "just me in the property", "label": "apply_council_tax_discount", "service": "council_tax"}
+{"text": "i am the sole occupant", "label": "apply_council_tax_discount", "service": "council_tax"}
+{"text": "council tax discounts and exemptions", "label": "council_tax_general_discounts", "service": "council_tax"}
+{"text": "can i get a council tax discount", "label": "council_tax_general_discounts", "service": "council_tax"}
+{"text": "i am moving house", "label": "report_move_council_tax", "service": "council_tax"}
+{"text": "i moved in last month", "label": "report_move_council_tax", "service": "council_tax"}
+{"text": "just moved in last tuesday", "label": "report_move_council_tax", "service": "council_tax"}
+{"text": "new tenant moving in", "label": "report_move_council_tax", "service": "council_tax"}
+{"text": "recently moved to a new address", "label": "report_move_council_tax", "service": "council_tax"}
+{"text": "change my name on council tax", "label": "council_tax_change_details", "service": "council_tax"}
+{"text": "my partner moved in with me", "label": "council_tax_change_details", "service": "council_tax"}
+{"text": "update my council tax account details", "label": "council_tax_change_details", "service": "council_tax"}
+{"text": "appeal my council tax band", "label": "council_tax_appeal", "service": "council_tax"}
+{"text": "wrong valuation on my house for council tax", "label": "council_tax_appeal", "service": "council_tax"}
+{"text": "challenge my council tax band", "label": "council_tax_appeal", "service": "council_tax"}
+{"text": "council tax bill seems too high wrong band", "label": "council_tax_appeal", "service": "council_tax"}
+{"text": "i have council tax arrears", "label": "council_tax_arrears_help", "service": "council_tax"}
+{"text": "behind on council tax payments", "label": "council_tax_arrears_help", "service": "council_tax"}
+{"text": "i owe council tax from last year", "label": "council_tax_arrears_help", "service": "council_tax"}
+{"text": "need help with council tax debt", "label": "council_tax_arrears_help", "service": "council_tax"}
+{"text": "outstanding council tax debt", "label": "council_tax_arrears_help", "service": "council_tax"}
+{"text": "what is council tax", "label": "council_tax_general_info", "service": "council_tax"}
+{"text": "how does council tax work", "label": "council_tax_general_info", "service": "council_tax"}
+{"text": "set up direct debit council tax", "label": "set_up_direct_debit", "service": "council_tax"}
+{"text": "spread my council tax payments", "label": "change_payment_date_or_instalments", "service": "council_tax"}
+{"text": "pay council tax in instalments", "label": "change_payment_date_or_instalments", "service": "council_tax"}
+{"text": "change my council tax payment date", "label": "change_payment_date_or_instalments", "service": "council_tax"}
+{"text": "can i pay council tax in monthly instalments", "label": "change_payment_date_or_instalments", "service": "council_tax"}
+{"text": "do students pay council tax", "label": "apply_student_discount", "service": "council_tax"}
+{"text": "student council tax exemption", "label": "apply_student_discount", "service": "council_tax"}
+{"text": "uni student discount council tax", "label": "apply_student_discount", "service": "council_tax"}
+{"text": "house has been empty for several months", "label": "empty_property_council_tax", "service": "council_tax"}
+{"text": "vacant property council tax", "label": "empty_property_council_tax", "service": "council_tax"}
+{"text": "contact the council tax team", "label": "contact_council_tax_team", "service": "council_tax"}
+{"text": "council tax reduction eligibility", "label": "council_tax_reduction_support", "service": "council_tax"}
+{"text": "struggling to pay council tax", "label": "council_tax_payment_problem", "service": "council_tax"}
+{"text": "cant afford my council tax bill this month", "label": "council_tax_payment_problem", "service": "council_tax"}
+{"text": "missed a council tax payment", "label": "council_tax_payment_problem", "service": "council_tax"}
+{"text": "how much is council tax band d", "label": "check_council_tax_amount", "service": "council_tax"}
+{"text": "what are the council tax band amounts", "label": "check_council_tax_amount", "service": "council_tax"}
+{"text": "pay council tax by card online", "label": "council_tax_payment_methods", "service": "council_tax"}

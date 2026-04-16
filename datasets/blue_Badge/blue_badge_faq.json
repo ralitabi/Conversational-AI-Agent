@@ -1,0 +1,137 @@
+[
+  {
+    "id": "faq_bb_001",
+    "intent": "blue_badge_eligibility",
+    "topic": "automatic_eligibility",
+    "question": "Who is automatically eligible for a Blue Badge?",
+    "answer": "You are automatically eligible for a Blue Badge — meaning no further assessment is needed — if you meet any one of the following conditions:\n- You receive the Higher Rate Mobility component of Disability Living Allowance (DLA).\n- You score 8 or more points under the PIP Mobility 'moving around' activity.\n- You score 10 points under PIP Mobility descriptor E ('planning and following journeys') due to overwhelming psychological distress.\n- You are registered blind (severely sight impaired).\n- You receive the War Pensioners' Mobility Supplement.\n- You have received an Armed Forces Compensation Scheme lump sum at tariff levels 1–8 and have a permanent, substantial disability affecting your ability to walk.\n- You have a severe disability in both upper limbs, regularly drive, and cannot operate most types of parking meter.\n- Children under 3 with a medical condition requiring them to remain near a vehicle, or who need bulky medical equipment that cannot be carried, also qualify automatically.\nApply at https://www.gov.uk/apply-blue-badge. You will need a digital photograph, proof of identity, proof of address, and your benefit award letter. For help, call Bradford Council on 01274 438723 (Mon–Thu 8:30am–5pm, Fri 8:30am–4:30pm) or email transport.concessions@bradford.gov.uk.",
+    "keywords": ["automatic eligibility", "who qualifies", "blue badge criteria", "DLA higher rate", "PIP mobility", "registered blind", "war pension mobility", "armed forces blue badge", "severe disability walking", "automatically eligible"],
+    "source_url": "https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-scheme/"
+  },
+  {
+    "id": "faq_bb_002",
+    "intent": "blue_badge_eligibility",
+    "topic": "discretionary_eligibility",
+    "question": "Can I get a Blue Badge if I have a hidden disability or mental health condition?",
+    "answer": "Yes — Bradford Council recognises hidden and non-visible disabilities under the discretionary criteria. You may qualify through a discretionary assessment if your condition means you have very considerable difficulty walking, or you cannot be safely left in a vehicle without supervision.\n\nConditions commonly assessed include: ADHD, Autism Spectrum Conditions, anxiety, PTSD, dementia, Crohn's disease, colitis, Epilepsy, ME, Lupus, Rheumatoid Arthritis, and multiple sclerosis.\n\nYou do not need to receive a specific benefit to apply through the discretionary route, but you will need supporting evidence — typically a letter from your GP, hospital consultant, or specialist confirming how your condition affects your mobility or safety in public.\n\nBradford Council assesses each application individually. Processing can take up to 12 weeks.\n\nApply at https://www.gov.uk/apply-blue-badge. For guidance, call Bradford on 01274 438723 (Mon–Thu 8:30am–5pm, Fri 8:30am–4:30pm) or email transport.concessions@bradford.gov.uk.",
+    "keywords": ["hidden disability", "mental health blue badge", "autism blue badge", "ADHD blue badge", "anxiety blue badge", "non-visible disability", "discretionary blue badge", "Crohn's blue badge", "epilepsy blue badge", "invisible disability", "PTSD blue badge", "dementia blue badge"],
+    "source_url": "https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-scheme/"
+  },
+  {
+    "id": "faq_bb_003",
+    "intent": "blue_badge_eligibility",
+    "topic": "child_eligibility",
+    "question": "Can a child get a Blue Badge?",
+    "answer": "Yes, children can qualify for a Blue Badge in Bradford.\n\nChildren under 3 may be automatically eligible if they have a medical condition requiring them to remain near a vehicle at all times, or if they must always be accompanied by bulky medical equipment — such as portable oxygen or a specially adapted pushchair — which cannot be carried any distance.\n\nChildren aged 3 and over with a severe permanent walking disability may qualify automatically if they meet the DLA or PIP criteria, or through a discretionary assessment.\n\nA parent or carer applies on behalf of the child. You will need supporting medical evidence from the child's GP, paediatrician, or specialist. Apply online at https://www.gov.uk/apply-blue-badge.\n\nFor help, call Bradford Council on 01274 438723 (Mon–Thu 8:30am–5pm, Fri 8:30am–4:30pm) or email transport.concessions@bradford.gov.uk.",
+    "keywords": ["child blue badge", "blue badge for children", "baby blue badge", "under 3 blue badge", "disabled child parking", "apply for child blue badge", "can a child get a blue badge", "child with disability blue badge"],
+    "source_url": "https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-scheme/"
+  },
+  {
+    "id": "faq_bb_004",
+    "intent": "blue_badge_apply",
+    "topic": "how_to_apply",
+    "question": "How do I apply for a Blue Badge in Bradford?",
+    "answer": "You apply for a Blue Badge online through the official GOV.UK website at https://www.gov.uk/apply-blue-badge. You can apply for yourself, on behalf of someone else, or on behalf of an organisation.\n\nWhat you will need:\n- A recent digital photograph (passport-style, plain background, clear face)\n- Proof of identity (passport, birth certificate, or driving licence)\n- Proof of address (Council Tax bill, recent utility bill, or government letter)\n- Proof of your qualifying benefit (DLA or PIP award letter) if applicable\n- Your National Insurance number\n\nOnce submitted, Bradford Council's Transport and Education team assesses your application. If further medical evidence is needed, they will contact you. Processing typically takes up to 12 weeks.\n\nDo NOT use unofficial third-party websites that charge a fee — the GOV.UK service is entirely free. If approved, the badge costs £10.\n\nFor help, call Bradford Council on 01274 438723 (Mon–Thu 8:30am–5pm, Fri 8:30am–4:30pm) or email transport.concessions@bradford.gov.uk.",
+    "keywords": ["apply blue badge", "how to get blue badge", "blue badge application", "apply for blue badge bradford", "blue badge gov.uk", "blue badge form", "apply online blue badge", "how do i apply for a blue badge", "blue badge application process"],
+    "source_url": "https://www.gov.uk/apply-blue-badge"
+  },
+  {
+    "id": "faq_bb_005",
+    "intent": "blue_badge_apply",
+    "topic": "documents_needed",
+    "question": "What documents do I need to apply for a Blue Badge?",
+    "answer": "When applying for a Blue Badge at https://www.gov.uk/apply-blue-badge, have the following ready:\n\n- A recent digital photograph (passport-style: clear face, plain light background, no sunglasses)\n- Proof of identity: one of — full UK passport, UK driving licence, or birth certificate\n- Proof of address: one of — a recent Council Tax bill, utility bill (dated within 3 months), bank statement, or government letter\n- Proof of qualifying benefit: your DLA, PIP, Armed Forces Compensation, or other benefit award letter (if your eligibility is based on this)\n- Your National Insurance number\n\nFor discretionary applications (hidden disability, walking difficulty not covered by a benefit), also include supporting medical evidence — such as a GP letter or consultant's letter confirming how your condition affects your mobility or safety.\n\nIncomplete applications cause delays, so have all documents ready before you start. Apply at https://www.gov.uk/apply-blue-badge.",
+    "keywords": ["blue badge documents", "what do I need for blue badge", "blue badge proof", "blue badge photo", "documents required blue badge", "blue badge evidence", "proof of identity blue badge", "documents blue badge application"],
+    "source_url": "https://www.gov.uk/apply-blue-badge"
+  },
+  {
+    "id": "faq_bb_006",
+    "intent": "blue_badge_cost",
+    "topic": "cost_and_fee",
+    "question": "How much does a Blue Badge cost?",
+    "answer": "A Blue Badge in England costs up to £10. Bradford Council charges this fee upon successful approval — there is no charge simply to apply.\n\nKey points:\n- Application: free to submit at https://www.gov.uk/apply-blue-badge\n- Badge issue: £10, payable to Bradford Council on approval\n- Renewal: £10, payable on approval (same as a new application)\n- Replacement (lost, stolen, or damaged): a fee may apply — contact Bradford on 01274 438723 to confirm the current charge\n- In Wales: the badge is free\n\nDo not pay third-party websites that offer to submit the application on your behalf — they are not official and the GOV.UK service is entirely free.\n\nFor queries about payment, call Bradford Council on 01274 438723 (Mon–Thu 8:30am–5pm, Fri 8:30am–4:30pm) or email transport.concessions@bradford.gov.uk.",
+    "keywords": ["blue badge cost", "how much is blue badge", "blue badge fee", "blue badge price", "blue badge charge", "pay for blue badge", "blue badge £10", "is blue badge free", "how much does it cost"],
+    "source_url": "https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-scheme/"
+  },
+  {
+    "id": "faq_bb_007",
+    "intent": "blue_badge_renewal",
+    "topic": "renewing_blue_badge",
+    "question": "How do I renew my Blue Badge?",
+    "answer": "A Blue Badge is valid for up to 3 years. You must apply for renewal before your current badge expires — Bradford Council will reassess your eligibility as part of the process.\n\nHow to renew:\n- Use the same GOV.UK service: https://www.gov.uk/apply-blue-badge — select 'renew' when prompted\n- Your eligibility is reassessed, so have up-to-date benefit letters or medical evidence ready\n- Have your photograph, proof of identity, and proof of address ready\n\nKey timing:\n- Bradford Council recommends applying at least 12 weeks before expiry, as processing can take that long\n- You can usually start your renewal up to 3 months before your badge expires\n- Do not wait until your badge has expired — using an expired badge is a criminal offence\n\nCost: £10 renewal fee in England, payable on approval.\n\nFor help, call Bradford Council on 01274 438723 (Mon–Thu 8:30am–5pm, Fri 8:30am–4:30pm) or email transport.concessions@bradford.gov.uk.",
+    "keywords": ["renew blue badge", "blue badge renewal", "blue badge expiry", "expired blue badge", "blue badge 3 years", "reapply blue badge", "blue badge running out", "how to renew blue badge", "badge expires soon"],
+    "source_url": "https://www.gov.uk/apply-blue-badge"
+  },
+  {
+    "id": "faq_bb_008",
+    "intent": "blue_badge_replacement",
+    "topic": "lost_or_damaged_badge",
+    "question": "My Blue Badge has been lost, stolen, or damaged — what do I do?",
+    "answer": "If your Blue Badge has been lost, stolen, or damaged, you need to arrange a replacement.\n\nSteps to follow:\n1. Contact Bradford Council's Transport and Education team: phone 01274 438723 (Mon–Thu 8:30am–5pm, Fri 8:30am–4:30pm) or email transport.concessions@bradford.gov.uk to report and arrange a replacement.\n2. If the badge was stolen, report it to the police and get a crime reference number — this may be required to process the replacement and prevents misuse of the lost badge.\n3. Do not use a badge you have reported lost or stolen — doing so is a criminal offence.\n4. If your badge is not due to expire within 3 months, request a replacement. If it expires soon, it may be simpler to apply for renewal at https://www.gov.uk/apply-blue-badge instead.\n\nA replacement fee may apply. Bradford Council will confirm the charge when you contact them.",
+    "keywords": ["lost blue badge", "stolen blue badge", "damaged blue badge", "replace blue badge", "blue badge replacement", "blue badge lost what do i do", "new blue badge", "badge stolen", "lost my blue badge", "blue badge destroyed"],
+    "source_url": "https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-scheme/"
+  },
+  {
+    "id": "faq_bb_009",
+    "intent": "blue_badge_parking_rules",
+    "topic": "where_you_can_park",
+    "question": "Where can I park with a Blue Badge in Bradford?",
+    "answer": "With a valid Blue Badge correctly displayed, you are entitled to these parking concessions:\n\n- On-street disabled bays: park for as long as the sign on the bay allows.\n- Single or double yellow lines: park for up to 3 hours, provided there are no loading restrictions (yellow kerb marks), you are not causing an obstruction, and you display your parking clock set to your arrival time.\n- Council Pay and Display car parks: usually park free of charge in any bay, for the maximum time allowed. Some car parks require a permit even in disabled bays — always check the signs.\n- Private car parks: many allow Blue Badge holders to use disabled bays; concessions vary — check the signage.\n- Abroad: the Blue Badge offers similar concessions in many European countries. Rules vary by country — see https://www.gov.uk/government/publications/blue-badge-using-it-abroad for details.\n\nYou must always:\n- Display the badge clearly on the dashboard, face-up, with the photo and expiry date visible.\n- Use your parking clock (timing disc) when required.\n- Have the badge holder present in the vehicle.\n\nFull parking guidance: https://www.bradford.gov.uk/transport-and-travel/parking/blue-badge-parking/",
+    "keywords": ["where can I park blue badge", "blue badge parking rules", "blue badge yellow lines", "disabled parking bradford", "blue badge car park", "blue badge parking concessions", "using blue badge", "park on yellow lines", "blue badge abroad", "blue badge europe", "blue badge parking clock"],
+    "source_url": "https://www.bradford.gov.uk/transport-and-travel/parking/blue-badge-parking/"
+  },
+  {
+    "id": "faq_bb_010",
+    "intent": "blue_badge_parking_rules",
+    "topic": "where_you_cannot_park",
+    "question": "Are there places where I cannot park even with a Blue Badge?",
+    "answer": "Yes — a Blue Badge does not give unlimited parking rights. You must NOT park in:\n\n- Areas with loading restrictions: indicated by yellow kerb markings (single or double notches). Loading restrictions override Blue Badge concessions.\n- Dropped kerbs: do not park across a dropped kerb (pavement slope for wheelchairs or vehicles).\n- Pedestrian crossings: do not park within the zig-zag lines on either side of any crossing.\n- Bus stops and taxi ranks: even briefly.\n- School Keep Clear markings: during restricted times.\n- Active bus lanes, tram lanes, and cycle lanes: while they are in operation.\n- No Stopping zones (Clearways): indicated by a red X on a white circle — no vehicles may stop.\n- Temporarily suspended bays: if a bay has a suspension notice, it applies to Blue Badge holders too.\n\nParking in any of these areas can result in a Penalty Charge Notice, even with a Blue Badge displayed. The badge holder must also be present in the vehicle, and you must not use an expired or someone else's badge.\n\nFull guidance: https://www.bradford.gov.uk/transport-and-travel/parking/blue-badge-parking/",
+    "keywords": ["blue badge restrictions", "where can't i park blue badge", "blue badge no parking", "blue badge loading restrictions", "blue badge clearway", "blue badge bus stop", "blue badge penalty", "blue badge parking fine", "blue badge zig zag", "blue badge school keep clear"],
+    "source_url": "https://www.bradford.gov.uk/transport-and-travel/parking/blue-badge-parking/"
+  },
+  {
+    "id": "faq_bb_011",
+    "intent": "blue_badge_parking_rules",
+    "topic": "badge_holder_must_be_present",
+    "question": "Can someone else use my Blue Badge when I am not in the car?",
+    "answer": "No — a Blue Badge is issued to a named person, not a vehicle. The badge holder must be present in the vehicle every time the badge is used to claim a parking concession.\n\nWhat this means:\n- A family member or carer driving you somewhere can use the badge's concessions — because you, the holder, are in the vehicle.\n- A family member cannot borrow your badge to park while doing errands without you, even if they are running errands on your behalf.\n- You cannot lend your badge to anyone if you will not be in the vehicle.\n\nUsing a Blue Badge when the holder is not present is misuse and is a criminal offence under the Road Traffic Regulation Act 1984. Enforcement officers can inspect badges, confiscate them on the spot, and refer cases for prosecution.\n\nTo report misuse, call Bradford Council's confidential hotline on 01274 437511, or report online at https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-misuse-and-fraud/",
+    "keywords": ["use blue badge without holder", "lend blue badge", "blue badge must be present", "driver use blue badge", "blue badge passenger", "can someone else use my badge", "blue badge rules holder", "borrow blue badge", "share blue badge"],
+    "source_url": "https://www.bradford.gov.uk/transport-and-travel/parking/blue-badge-parking/"
+  },
+  {
+    "id": "faq_bb_012",
+    "intent": "blue_badge_misuse",
+    "topic": "reporting_misuse",
+    "question": "How do I report someone misusing a Blue Badge?",
+    "answer": "If you suspect Blue Badge misuse, report it confidentially to Bradford Council:\n\n1. Phone the dedicated misuse hotline: 01274 437511 (confidential)\n2. Report online: https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-misuse-and-fraud/\n\nWhat counts as misuse:\n- Using a badge when the holder is not in the vehicle.\n- Using an expired badge.\n- Using a badge reported lost or stolen.\n- Using a forged, copied, or altered badge.\n- Using the badge of a person who has died.\n\nUseful information to provide:\n- Vehicle registration number.\n- Date, time, and location of the incident.\n- Description of the vehicle and, if possible, the badge.\n- You do not need to give your own name.\n\nBradford Council's enforcement officers have the power to inspect badges, issue Penalty Charge Notices, confiscate badges, and refer cases for prosecution. All reports are handled in confidence.",
+    "keywords": ["report blue badge misuse", "blue badge fraud", "someone using blue badge without disabled person", "report misuse blue badge bradford", "blue badge enforcement", "blue badge abuse", "report blue badge", "blue badge hotline", "misuse reporting"],
+    "source_url": "https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-misuse-and-fraud/"
+  },
+  {
+    "id": "faq_bb_013",
+    "intent": "blue_badge_misuse",
+    "topic": "consequences_of_misuse",
+    "question": "What are the consequences of misusing a Blue Badge?",
+    "answer": "Misusing a Blue Badge is a criminal offence under the Road Traffic Regulation Act 1984, with serious consequences.\n\nWhat counts as misuse:\n- Using a badge after the holder has died.\n- Using a badge that has expired.\n- Using a forged, copied, or altered badge.\n- Using a badge reported lost or stolen.\n- Using a badge when the holder is not present in the vehicle.\n- Obscuring the expiry date to deceive enforcement officers.\n\nConsequences:\n- Badge confiscation on the spot by an enforcement officer.\n- A Penalty Charge Notice.\n- In serious cases, prosecution in court and a fine of up to £1,000.\n- A criminal record.\n\nUsing an expired badge:\n- An expired badge carries no parking concessions and its use is an offence. If your badge has expired, renew immediately at https://www.gov.uk/apply-blue-badge.\n\nTo report misuse, call Bradford Council's confidential hotline on 01274 437511 or report online at https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-misuse-and-fraud/",
+    "keywords": ["blue badge misuse penalty", "blue badge fraud consequences", "expired blue badge fine", "blue badge criminal offence", "using dead person's blue badge", "forged blue badge", "blue badge confiscated", "misuse fine", "is using expired badge illegal"],
+    "source_url": "https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-misuse-and-fraud/"
+  },
+  {
+    "id": "faq_bb_014",
+    "intent": "blue_badge_organisations",
+    "topic": "organisational_badges",
+    "question": "Can an organisation or charity apply for a Blue Badge?",
+    "answer": "Yes — organisations that regularly transport disabled people who would individually qualify for a Blue Badge can apply for an organisational Blue Badge.\n\nEligible organisations include:\n- Care homes and nursing homes transporting residents.\n- Day centres transporting disabled service users.\n- Charities and voluntary groups regularly transporting disabled people.\n- Any organisation whose primary purpose involves transporting people with qualifying disabilities.\n\nHow to apply:\n- Use https://www.gov.uk/apply-blue-badge — select 'organisation' when starting your application.\n- An organisational badge is linked to the organisation, not an individual, and can only be used when transporting people who would themselves qualify.\n- Evidence that the organisation regularly transports qualifying disabled individuals is required.\n- A £10 fee applies per badge on approval.\n\nThe badge must be displayed whenever used and the standard parking rules apply. It cannot be used for general public transport — only for journeys involving qualifying disabled individuals.\n\nContact Bradford Council before applying to confirm eligibility: phone 01274 438723 (Mon–Thu 8:30am–5pm, Fri 8:30am–4:30pm) or email transport.concessions@bradford.gov.uk.",
+    "keywords": ["organisational blue badge", "charity blue badge", "care home blue badge", "organisation apply blue badge", "day centre blue badge", "blue badge for organisation", "nursing home blue badge", "voluntary group blue badge"],
+    "source_url": "https://www.gov.uk/apply-blue-badge"
+  },
+  {
+    "id": "faq_bb_015",
+    "intent": "blue_badge_contact",
+    "topic": "contact_bradford_blue_badge",
+    "question": "How do I contact Bradford Council about my Blue Badge?",
+    "answer": "Contact Bradford Council's Transport and Education team for all Blue Badge queries — applications, renewals, replacements, and general questions:\n\n- Phone: 01274 438723\n  Hours: Monday–Thursday 8:30am–5:00pm, Friday 8:30am–4:30pm\n- Email: transport.concessions@bradford.gov.uk\n- Post: Transport and Education, PO Box 1253, Bradford, BD1 9AB\n\nFor Blue Badge misuse or fraud:\n- Confidential hotline: 01274 437511\n- Online report form: https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-misuse-and-fraud/\n\nFor new applications or renewals:\n- Apply online (free): https://www.gov.uk/apply-blue-badge\n\nGeneral Blue Badge information for Bradford:\n- https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-scheme/\n\nBradford Council aims to process applications within 12 weeks. If you have not heard back after that time, contact the team by phone or email.",
+    "keywords": ["contact blue badge bradford", "blue badge phone number", "blue badge email bradford", "blue badge team bradford", "bradford transport concessions", "blue badge helpline", "blue badge office bradford", "blue badge enquiry", "bradford council blue badge contact"],
+    "source_url": "https://www.bradford.gov.uk/transport-and-travel/transport-for-disabled-people/blue-badge-scheme/"
+  }
+]
