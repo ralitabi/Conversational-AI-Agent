@@ -148,26 +148,28 @@ AI Agent/
 │
 ├── scripts/
 │   ├── train_model.py               Retrains intent classifier from datasets/
-│   └── evaluate_intent_model.py     Full evaluation suite → evaluation/ folder
+│   ├── evaluate_intent_model.py     Full evaluation suite → evaluation/ folder
+│   └── generate_eval_charts.py      Generates poster-ready PNG charts
 │
-├── models/
-│   └── intent_classifier.joblib     Saved classifier (auto-generated)
+├── models/                          Auto-generated (run scripts/train_model.py)
+│   └── intent_classifier.joblib
 │
-├── evaluation/                      Auto-generated evaluation outputs
-│   ├── evaluation_report.html       Full HTML report with charts
-│   ├── classification_report.txt    sklearn classification report (95.1% accuracy)
-│   ├── per_intent_summary.csv / per_service_summary.csv
-│   ├── confusion_matrix.png · per_intent_accuracy.png · confidence_histogram.png
-│   └── misclassification_pairs.csv · hardest_cases.csv
+├── evaluation/                      Auto-generated (run scripts/evaluate_intent_model.py)
+│   ├── evaluation_report.html · classification_report.txt
+│   ├── per_intent_summary.csv · per_service_summary.csv
+│   └── confusion_matrix.png · per_intent_accuracy.png · confidence_histogram.png
 │
 ├── .embedding_cache/                Auto-generated FAISS caches (one per service)
-├── chat_logs/                       Per-session JSONL logs (auto-generated)
-├── generate_eval_charts.py          Generates poster charts → eval_*.png
-├── evaluation_results.md            Full evaluation write-up (22 scenarios)
-├── evaluation_poster.md             Compact evaluation for poster
-├── COMMANDS.txt                     All dev commands in one place
+├── chat_logs/                       Auto-generated per-session JSONL logs
 └── docs/
-    └── PROJECT_OVERVIEW.txt         Architecture and design documentation
+    ├── PROJECT_OVERVIEW.txt         Architecture and design documentation
+    ├── COMMANDS.txt                 All dev commands in one place
+    └── evaluation/
+        ├── evaluation_results.md    Full evaluation write-up (22 scenarios)
+        ├── evaluation_poster.md     Compact evaluation tables for poster
+        ├── eval_by_service.png      Stacked bar chart by service
+        ├── eval_metrics.png         Horizontal bar — key metrics
+        └── eval_scenarios.png       Colour-coded scenario grid
 ```
 
 ---
@@ -192,7 +194,7 @@ End-to-end chatbot evaluation (22 manual test scenarios):
 | RAG Answer Accuracy | 89% |
 | Multi-turn Flow Completion | 71% |
 
-Run `python generate_eval_charts.py` to regenerate visual charts.
+Run `python scripts/generate_eval_charts.py` to regenerate visual charts.
 
 ---
 

@@ -1,13 +1,17 @@
 """
 Generate evaluation charts for poster.
-Run:  python generate_eval_charts.py
-Outputs three PNG files in the current directory.
+Run from project root:  python scripts/generate_eval_charts.py
+Outputs three PNG files to docs/evaluation/
 """
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
+from pathlib import Path
+
+OUT_DIR = Path(__file__).resolve().parent.parent / "docs" / "evaluation"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # ── Colour palette ────────────────────────────────────────────────────────────
 PASS_COL    = "#2ecc71"   # green
@@ -91,9 +95,9 @@ ax1.grid(axis="y", linestyle="--", alpha=0.5, zorder=0)
 ax1.set_facecolor(LIGHT_BG)
 
 fig1.tight_layout()
-fig1.savefig("eval_by_service.png", dpi=180, bbox_inches="tight")
+fig1.savefig(OUT_DIR / "eval_by_service.png", dpi=180, bbox_inches="tight")
 plt.close(fig1)
-print("Saved: eval_by_service.png")
+print(f"Saved: {OUT_DIR / 'eval_by_service.png'}")
 
 # ── Chart 2: Horizontal bar — key metrics ────────────────────────────────────
 fig2, ax2 = plt.subplots(figsize=(6.5, 3.6))
@@ -121,9 +125,9 @@ ax2.grid(axis="x", linestyle="--", alpha=0.5, zorder=0)
 ax2.set_facecolor(LIGHT_BG)
 
 fig2.tight_layout()
-fig2.savefig("eval_metrics.png", dpi=180, bbox_inches="tight")
+fig2.savefig(OUT_DIR / "eval_metrics.png", dpi=180, bbox_inches="tight")
 plt.close(fig2)
-print("Saved: eval_metrics.png")
+print(f"Saved: {OUT_DIR / 'eval_metrics.png'}")
 
 # ── Chart 3: Scenario grid (heat-map style) ──────────────────────────────────
 colour_map = {"pass": PASS_COL, "partial": PARTIAL_COL, "fail": FAIL_COL}
@@ -200,11 +204,11 @@ for i, (outcome, label, colour) in enumerate([
              fontsize=9, va="center", color=ACCENT)
 
 fig3.tight_layout()
-fig3.savefig("eval_scenarios.png", dpi=180, bbox_inches="tight")
+fig3.savefig(OUT_DIR / "eval_scenarios.png", dpi=180, bbox_inches="tight")
 plt.close(fig3)
-print("Saved: eval_scenarios.png")
+print(f"Saved: {OUT_DIR / 'eval_scenarios.png'}")
 
-print("\nAll charts saved. Add to poster:")
+print(f"\nAll charts saved to {OUT_DIR}")
 print("  eval_by_service.png  — stacked bar by service")
 print("  eval_metrics.png     — horizontal bar for key metrics")
 print("  eval_scenarios.png   — scenario grid overview")

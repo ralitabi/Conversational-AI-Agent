@@ -25,6 +25,9 @@ data/
 evaluation/
 models/
 
+# Allow the committed evaluation docs (charts, write-ups)
+!docs/evaluation/
+
 # ── Caches ────────────────────────────────────────────────────
 .ruff_cache/
 .cache/
