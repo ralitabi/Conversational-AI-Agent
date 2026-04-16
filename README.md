@@ -31,6 +31,23 @@ An AI-powered conversational assistant that helps Bradford Council residents acc
 
 ---
 
+## Sharing With Others (ngrok)
+
+Run the chatbot locally and share a public link with up to 10 people:
+
+```bash
+# One-time setup — free ngrok account at https://ngrok.com
+pip install pyngrok
+# Add NGROK_AUTHTOKEN=<your-token> to your .env file
+
+# Then each time you want to share:
+python start_public.py
+```
+
+The script builds the frontend, starts the backend, opens a public tunnel, and prints a URL like `https://abc123.ngrok-free.app` that anyone can open in their browser. The link stays live as long as the terminal window is open.
+
+---
+
 ## Quick Start
 
 ```bash

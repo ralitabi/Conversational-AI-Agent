@@ -20,3 +20,6 @@ matplotlib==3.10.8
 
 # ── Environment ───────────────────────────────────────────────
 python-dotenv==1.1.0
+
+# ── Public sharing (optional — needed for start_public.py) ────
+pyngrok>=7.0.0
