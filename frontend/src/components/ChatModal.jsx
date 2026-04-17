@@ -7,7 +7,7 @@ const REMINDER_MS = 30_000;
 const CLOSE_MS    = 45_000;
 
 /** Return a random delay in ms between min and max (inclusive). */
-const randDelay = (min = 1000, max = 2000) =>
+const randDelay = (min = 120, max = 220) =>
   Math.floor(Math.random() * (max - min + 1)) + min;
 
 // ─── Rich-text helpers ────────────────────────────────────────────────────────
@@ -430,8 +430,8 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
       const nextOptionsRaw = Array.isArray(data.options) ? data.options : [];
       const nextOptions    = nextOptionsRaw.map(normaliseOption);
 
-      // Initial "thinking" pause before the first bubble appears
-      await wait(randDelay(1000, 2000));
+      // Brief pause so typing indicator is visible before first bubble
+      await wait(randDelay(120, 220));
 
       /** Append one text chunk as a bubble, converting plain text to rich HTML. */
       const appendBubble = (text) => {
@@ -449,7 +449,7 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
           for (let b = 0; b < bubbles.length; b++) {
             appendBubble(bubbles[b]);
             if (b < bubbles.length - 1 || i < data.messages.length - 1) {
-              await wait(randDelay(1000, 2000));
+              await wait(randDelay(180, 300));
             }
           }
         }
@@ -459,7 +459,7 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
         const bubbles       = isAlreadyHtml ? [replyText] : splitIntoBubbles(replyText);
         for (let b = 0; b < bubbles.length; b++) {
           appendBubble(bubbles[b]);
-          if (b < bubbles.length - 1) await wait(randDelay(1000, 2000));
+          if (b < bubbles.length - 1) await wait(randDelay(180, 300));
         }
       }
 
@@ -473,7 +473,7 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
 
       shouldStartInactivity ? beginInactivityFlow() : clearInactivityTimers();
     } catch {
-      await wait(400);
+      await wait(150);
       appendAssistantMessage("Sorry, I could not connect to the server. Please try again.");
       clearPendingUi();
       clearInactivityTimers();

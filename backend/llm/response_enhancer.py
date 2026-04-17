@@ -28,7 +28,7 @@ from backend.llm.prompts import (
 
 _MODEL       = "gpt-4o-mini"
 _TEMPERATURE = 0.0           # Deterministic — fastest + most consistent
-_MAX_TOKENS  = 320           # Cap output; prevents slow over-long completions
+_MAX_TOKENS  = 220           # Tight cap for fast responses (< 1s generation)
 
 
 class ResponseEnhancer:
