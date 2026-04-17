@@ -29,9 +29,9 @@ function formatInline(text) {
     )
     // UK phone numbers → tel: links  e.g. 01274 438723 / 0800 123 4567 / +44 1274 438723
     .replace(
-      /(\+?44[\s\-]?|0)(\d[\d\s\-]{6,11}\d)/g,
+      /(\+?44[\s-]?|0)(\d[\d\s-]{6,11}\d)/g,
       (match) => {
-        const digits = match.replace(/[\s\-]/g, "");
+        const digits = match.replace(/[\s-]/g, "");
         const tel = digits.startsWith("44") ? "+" + digits : digits;
         return `<a href="tel:${tel}" style="font-weight:600;text-decoration:underline">${match}</a>`;
       }
