@@ -265,4 +265,3 @@ python start_public.py
 ## Author
 
 **Raja Ali Tabish**  
-BSc Computer Science — University of Bradford
