@@ -7,8 +7,10 @@ from typing import Any
 from backend.chat_helpers import (
     build_main_menu_text,
     get_time_greeting,
+    is_greeting,
     normalize_text,
     resolve_service_choice,
+    SERVICE_OPTION_CHIPS,
 )
 from backend.intent_classifier import IntentClassifier
 from backend.core.session_manager import SessionManager
@@ -151,6 +153,16 @@ class ChatEngine:
                 )
 
             if session.get("selected_service") is None:
+                if is_greeting(text):
+                    return self._finalise_response(
+                        build_reply(
+                            f"{get_time_greeting()}! How can I help you today? "
+                            "Please choose a service below or type your question.",
+                            input_type="options",
+                            options=SERVICE_OPTION_CHIPS,
+                        ),
+                        session_id=session_id,
+                    )
                 return self._handle_service_selection(text, session, session_id)
 
             if session.get("bin_flow_stage") == "awaiting_postcode":

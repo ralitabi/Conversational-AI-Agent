@@ -20,12 +20,21 @@ function formatInline(text) {
     // **bold** and __bold__
     .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
     .replace(/__(.*?)__/g, "<strong>$1</strong>")
-    // *italic* (single asterisk, not adjacent to a word boundary on both sides)
+    // *italic*
     .replace(/\*([^*\n]+?)\*/g, "<em>$1</em>")
-    // Bare URLs → clickable links
+    // Bare URLs → clickable links (before phone so URLs with numbers aren't caught)
     .replace(
       /(https?:\/\/[^\s<>"')\]]+)/g,
-      '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
+      '<a href="$1" target="_blank" rel="noopener noreferrer" style="word-break:break-all">$1</a>'
+    )
+    // UK phone numbers → tel: links  e.g. 01274 438723 / 0800 123 4567 / +44 1274 438723
+    .replace(
+      /(\+?44[\s\-]?|0)(\d[\d\s\-]{6,11}\d)/g,
+      (match) => {
+        const digits = match.replace(/[\s\-]/g, "");
+        const tel = digits.startsWith("44") ? "+" + digits : digits;
+        return `<a href="tel:${tel}" style="font-weight:600;text-decoration:underline">${match}</a>`;
+      }
     );
 }
 
@@ -503,7 +512,7 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
 
   // ── Render ──────────────────────────────────────────────────────────────────
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-50 flex items-end justify-center sm:items-center sm:p-4">
       {/* Backdrop */}
       <div
         className="absolute inset-0 bg-slate-900/40 backdrop-blur-sm"
@@ -511,30 +520,30 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
       />
 
       {/* Panel */}
-      <div className="relative z-10 flex h-[94vh] w-full max-w-5xl flex-col overflow-hidden rounded-[2rem] border border-[#d6e0ef] bg-white shadow-2xl">
+      <div className="relative z-10 flex h-[96vh] w-full max-w-5xl flex-col overflow-hidden rounded-t-[1.5rem] border border-[#d6e0ef] bg-white shadow-2xl sm:h-[94vh] sm:rounded-[2rem]">
 
         {/* ── Header ─────────────────────────────────────────────────────── */}
-        <div className="flex items-center justify-between gap-4 border-b border-[#d9e2f1] bg-gradient-to-r from-[#f0f6ff] to-white px-6 py-4">
-          <div className="flex items-center gap-4">
-            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-[#0f4ca3] text-white shadow">
-              <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="1.8">
+        <div className="flex items-center justify-between gap-3 border-b border-[#d9e2f1] bg-gradient-to-r from-[#f0f6ff] to-white px-4 py-3 sm:gap-4 sm:px-6 sm:py-4">
+          <div className="flex items-center gap-3">
+            <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#0f4ca3] text-white shadow sm:h-11 sm:w-11 sm:rounded-2xl">
+              <svg viewBox="0 0 24 24" className="h-4 w-4 sm:h-5 sm:w-5" fill="none" stroke="currentColor" strokeWidth="1.8">
                 <circle cx="12" cy="8" r="3.2" />
                 <path d="M5.5 19c1.4-3 4-4.5 6.5-4.5S17 16 18.5 19" />
               </svg>
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h2 className="text-xl font-bold text-[#123b7a]">Bradford Council Assistant</h2>
+                <h2 className="text-base font-bold text-[#123b7a] sm:text-xl">Bradford Council Assistant</h2>
                 <span className="flex h-2 w-2 rounded-full bg-green-500 ring-2 ring-green-100" title="Online" />
               </div>
-              <p className="text-xs text-slate-500">Live guidance &amp; service support</p>
+              <p className="hidden text-xs text-slate-500 sm:block">Live guidance &amp; service support</p>
             </div>
           </div>
 
           <div className="flex items-center gap-2">
             <button
               onClick={restartChat}
-              className="rounded-xl border border-[#c9d7ee] bg-white px-4 py-2 text-sm font-medium text-[#123b7a] transition hover:bg-[#f0f6ff]"
+              className="rounded-xl border border-[#c9d7ee] bg-white px-3 py-1.5 text-xs font-medium text-[#123b7a] transition hover:bg-[#f0f6ff] sm:px-4 sm:py-2 sm:text-sm"
             >
               ↺ Restart
             </button>
@@ -553,14 +562,14 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
         {/* ── Messages area ───────────────────────────────────────────────── */}
         <div
           ref={scrollContainerRef}
-          className="relative flex-1 overflow-y-auto bg-[#f5f7fb] px-6 py-6"
+          className="relative flex-1 overflow-y-auto bg-[#f5f7fb] px-3 py-4 sm:px-6 sm:py-6"
         >
-          <div className="space-y-5">
+          <div className="space-y-4 sm:space-y-5">
             {/* Intro messages */}
             {introMessages.map((msg, i) => (
-              <div key={`intro-${i}`} className="fade-slide-in flex items-end gap-3">
+              <div key={`intro-${i}`} className="fade-slide-in flex items-end gap-2 sm:gap-3">
                 <AssistantAvatar />
-                <div className="max-w-[72%] rounded-[1.5rem] rounded-tl-md bg-white px-5 py-4 shadow-sm">
+                <div className="max-w-[85%] rounded-[1.25rem] rounded-tl-md bg-white px-4 py-3 shadow-sm sm:max-w-[72%] sm:px-5 sm:py-4">
                   <p className="text-sm font-semibold text-[#123b7a]">{msg.title}</p>
                   <p className="mt-1 text-sm leading-6 text-slate-600">{msg.text}</p>
                   <p className="mt-2 text-xs text-slate-400">{msg.time}</p>
@@ -570,12 +579,12 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
 
             {/* Quick-start chips */}
             {!selectedQuery && (
-              <div className="fade-slide-in flex flex-wrap gap-2 pl-12">
+              <div className="fade-slide-in flex flex-wrap gap-2 pl-10 sm:pl-12">
                 {starterQueries.map((q) => (
                   <button
                     key={q}
                     onClick={() => handleSelectQuery(q)}
-                    className="rounded-full border border-[#b9cae6] bg-white px-4 py-2 text-sm font-medium text-[#123b7a] shadow-sm transition hover:bg-[#eef4ff] hover:border-[#0f4ca3]"
+                    className="rounded-full border border-[#b9cae6] bg-white px-3 py-1.5 text-xs font-medium text-[#123b7a] shadow-sm transition hover:bg-[#eef4ff] hover:border-[#0f4ca3] sm:px-4 sm:py-2 sm:text-sm"
                   >
                     {q}
                   </button>
@@ -587,15 +596,15 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
             {messages.map((msg, i) => (
               <div
                 key={`${msg.role}-${i}`}
-                className={`fade-slide-in flex items-end gap-3 ${msg.role === "user" ? "justify-end" : "justify-start"}`}
+                className={`fade-slide-in flex items-end gap-2 sm:gap-3 ${msg.role === "user" ? "justify-end" : "justify-start"}`}
               >
                 {msg.role === "assistant" && <AssistantAvatar />}
 
                 <div
-                  className={`max-w-[72%] px-5 py-4 shadow-sm ${
+                  className={`max-w-[88%] px-4 py-3 shadow-sm sm:max-w-[72%] sm:px-5 sm:py-4 ${
                     msg.role === "user"
-                      ? "rounded-[1.5rem] rounded-tr-md bg-[#0f4ca3] text-white"
-                      : "rounded-[1.5rem] rounded-tl-md bg-white text-slate-800"
+                      ? "rounded-[1.25rem] rounded-tr-md bg-[#0f4ca3] text-white"
+                      : "rounded-[1.25rem] rounded-tl-md bg-white text-slate-800"
                   }`}
                 >
                   {msg.isHtml ? (
@@ -631,9 +640,9 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
 
             {/* Option / address selector */}
             {isSelectableInputType(pendingInputType) && pendingOptions.length > 0 && !isTyping && (
-              <div className="fade-slide-in flex items-start gap-3">
+              <div className="fade-slide-in flex items-start gap-2 sm:gap-3">
                 <AssistantAvatar />
-                <div className="w-full max-w-[72%] rounded-[1.5rem] rounded-tl-md bg-white px-4 py-4 shadow-sm">
+                <div className="w-full max-w-[88%] rounded-[1.25rem] rounded-tl-md bg-white px-3 py-3 shadow-sm sm:max-w-[72%] sm:px-4 sm:py-4">
                   <p className="mb-3 text-sm font-semibold text-[#123b7a]">{getOptionHeading()}</p>
 
                   <div
@@ -693,26 +702,26 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
         </div>
 
         {/* ── Input bar ───────────────────────────────────────────────────── */}
-        <div className="border-t border-[#d7dfea] bg-white px-5 py-4">
-          <div className="flex gap-3">
+        <div className="border-t border-[#d7dfea] bg-white px-3 py-3 sm:px-5 sm:py-4">
+          <div className="flex gap-2 sm:gap-3">
             <input
               value={input}
               onChange={(e) => { setInput(e.target.value); clearInactivityTimers(); }}
               onFocus={() => clearInactivityTimers()}
               onKeyDown={(e) => { if (e.key === "Enter" && !isTyping) sendMessage(); }}
-              placeholder="Ask about bins, Council Tax, libraries, benefits…"
-              className="flex-1 rounded-2xl border border-[#c8d5ea] bg-[#f8faff] px-5 py-3.5 text-[15px] text-slate-800 outline-none placeholder:text-slate-400 focus:border-[#0f4ca3] focus:bg-white transition"
+              placeholder="Ask about bins, Council Tax…"
+              className="flex-1 rounded-2xl border border-[#c8d5ea] bg-[#f8faff] px-4 py-3 text-[15px] text-slate-800 outline-none placeholder:text-slate-400 focus:border-[#0f4ca3] focus:bg-white transition sm:px-5 sm:py-3.5"
             />
             <button
               onClick={() => sendMessage()}
               disabled={isTyping || !input.trim()}
-              className="flex h-[52px] w-[52px] items-center justify-center rounded-2xl bg-[#0f4ca3] text-white shadow transition hover:bg-[#0d438f] disabled:cursor-not-allowed disabled:opacity-50"
+              className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#0f4ca3] text-white shadow transition hover:bg-[#0d438f] disabled:cursor-not-allowed disabled:opacity-50 sm:h-[52px] sm:w-[52px]"
               aria-label="Send message"
             >
               <SendIcon />
             </button>
           </div>
-          <p className="mt-2 text-center text-xs text-slate-400">
+          <p className="mt-1.5 hidden text-center text-xs text-slate-400 sm:block">
             Press <kbd className="rounded border border-slate-200 bg-slate-100 px-1 py-0.5 text-[10px] font-mono">Enter</kbd> to send
           </p>
         </div>

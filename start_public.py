@@ -28,6 +28,12 @@ import threading
 import time
 from pathlib import Path
 
+# Force UTF-8 output so box-drawing characters work on Windows terminals
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if sys.stderr.encoding and sys.stderr.encoding.lower() != "utf-8":
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
 import uvicorn
 
 ROOT = Path(__file__).resolve().parent
@@ -72,8 +78,26 @@ def build_frontend() -> None:
     _print("  Frontend build complete.", "green")
 
 
+def _free_port(port: int) -> None:
+    """Kill any process currently listening on the given port (Windows)."""
+    try:
+        result = subprocess.run(
+            ["netstat", "-ano"],
+            capture_output=True, text=True, shell=True,
+        )
+        for line in result.stdout.splitlines():
+            if f":{port}" in line and "LISTENING" in line:
+                pid = line.strip().split()[-1]
+                subprocess.run(["taskkill", "/F", "/PID", pid],
+                               capture_output=True, shell=True)
+                _print(f"  Freed port {port} (killed PID {pid}).", "yellow")
+    except Exception:
+        pass
+
+
 def start_backend(port: int) -> None:
     """Run uvicorn in a background daemon thread."""
+    _free_port(port)
     def _run():
         uvicorn.run(
             "backend.api:app",
@@ -98,6 +122,18 @@ def start_tunnel(port: int) -> str:
     token = os.getenv("NGROK_AUTHTOKEN")
     if token:
         conf.get_default().auth_token = token
+
+    # Kill any leftover ngrok process from a previous run
+    try:
+        ngrok.kill()
+    except Exception:
+        pass
+    try:
+        subprocess.run(["taskkill", "/F", "/IM", "ngrok.exe"],
+                       capture_output=True, shell=True)
+    except Exception:
+        pass
+    time.sleep(2)
 
     tunnel = ngrok.connect(port, "http")
     return tunnel.public_url.replace("http://", "https://")

@@ -28,6 +28,10 @@ models/
 # Allow the committed evaluation docs (charts, write-ups)
 !docs/evaluation/
 
+# Allow frontend src data (homeData.js etc.)
+!frontend/src/data/
+!frontend/src/data/**
+
 # ── Caches ────────────────────────────────────────────────────
 .ruff_cache/
 .cache/

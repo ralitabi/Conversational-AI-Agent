@@ -1,13 +1,10 @@
 SERVICE_OPTIONS = {
     "bin collection": ("bin_collection", "Bin collection"),
     "blue badge": ("blue_badge", "Blue Badge"),
-    "contact services": ("contact_services", "Contact services"),
     "council tax": ("council_tax", "Council tax"),
     "library services": ("libraries", "Library services"),
-    "planning applications": ("planning_applications", "Planning applications"),
     "school admissions": ("school_admissions", "School admissions"),
     "benefits support": ("benefits_support", "Benefits support"),
-    "something else": ("something_else", "Something else"),
 }
 
 INTENT_GROUPS = {

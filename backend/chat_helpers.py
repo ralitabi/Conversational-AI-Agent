@@ -34,10 +34,29 @@ def normalize_text(value: str) -> str:
 def build_main_menu_text() -> str:
     return (
         "Please choose a service area by typing its name: "
-        "Bin collection, Blue Badge, Contact services, Council tax, "
-        "Library services, Planning applications, School admissions, "
-        "Benefits support, Something else."
+        "Bin collection, Blue Badge, Council tax, "
+        "Library services, School admissions, Benefits support."
     )
+
+
+SERVICE_OPTION_CHIPS = [
+    {"id": "Bin collection",   "label": "Bin collection",   "value": "bin collection"},
+    {"id": "Council tax",      "label": "Council tax",      "value": "council tax"},
+    {"id": "Benefits support", "label": "Benefits support", "value": "benefits support"},
+    {"id": "Blue Badge",       "label": "Blue Badge",       "value": "blue badge"},
+    {"id": "Library services", "label": "Library services", "value": "library services"},
+    {"id": "School admissions","label": "School admissions","value": "school admissions"},
+]
+
+GREETING_WORDS = {
+    "hi", "hello", "hey", "hiya", "helo", "hellooo", "heya", "howdy",
+    "good morning", "good afternoon", "good evening", "good day",
+    "hi there", "hello there", "hey there",
+}
+
+
+def is_greeting(text: str) -> bool:
+    return normalize_text(text) in GREETING_WORDS
 
 
 def resolve_service_choice(user_input: str) -> tuple[str, str] | None:

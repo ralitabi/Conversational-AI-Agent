@@ -65,6 +65,9 @@ class ChatResponse(BaseModel):
 
 @app.get("/")
 def root():
+    _build = PROJECT_ROOT / "frontend" / "build" / "index.html"
+    if _build.exists():
+        return FileResponse(str(_build))
     return {"message": "API is running"}
 
 
@@ -237,5 +240,8 @@ if _FRONTEND_BUILD.exists():
 
     @app.get("/{full_path:path}")
     def serve_react(full_path: str):
-        """Catch-all: return index.html so React Router handles navigation."""
+        """Catch-all: serve the file if it exists, otherwise return index.html for React Router."""
+        requested = _FRONTEND_BUILD / full_path
+        if requested.exists() and requested.is_file():
+            return FileResponse(str(requested))
         return FileResponse(_FRONTEND_BUILD / "index.html")

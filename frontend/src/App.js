@@ -17,7 +17,7 @@ export default function App() {
         <button
           onClick={() => setChatOpen(true)}
           aria-label="Open chat assistant"
-          className="fixed bottom-6 right-6 z-40 flex items-center gap-2.5 rounded-full bg-[#0f4ca3] px-5 py-3.5 text-white shadow-2xl transition hover:bg-[#0d438f] hover:scale-105 active:scale-95"
+          className="fixed bottom-5 right-4 z-40 flex items-center gap-2 rounded-full bg-[#0f4ca3] px-4 py-3 text-white shadow-2xl transition hover:bg-[#0d438f] hover:scale-105 active:scale-95 sm:bottom-6 sm:right-6 sm:gap-2.5 sm:px-5 sm:py-3.5"
           style={{ boxShadow: "0 8px 30px rgba(15,76,163,0.45)" }}
         >
           <svg viewBox="0 0 24 24" className="h-5 w-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2">
@@ -29,20 +29,20 @@ export default function App() {
         </button>
       )}
 
-      <header className="bg-white px-4 pt-4">
-        <div className="mx-auto flex max-w-[1360px] flex-col gap-3 md:flex-row md:items-start md:justify-between">
-          <div className="flex items-center gap-3 pl-2">
+      <header className="bg-white px-3 pt-3 sm:px-4 sm:pt-4">
+        <div className="mx-auto flex max-w-[1360px] items-center justify-between gap-3 md:flex-row md:items-start md:justify-between">
+          <div className="flex items-center gap-3 pl-1 sm:pl-2">
             <img
               src="/images/logo.png"
               alt="Bradford Council"
-              className="h-14 object-contain md:h-16"
+              className="h-10 object-contain sm:h-14 md:h-16"
             />
           </div>
 
-          <div className="flex flex-1 flex-col gap-3 md:ml-6 md:flex-row md:items-center">
+          <div className="flex flex-1 items-center gap-2 md:ml-6 md:gap-3">
             <div className="relative flex-1">
               <input
-                className="h-[30px] w-full rounded-full border border-[#00539f] bg-white px-5 pr-10 text-[12px] text-slate-700 outline-none"
+                className="h-9 w-full rounded-full border border-[#00539f] bg-white px-4 pr-9 text-[12px] text-slate-700 outline-none sm:h-[30px] sm:px-5"
                 placeholder="Search our services"
               />
               <svg
@@ -57,8 +57,9 @@ export default function App() {
               </svg>
             </div>
 
-            <button className="self-start rounded-full bg-[#00539f] px-8 py-3 text-[13px] font-semibold text-white shadow-sm hover:bg-[#00498f] md:self-auto">
-              Register | Log on
+            <button className="shrink-0 rounded-full bg-[#00539f] px-4 py-2 text-[12px] font-semibold text-white shadow-sm hover:bg-[#00498f] sm:px-8 sm:py-3 sm:text-[13px]">
+              <span className="hidden sm:inline">Register | Log on</span>
+              <span className="sm:hidden">Log on</span>
             </button>
           </div>
         </div>
@@ -66,7 +67,7 @@ export default function App() {
 
       <main className="mx-auto max-w-[1360px] px-4 pb-0">
         <section
-          className="relative h-[250px] overflow-hidden bg-cover bg-center bg-no-repeat md:h-[300px]"
+          className="relative h-[160px] overflow-hidden bg-cover bg-center bg-no-repeat sm:h-[220px] md:h-[300px]"
           style={{ backgroundImage: "url('/images/hero.jpg')" }}
         >
           <button
@@ -136,39 +137,29 @@ export default function App() {
           </div>
         </section>
 
-        <section className="border-t border-[#2f79b7] bg-[#e9eef2] py-10">
-          <div className="mx-auto flex max-w-[1190px] flex-col gap-6 md:flex-row md:items-center md:justify-between">
+        <section className="border-t border-[#2f79b7] bg-[#e9eef2] py-8 sm:py-10">
+          <div className="mx-auto flex max-w-[1190px] flex-col gap-5 px-4 md:flex-row md:items-center md:justify-between md:px-0">
             <div className="flex items-start gap-4">
-              <div className="flex h-14 w-14 items-center justify-center bg-[#2f79b7] text-white">
-                <svg
-                  viewBox="0 0 24 24"
-                  className="h-8 w-8"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.7"
-                >
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center bg-[#2f79b7] text-white sm:h-14 sm:w-14">
+                <svg viewBox="0 0 24 24" className="h-7 w-7 sm:h-8 sm:w-8" fill="none" stroke="currentColor" strokeWidth="1.7">
                   <path d="M3 6h18v12H3z" />
                   <path d="M3 7l9 7 9-7" />
                 </svg>
               </div>
               <div>
-                <h3 className="text-3xl font-light text-[#2f79b7]">
-                  Stay Connected
-                </h3>
+                <h3 className="text-2xl font-light text-[#2f79b7] sm:text-3xl">Stay Connected</h3>
                 <p className="mt-2 max-w-[420px] text-sm text-slate-600">
-                  Sign up for our Stay Connected emails and get the information
-                  that matters to you most in your inbox.
+                  Sign up for our Stay Connected emails and get the information that matters to you most in your inbox.
                 </p>
               </div>
             </div>
 
-            <div className="flex flex-col gap-2 md:flex-row md:items-center">
-              <label className="text-sm text-[#2f79b7]">Email address</label>
+            <div className="flex items-center gap-2">
               <input
-                className="h-9 w-[220px] border border-slate-300 bg-white px-3 text-sm outline-none"
+                className="h-10 flex-1 border border-slate-300 bg-white px-3 text-sm outline-none md:w-[220px] md:flex-none"
                 placeholder="Your email address"
               />
-              <button className="h-9 bg-[#00539f] px-5 text-sm font-semibold text-white">
+              <button className="h-10 shrink-0 bg-[#00539f] px-5 text-sm font-semibold text-white">
                 Send
               </button>
             </div>
