@@ -177,7 +177,13 @@ class LibraryHandler:
                 "input_type": "text",
             }
 
-        self._reset_library_flow(session)
+        # Clear results but keep the user in library context so follow-up
+        # queries ("search again", another name/postcode) route correctly.
+        session.pop("library_results", None)
+        session.pop("library_query", None)
+        session.pop("library_postcode", None)
+        session["library_flow_stage"] = "awaiting_library_query"
+
         detail = format_library_detail(library)
         follow_up = {
             "reply": (

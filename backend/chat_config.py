@@ -1,10 +1,54 @@
 SERVICE_OPTIONS = {
+    # ── Primary names ─────────────────────────────────────────────────────
     "bin collection": ("bin_collection", "Bin collection"),
     "blue badge": ("blue_badge", "Blue Badge"),
     "council tax": ("council_tax", "Council tax"),
     "library services": ("libraries", "Library services"),
     "school admissions": ("school_admissions", "School admissions"),
     "benefits support": ("benefits_support", "Benefits support"),
+
+    # ── Aliases: Bin collection ───────────────────────────────────────────
+    "bin": ("bin_collection", "Bin collection"),
+    "bins": ("bin_collection", "Bin collection"),
+    "recycling": ("bin_collection", "Bin collection"),
+    "waste": ("bin_collection", "Bin collection"),
+    "rubbish": ("bin_collection", "Bin collection"),
+    "bin collections": ("bin_collection", "Bin collection"),
+    "my bins": ("bin_collection", "Bin collection"),
+
+    # ── Aliases: Council Tax ──────────────────────────────────────────────
+    "tax": ("council_tax", "Council tax"),
+    "council": ("council_tax", "Council tax"),
+    "council taxes": ("council_tax", "Council tax"),
+    "ct": ("council_tax", "Council tax"),
+
+    # ── Aliases: Benefits ─────────────────────────────────────────────────
+    "benefits": ("benefits_support", "Benefits support"),
+    "benefit": ("benefits_support", "Benefits support"),
+    "benefits calculator": ("benefits_support", "Benefits support"),
+    "housing benefit": ("benefits_support", "Benefits support"),
+    "council tax reduction": ("benefits_support", "Benefits support"),
+    "ctr": ("benefits_support", "Benefits support"),
+    "universal credit": ("benefits_support", "Benefits support"),
+    "financial help": ("benefits_support", "Benefits support"),
+    "financial support": ("benefits_support", "Benefits support"),
+
+    # ── Aliases: Libraries ────────────────────────────────────────────────
+    "library": ("libraries", "Library services"),
+    "libraries": ("libraries", "Library services"),
+    "local library": ("libraries", "Library services"),
+
+    # ── Aliases: School admissions ────────────────────────────────────────
+    "school": ("school_admissions", "School admissions"),
+    "schools": ("school_admissions", "School admissions"),
+    "admissions": ("school_admissions", "School admissions"),
+    "school admission": ("school_admissions", "School admissions"),
+
+    # ── Aliases: Blue Badge ───────────────────────────────────────────────
+    "badge": ("blue_badge", "Blue Badge"),
+    "blue badges": ("blue_badge", "Blue Badge"),
+    "disabled parking": ("blue_badge", "Blue Badge"),
+    "disability badge": ("blue_badge", "Blue Badge"),
 }
 
 INTENT_GROUPS = {

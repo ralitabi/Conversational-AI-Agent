@@ -28,6 +28,14 @@ from backend.services.bin_guidance_service import BinGuidanceService
 
 BIN_LIVE_INTENT = "check_bin_collection_dates"
 SCHOOL_FINDER_INTENT = "school_finder"
+
+_UK_POSTCODE_RE = re.compile(
+    r"^[A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2}$", re.IGNORECASE
+)
+
+
+def _is_uk_postcode(text: str) -> bool:
+    return bool(_UK_POSTCODE_RE.match(text.strip()))
 LIBRARY_FINDER_INTENT = "library_finder"
 COUNCIL_TAX_LIVE_INTENTS = {
     "find_council_tax_band",
@@ -164,6 +172,17 @@ class ChatEngine:
                         session_id=session_id,
                     )
                 return self._handle_service_selection(text, session, session_id)
+
+            # Direct postcode entry in bin service → skip confirmation, start lookup
+            if (
+                session.get("selected_service") == "bin_collection"
+                and session.get("bin_flow_stage") is None
+                and _is_uk_postcode(text)
+            ):
+                self._clear_post_completion_state(session)
+                session["bin_flow_stage"] = "awaiting_postcode"
+                response = self.bin_handler.handle_bin_postcode(session, text)
+                return self._finalise_response(response, session_id=session_id)
 
             if session.get("bin_flow_stage") == "awaiting_postcode":
                 self._clear_post_completion_state(session)
