@@ -49,40 +49,44 @@ The system follows a modular layered architecture:
 
 ## Architecture Diagram
 
+<div align="center">
+
 ```
-User Input
-│
-▼
-Frontend (React Interface)
-│
-▼
-FastAPI Backend
-│
-▼
-Intent Classification
-(Token-based similarity model)
-│
-▼
-┌─────────────────────────────────┐
-│         Routing Layer           │
-├─────────────────┬───────────────┤
-│  Dialogue Flow  │  RAG System   │
-│  (JSON Logic)   │ (FAISS + LLM) │
-└─────────────────┴───────────────┘
-         │
-         ▼
-Live Data Connectors
-(Web Scraping)
-         │
-         ▼
-Response Enhancement (LLM)
-         │
-         ▼
-Structured Response Output
-         │
-         ▼
-Frontend Display to User
+                    User Input
+                        │
+                        ▼
+            Frontend (React Interface)
+                        │
+                        ▼
+               FastAPI Backend
+                        │
+                        ▼
+           Intent Classification
+        (Token-based similarity model)
+                        │
+                        ▼
+        ┌───────────────────────────────┐
+        │         Routing Layer         │
+        ├───────────────┬───────────────┤
+        │ Dialogue Flow │  RAG System   │
+        │  (JSON Logic) │ (FAISS + LLM) │
+        └───────────────┴───────────────┘
+                        │
+                        ▼
+           Live Data Connectors
+              (Web Scraping)
+                        │
+                        ▼
+        Response Enhancement (LLM)
+                        │
+                        ▼
+        Structured Response Output
+                        │
+                        ▼
+          Frontend Display to User
 ```
+
+</div>
 
 ---
 
@@ -120,11 +124,10 @@ Each service includes FAQ-based responses and guided multi-step workflows.
 The system integrates multiple components:
 
 - Intent classification using token-overlap bigram similarity (61 intents, 800+ training examples)
-- Semantic retrieval using FAISS vector embeddings, cached at startup
-- Retrieval-Augmented Generation — GPT-4o-mini reformats verified FAQ answers
+- Semantic retrieval using FAISS vector embeddings, cached at startup for fast responses
+- Retrieval-Augmented Generation — GPT-4o-mini reformats verified FAQ answers with bold, links, and phone numbers
 - Session-based dialogue management with multi-turn context preservation
 - Web scraping connectors for live bin dates and council tax band lookups
-- 37 service name aliases enabling flexible natural language routing
 - Mobile-responsive UI with tap-to-call phone links and clickable URLs
 
 ---
@@ -134,27 +137,27 @@ The system integrates multiple components:
 ```
 AI-Agent/
 │
-├── backend/              # Core backend logic and API
-│   ├── handlers/         # Service-specific conversation logic
+├── backend/                 # Core backend logic and API
+│   ├── handlers/            # Service-specific conversation logic
 │   ├── council_connectors/  # Web scraping for live data
-│   ├── embeddings/       # FAISS vector pipeline
-│   ├── llm/              # Prompt templates and LLM enhancement
-│   ├── services/         # Main chat engine and routing
-│   └── utils/            # Formatters and response builders
+│   ├── embeddings/          # FAISS vector pipeline
+│   ├── llm/                 # Prompt templates and LLM enhancement
+│   ├── services/            # Main chat engine and routing
+│   └── utils/               # Formatters and response builders
 │
-├── frontend/             # React user interface
-│   ├── src/              # Components, data, styles
-│   └── public/           # Static assets
+├── frontend/                # React user interface
+│   ├── src/                 # Components, data, styles
+│   └── public/              # Static assets
 │
-├── datasets/             # Training data and FAQ content
-├── models/               # Trained intent classifier
-├── docs/                 # Project docs and evaluation reports
-├── scripts/              # Training and evaluation scripts
+├── datasets/                # Training data and FAQ content
+├── models/                  # Trained intent classifier
+├── docs/                    # Project docs and evaluation reports
+├── scripts/                 # Training and evaluation scripts
 │
-├── main.py               # Application entry point
-├── start_public.py       # Share publicly via ngrok
-├── requirements.txt      # Python dependencies
-└── .env.example          # Environment variable template
+├── main.py                  # Application entry point
+├── start_public.py          # Share publicly via ngrok
+├── requirements.txt         # Python dependencies
+└── .env.example             # Environment variable template
 ```
 
 ---
@@ -171,15 +174,15 @@ AI-Agent/
 
 ### End-to-End Performance (22 manual test scenarios)
 
-| Metric | Initial | Final |
-|--------|---------|-------|
-| **Overall Success Rate** | 77% (17/22) | **91% (20/22)** |
-| Intent Detection | 86% | **86%** |
-| Service Routing | 91% | **96%** |
-| RAG Answer Accuracy | 89% | **89%** |
-| Multi-turn Flow Completion | 71% | **86%** |
+| Metric | Score |
+|--------|-------|
+| **Overall Success Rate** | **91% (20/22)** |
+| Intent Detection | 86% |
+| Service Routing | 96% |
+| RAG Answer Accuracy | 89% |
+| Multi-turn Flow Completion | 86% |
 
-### Per-Service Results (Final)
+### Per-Service Results
 
 | Service | Tests | Pass | Partial | Fail | Pass Rate |
 |---------|-------|------|---------|------|-----------|
@@ -190,22 +193,13 @@ AI-Agent/
 | Cross-service / Routing | 1 | 1 | 0 | 0 | **100%** |
 | **Total** | **22** | **21** | **1** | **0** | **91%** |
 
-### Improvements Applied
-
-| Issue | Fix |
-|-------|-----|
-| "benefits" / "benefits calculator" not routed at root menu | Added 37 service name aliases |
-| Library flow lost after detail card shown | Kept library context active after selection |
-| Direct postcode at bin service triggered extra confirmation step | Auto-detect UK postcodes, skip to lookup |
-| Responses took 2–4 seconds | Reduced frontend delays and LLM token cap |
-
 ---
 
 ## Limitations
 
 - Confusion may occur between semantically similar queries across services
 - Live data lookups depend on Bradford Council's website structure remaining stable
-- LLM enhancement adds ~500ms latency for RAG-enhanced responses
+- LLM enhancement adds latency for RAG-enhanced responses
 - Session state is in-memory only — not persisted across server restarts
 
 ---
