@@ -84,13 +84,30 @@ def build_frontend() -> None:
 def _free_port(port: int) -> None:
     try:
         result = subprocess.run(["netstat", "-ano"], capture_output=True, text=True, shell=True)
+        killed = False
         for line in result.stdout.splitlines():
             if f":{port}" in line and "LISTENING" in line:
                 pid = line.strip().split()[-1]
                 subprocess.run(["taskkill", "/F", "/PID", pid], capture_output=True, shell=True)
                 _print(f"  Freed port {port} (killed PID {pid}).", "yellow")
+                killed = True
+        if killed:
+            time.sleep(2)  # wait for OS to release the port
     except Exception:
         pass
+
+
+def _wait_for_backend(port: int, timeout: int = 15) -> bool:
+    """Return True once the backend responds on the given port."""
+    import socket
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        try:
+            with socket.create_connection(("127.0.0.1", port), timeout=1):
+                return True
+        except OSError:
+            time.sleep(0.5)
+    return False
 
 
 def start_backend(port: int) -> None:
@@ -99,6 +116,9 @@ def start_backend(port: int) -> None:
         uvicorn.run("backend.api:app", host="127.0.0.1", port=port,
                     log_level="warning", workers=1)
     threading.Thread(target=_run, daemon=True).start()
+    if not _wait_for_backend(port):
+        _print(f"  ERROR: Backend did not start on port {port}.", "red")
+        sys.exit(1)
 
 
 def _public_ip() -> str:
