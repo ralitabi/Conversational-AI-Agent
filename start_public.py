@@ -148,18 +148,23 @@ def _try_cloudflared(port: int) -> str | None:
     """Use cloudflared quick tunnel — no account, no password page."""
     global _tunnel_proc
 
-    # Find cloudflared on PATH
-    which = subprocess.run(
-        ["where", "cloudflared"] if sys.platform == "win32" else ["which", "cloudflared"],
-        capture_output=True, text=True, shell=sys.platform == "win32",
-    )
-    if which.returncode != 0:
-        return None  # not installed
+    # Use bundled exe next to this script, or fall back to PATH
+    bundled = ROOT / "cloudflared.exe"
+    if bundled.exists():
+        exe = str(bundled)
+    else:
+        which = subprocess.run(
+            ["where", "cloudflared"] if sys.platform == "win32" else ["which", "cloudflared"],
+            capture_output=True, text=True, shell=sys.platform == "win32",
+        )
+        if which.returncode != 0:
+            return None
+        exe = "cloudflared"
 
     _print("  Trying cloudflared...", "yellow")
     try:
         proc = subprocess.Popen(
-            ["cloudflared", "tunnel", "--url", f"http://localhost:{port}"],
+            [exe, "tunnel", "--url", f"http://localhost:{port}"],
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
             text=True,
