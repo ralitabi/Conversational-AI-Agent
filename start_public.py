@@ -190,15 +190,34 @@ def _try_cloudflared(port: int) -> str | None:
             text=True,
         )
         _tunnel_proc = proc
+        found_url = None
+
         for _ in range(60):
             line = proc.stdout.readline()
             if not line:
+                if proc.poll() is not None:
+                    break  # process died
                 time.sleep(0.5)
                 continue
-            match = re.search(r"https://[a-z0-9\-]+\.trycloudflare\.com", line)
+            match = re.search(r"https://[a-z0-9-]+\.trycloudflare\.com", line)
             if match:
-                return match.group(0)
-        return None
+                found_url = match.group(0)
+                break
+
+        if not found_url:
+            return None
+
+        # Drain stdout in background so the pipe never fills up and kills the process
+        def _drain(p):
+            try:
+                for _ in p.stdout:
+                    pass
+            except Exception:
+                pass
+
+        threading.Thread(target=_drain, args=(proc,), daemon=True).start()
+        return found_url
+
     except Exception as exc:
         _print(f"  cloudflared failed: {exc}", "yellow")
         return None
