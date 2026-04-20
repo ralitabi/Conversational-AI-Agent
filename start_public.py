@@ -110,20 +110,17 @@ def start_backend(port: int) -> None:
     t.start()
 
 
-def start_tunnel(port: int) -> str:
-    """Open an ngrok tunnel and return the public HTTPS URL."""
+def _try_ngrok(port: int):
+    """Attempt to open an ngrok tunnel. Returns URL string or None on failure."""
     try:
         from pyngrok import ngrok, conf
     except ImportError:
-        _print("\n  pyngrok not installed. Run:  pip install pyngrok\n", "red")
-        sys.exit(1)
+        return None
 
-    # Use NGROK_AUTHTOKEN from .env if set
     token = os.getenv("NGROK_AUTHTOKEN")
     if token:
         conf.get_default().auth_token = token
 
-    # Kill any leftover ngrok process from a previous run
     try:
         ngrok.kill()
     except Exception:
@@ -135,8 +132,64 @@ def start_tunnel(port: int) -> str:
         pass
     time.sleep(2)
 
-    tunnel = ngrok.connect(port, "http")
-    return tunnel.public_url.replace("http://", "https://")
+    for attempt in range(1, 4):
+        try:
+            tunnel = ngrok.connect(port, "http")
+            return tunnel.public_url.replace("http://", "https://")
+        except Exception as exc:
+            _print(f"  ngrok attempt {attempt}/3 failed: {exc}", "yellow")
+            try:
+                ngrok.kill()
+            except Exception:
+                pass
+            time.sleep(4)
+    return None
+
+
+def _try_localtunnel(port: int) -> str | None:
+    """Fall back to localtunnel via npx (uses Node.js, no account needed)."""
+    _print("  Trying localtunnel as fallback...", "yellow")
+    import re
+    try:
+        proc = subprocess.Popen(
+            ["npx", "--yes", "localtunnel", "--port", str(port)],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            shell=sys.platform == "win32",
+        )
+        # localtunnel prints the URL on the first stdout line
+        for _ in range(30):
+            line = proc.stdout.readline()
+            if not line:
+                time.sleep(1)
+                continue
+            match = re.search(r"https?://\S+", line)
+            if match:
+                url = match.group(0).rstrip(".")
+                return url.replace("http://", "https://")
+        return None
+    except Exception as exc:
+        _print(f"  localtunnel failed: {exc}", "yellow")
+        return None
+
+
+def start_tunnel(port: int) -> str:
+    """Try ngrok first, fall back to localtunnel."""
+    _print("  Trying ngrok...", "yellow")
+    url = _try_ngrok(port)
+    if url:
+        return url
+
+    _print("  ngrok blocked — switching to localtunnel (no account needed).", "yellow")
+    url = _try_localtunnel(port)
+    if url:
+        return url
+
+    _print("\n  Both ngrok and localtunnel failed.", "red")
+    _print("  Your network may be blocking tunnel services.", "red")
+    _print("  Try running on a different network (e.g. mobile hotspot).\n", "red")
+    sys.exit(1)
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
