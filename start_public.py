@@ -7,8 +7,8 @@ Usage:
 What it does:
     1. Builds the React frontend (skips if already up to date)
     2. Starts the FastAPI backend on localhost:8000
-    3. Opens a public ngrok tunnel
-    4. Prints a URL you can share with up to 10 people
+    3. Opens a public tunnel (tries ngrok → cloudflared → localtunnel)
+    4. Prints a URL you can share
 
 Requirements:
     pip install pyngrok
@@ -22,10 +22,12 @@ First-time ngrok setup (free):
 """
 
 import os
+import re
 import subprocess
 import sys
 import threading
 import time
+import urllib.request
 from pathlib import Path
 
 # Force UTF-8 output so box-drawing characters work on Windows terminals
@@ -36,9 +38,12 @@ if sys.stderr.encoding and sys.stderr.encoding.lower() != "utf-8":
 
 import uvicorn
 
-ROOT = Path(__file__).resolve().parent
+ROOT         = Path(__file__).resolve().parent
 FRONTEND_DIR = ROOT / "frontend"
 BUILD_DIR    = FRONTEND_DIR / "build"
+
+# Keep tunnel subprocess alive for the lifetime of the script
+_tunnel_proc = None
 
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
@@ -49,7 +54,6 @@ def _print(msg: str, colour: str = "") -> None:
 
 
 def _build_needed() -> bool:
-    """Return True if the React build is missing or older than any src file."""
     index = BUILD_DIR / "index.html"
     if not index.exists():
         return True
@@ -64,7 +68,6 @@ def build_frontend() -> None:
     if not _build_needed():
         _print("  Frontend build is up to date — skipping npm build.", "green")
         return
-
     _print("  Building React frontend (this takes ~30 seconds)...", "yellow")
     result = subprocess.run(
         ["npm", "run", "build"],
@@ -79,39 +82,35 @@ def build_frontend() -> None:
 
 
 def _free_port(port: int) -> None:
-    """Kill any process currently listening on the given port (Windows)."""
     try:
-        result = subprocess.run(
-            ["netstat", "-ano"],
-            capture_output=True, text=True, shell=True,
-        )
+        result = subprocess.run(["netstat", "-ano"], capture_output=True, text=True, shell=True)
         for line in result.stdout.splitlines():
             if f":{port}" in line and "LISTENING" in line:
                 pid = line.strip().split()[-1]
-                subprocess.run(["taskkill", "/F", "/PID", pid],
-                               capture_output=True, shell=True)
+                subprocess.run(["taskkill", "/F", "/PID", pid], capture_output=True, shell=True)
                 _print(f"  Freed port {port} (killed PID {pid}).", "yellow")
     except Exception:
         pass
 
 
 def start_backend(port: int) -> None:
-    """Run uvicorn in a background daemon thread."""
     _free_port(port)
     def _run():
-        uvicorn.run(
-            "backend.api:app",
-            host="127.0.0.1",
-            port=port,
-            log_level="warning",
-            workers=1,
-        )
-    t = threading.Thread(target=_run, daemon=True)
-    t.start()
+        uvicorn.run("backend.api:app", host="127.0.0.1", port=port,
+                    log_level="warning", workers=1)
+    threading.Thread(target=_run, daemon=True).start()
 
 
-def _try_ngrok(port: int):
-    """Attempt to open an ngrok tunnel. Returns URL string or None on failure."""
+def _public_ip() -> str:
+    try:
+        return urllib.request.urlopen("https://api.ipify.org", timeout=5).read().decode().strip()
+    except Exception:
+        return ""
+
+
+# ── Tunnel providers ──────────────────────────────────────────────────────────
+
+def _try_ngrok(port: int) -> str | None:
     try:
         from pyngrok import ngrok, conf
     except ImportError:
@@ -126,8 +125,7 @@ def _try_ngrok(port: int):
     except Exception:
         pass
     try:
-        subprocess.run(["taskkill", "/F", "/IM", "ngrok.exe"],
-                       capture_output=True, shell=True)
+        subprocess.run(["taskkill", "/F", "/IM", "ngrok.exe"], capture_output=True, shell=True)
     except Exception:
         pass
     time.sleep(2)
@@ -146,10 +144,48 @@ def _try_ngrok(port: int):
     return None
 
 
-def _try_localtunnel(port: int) -> str | None:
-    """Fall back to localtunnel via npx (uses Node.js, no account needed)."""
+def _try_cloudflared(port: int) -> str | None:
+    """Use cloudflared quick tunnel — no account, no password page."""
+    global _tunnel_proc
+
+    # Find cloudflared on PATH
+    which = subprocess.run(
+        ["where", "cloudflared"] if sys.platform == "win32" else ["which", "cloudflared"],
+        capture_output=True, text=True, shell=sys.platform == "win32",
+    )
+    if which.returncode != 0:
+        return None  # not installed
+
+    _print("  Trying cloudflared...", "yellow")
+    try:
+        proc = subprocess.Popen(
+            ["cloudflared", "tunnel", "--url", f"http://localhost:{port}"],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True,
+        )
+        _tunnel_proc = proc
+        for _ in range(60):
+            line = proc.stdout.readline()
+            if not line:
+                time.sleep(0.5)
+                continue
+            match = re.search(r"https://[a-z0-9\-]+\.trycloudflare\.com", line)
+            if match:
+                return match.group(0)
+        return None
+    except Exception as exc:
+        _print(f"  cloudflared failed: {exc}", "yellow")
+        return None
+
+
+def _try_localtunnel(port: int) -> tuple[str, str] | tuple[None, None]:
+    """
+    Fall back to localtunnel via npx.
+    Returns (url, tunnel_password) — visitors must enter the password on first visit.
+    """
+    global _tunnel_proc
     _print("  Trying localtunnel as fallback...", "yellow")
-    import re
     try:
         proc = subprocess.Popen(
             ["npx", "--yes", "localtunnel", "--port", str(port)],
@@ -158,35 +194,44 @@ def _try_localtunnel(port: int) -> str | None:
             text=True,
             shell=sys.platform == "win32",
         )
-        # localtunnel prints the URL on the first stdout line
-        for _ in range(30):
+        _tunnel_proc = proc
+        for _ in range(60):
             line = proc.stdout.readline()
             if not line:
                 time.sleep(1)
                 continue
             match = re.search(r"https?://\S+", line)
             if match:
-                url = match.group(0).rstrip(".")
-                return url.replace("http://", "https://")
-        return None
+                url = match.group(0).rstrip(".").replace("http://", "https://")
+                password = _public_ip()
+                return url, password
+        return None, None
     except Exception as exc:
         _print(f"  localtunnel failed: {exc}", "yellow")
-        return None
+        return None, None
 
 
-def start_tunnel(port: int) -> str:
-    """Try ngrok first, fall back to localtunnel."""
+def start_tunnel(port: int) -> tuple[str, str]:
+    """
+    Try each tunnel provider in order.
+    Returns (public_url, tunnel_password).
+    tunnel_password is empty string for ngrok/cloudflared (no password needed).
+    """
     _print("  Trying ngrok...", "yellow")
     url = _try_ngrok(port)
     if url:
-        return url
+        return url, ""
+
+    url = _try_cloudflared(port)
+    if url:
+        return url, ""
 
     _print("  ngrok blocked — switching to localtunnel (no account needed).", "yellow")
-    url = _try_localtunnel(port)
+    url, password = _try_localtunnel(port)
     if url:
-        return url
+        return url, password or ""
 
-    _print("\n  Both ngrok and localtunnel failed.", "red")
+    _print("\n  All tunnel providers failed.", "red")
     _print("  Your network may be blocking tunnel services.", "red")
     _print("  Try running on a different network (e.g. mobile hotspot).\n", "red")
     sys.exit(1)
@@ -201,37 +246,41 @@ def main() -> None:
     _print("║   Bradford Council Chatbot — Public Mode     ║", "bold")
     _print("╚══════════════════════════════════════════════╝\n", "bold")
 
-    # 1. Build frontend
     _print("Step 1/3 — Frontend", "bold")
     build_frontend()
 
-    # 2. Start backend
     _print("\nStep 2/3 — Backend", "bold")
     _print(f"  Starting FastAPI on port {PORT}...", "yellow")
     start_backend(PORT)
-    time.sleep(2)   # give uvicorn time to bind
+    time.sleep(2)
     _print("  Backend is running.", "green")
 
-    # 3. Open tunnel
     _print("\nStep 3/3 — Public tunnel", "bold")
-    _print("  Opening ngrok tunnel...", "yellow")
-    public_url = start_tunnel(PORT)
+    public_url, tunnel_password = start_tunnel(PORT)
 
-    # 4. Print share URL
     _print("\n" + "═" * 52, "bold")
     _print("  SHARE THIS LINK:", "bold")
     _print(f"\n      {public_url}\n", "green")
-    _print("  Up to 10 people can open this in any browser.", "")
+
+    if tunnel_password:
+        _print("  ⚠  Visitors will see a password page on first open.", "yellow")
+        _print(f"  Tell them to enter this password:  {tunnel_password}", "yellow")
+        _print("  (This is your public IP — it acts as a one-time gate.)\n", "")
+
     _print("  The link works as long as this window is open.", "")
     _print("═" * 52, "bold")
     _print("\n  Press Ctrl+C to stop.\n", "yellow")
 
-    # 5. Keep alive
     try:
         while True:
             time.sleep(10)
     except KeyboardInterrupt:
         _print("\n  Shutting down...", "yellow")
+        if _tunnel_proc:
+            try:
+                _tunnel_proc.terminate()
+            except Exception:
+                pass
         try:
             from pyngrok import ngrok
             ngrok.kill()
@@ -241,9 +290,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    # Make sure we run from the project root
     os.chdir(ROOT)
-    # Load .env so OPENAI_API_KEY and NGROK_AUTHTOKEN are available
     from dotenv import load_dotenv
     load_dotenv()
     main()
