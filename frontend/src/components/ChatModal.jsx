@@ -708,13 +708,14 @@ export default function ChatModal({ chatOpen, setChatOpen, starterQueries = [] }
               value={input}
               onChange={(e) => { setInput(e.target.value); clearInactivityTimers(); }}
               onFocus={() => clearInactivityTimers()}
-              onKeyDown={(e) => { if (e.key === "Enter" && !isTyping) sendMessage(); }}
-              placeholder="Ask about bins, Council Tax…"
-              className="flex-1 rounded-2xl border border-[#c8d5ea] bg-[#f8faff] px-4 py-3 text-[15px] text-slate-800 outline-none placeholder:text-slate-400 focus:border-[#0f4ca3] focus:bg-white transition sm:px-5 sm:py-3.5"
+              onKeyDown={(e) => { if (e.key === "Enter" && !isTyping && selectedQuery) sendMessage(); }}
+              placeholder={selectedQuery ? "Type your message…" : "Select a service above to start typing…"}
+              disabled={!selectedQuery}
+              className="flex-1 rounded-2xl border border-[#c8d5ea] bg-[#f8faff] px-4 py-3 text-[15px] text-slate-800 outline-none placeholder:text-slate-400 focus:border-[#0f4ca3] focus:bg-white transition sm:px-5 sm:py-3.5 disabled:cursor-not-allowed disabled:opacity-50"
             />
             <button
               onClick={() => sendMessage()}
-              disabled={isTyping || !input.trim()}
+              disabled={isTyping || !input.trim() || !selectedQuery}
               className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-[#0f4ca3] text-white shadow transition hover:bg-[#0d438f] disabled:cursor-not-allowed disabled:opacity-50 sm:h-[52px] sm:w-[52px]"
               aria-label="Send message"
             >
